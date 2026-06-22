@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player Leaderboard</title>
+    <style>
+        body { font-family: sans-serif; margin: 40px; background: #f4f4f9; }
+        max-container { max-width: 800px; margin: 0 auto; }
+        .controls { margin-bottom: 20px; display: flex; gap: 10px; align-items: center; }
+        select { padding: 8px; font-size: 16px; border-radius: 6px; border: 1px solid #ccc; }
+        table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #eee; }
+        th { background-color: #0076ff; color: white; }
+        tr:hover { background-color: #f1f5f9; }
+    </style>
+</head>
+<body>
+
+<div class="max-container">
+    <h2>Player Rankings</h2>
+    
+    <div class="controls">
+        <label for="sortOrder">Sort by:</label>
+        <select id="sortOrder">
+            <option value="rank1-asc">Rank 1 (Lowest to Highest)</option>
+            <option value="rank1-desc">Rank 1 (Highest to Lowest)</option>
+            <option value="rank2-asc">Rank 2 (Lowest to Highest)</option>
+            <option value="rank2-desc">Rank 2 (Highest to Lowest)</option>
+        </select>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Player Name</th>
+                <th>Rank 1</th>
+                <th>Rank 2</th>
+            </tr>
+        </thead>
+        <tbody id="playerTableBody">
+            <!-- JavaScript inserts rows here -->
+        </tbody>
+    </table>
+</div>
+
+<script>
+    // 1. Generate 500 mock players for demonstration
+    const players = Array.from({ length: 500 }, (_, i) => ({
+        name: `Player ${i + 1}`,
+        rank1: Math.floor(Math.random() * 1000) + 1,
+        rank2: Math.floor(Math.random() * 1000) + 1
+    }));
+
+    const tableBody = document.getElementById('playerTableBody');
+    const sortSelect = document.getElementById('sortOrder');
+
+    // 2. Function to render the rows to the DOM
+    function renderTable(data) {
+        tableBody.innerHTML = data.map(player => `
+            <tr>
+                <td>${player.name}</td>
+                <td>${player.rank1}</td>
+                <td>${player.rank2}</td>
+            </tr>
+        `).join('');
+    }
+
+    // 3. Sorting Logic
+    function sortPlayers() {
+        const [field, direction] = sortSelect.value.split('-');
+        
+        const sortedData = [...players].sort((a, b) => {
+            if (direction === 'asc') {
+                return a[field] - b[field];
+            } else {
+                return b[field] - a[field];
+            }
+        });
+
+        renderTable(sortedData);
+    }
+
+    // 4. Event Listeners & Initial Load
+    sortSelect.addEventListener('change', sortPlayers);
+    sortPlayers(); // Run once on startup
+</script>
+
+</body>
+</html>
