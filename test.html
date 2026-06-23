@@ -10,6 +10,16 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .bg-slate-175 { background-color: #e9eef5; }
+        .ru-flag {
+            display: inline-block;
+            width: 1.35em;
+            height: 0.9em;
+            margin: 0 0.15em;
+            vertical-align: -0.1em;
+            border: 1px solid #cbd5e1;
+            border-radius: 2px;
+            background: linear-gradient(to bottom, #fff 0 33.333%, #1c57a7 33.333% 66.666%, #d52b1e 66.666% 100%);
+        }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased min-h-screen p-4 md:p-8">
@@ -17,7 +27,7 @@
 <div class="max-w-7xl mx-auto bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
     <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
         <div>
-            <h2 class="text-sm sm:text-base md:text-xl font-bold text-slate-700 whitespace-nowrap">DUPR rate RU 🇷🇺 pickleball players on 22/06/2026</h2>
+            <h2 class="text-sm sm:text-base md:text-xl font-bold text-slate-700 whitespace-nowrap">DUPR rate RU <span class="ru-flag" aria-label="Russian flag" title="Russian flag"></span> pickleball players on 22/06/2026</h2>
             <p id="counterBadge" class="text-sm text-slate-500 mt-1">Загрузка данных...</p>
         </div>
         
