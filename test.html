@@ -7,7 +7,7 @@
     <!-- Loads the player data directly into memory instantly without fetch -->
     <script src="players.js"></script>
     <!-- Tailwind CSS Play CDN -->
-    <script src="https://unpkg.com"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased min-h-screen p-4 md:p-8">
 
@@ -39,7 +39,7 @@
                     <th class="p-4 w-12 text-center text-slate-400 font-normal">#</th>
                     
                     <!-- Clickable Interactive Headers with data-sort properties -->
-                    <th data-sort="surname" class="py-4 pr-4 pl-0 text-left cursor-pointer hover:bg-slate-200/60 transition-colors">
+                    <th data-sort="surname" class="p-4 text-left cursor-pointer hover:bg-slate-200/60 transition-colors" style="text-align: left;">
                         Имя Игрока <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
                     <th class="p-4 text-slate-400 font-medium">DUPR ID</th>
@@ -56,7 +56,7 @@
                         Одиночный <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
                     <!-- Renamed Header Category Column -->
-                    <th data-sort="shortAddress" class="py-4 pr-4 pl-0 text-left cursor-pointer hover:bg-slate-200/60 transition-colors">
+                    <th data-sort="shortAddress" class="p-4 text-left cursor-pointer hover:bg-slate-200/60 transition-colors" style="text-align: left;">
                         DUPR origin <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
                 </tr>
