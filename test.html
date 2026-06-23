@@ -140,27 +140,34 @@
                 ? `<span style="width: 24px; height: 24px; min-width: 24px;" class="inline-flex items-center justify-center ml-2 rounded-full bg-emerald-100 text-emerald-800 text-[10px] font-bold" title="Single Rate Score: ${player.srScore}">${player.srScore}</span>`
                 : '';
 
+            const nameCellClass = currentSortField === 'surname' ? 'p-4 font-medium bg-slate-100 text-slate-600' : 'p-4 font-medium text-slate-900';
+            const genderCellClass = currentSortField === 'gender' ? 'p-4 bg-slate-100 text-slate-600' : 'p-4';
+            const ageCellClass = currentSortField === 'age' ? 'p-4 bg-slate-100 text-slate-600' : 'p-4';
+            const doublesCellClass = currentSortField === 'doubles' ? 'p-4 font-semibold bg-slate-100 text-slate-600' : 'p-4 font-semibold text-blue-600';
+            const singlesCellClass = currentSortField === 'singles' ? 'p-4 font-semibold bg-slate-100 text-slate-600' : 'p-4 font-semibold text-emerald-600';
+            const originCellClass = currentSortField === 'shortAddress' ? 'p-4 text-xs bg-slate-100 text-slate-600 max-w-xs truncate' : 'p-4 text-xs text-slate-400 max-w-xs truncate';
+
             return `
                 <tr class="hover:bg-slate-50/70 transition-colors">
                     <td class="p-4 text-center font-medium text-slate-400 border-r border-slate-100">${idx + 1}</td>
                     <!-- Removed avatarHtml container node wrappers to prevent visual rendering layout conflicts -->
-                    <td class="p-4 font-medium text-slate-900">${player.name}</td>
+                    <td class="${nameCellClass}">${player.name}</td>
                     <td class="p-4 text-xs font-mono text-slate-400">${player.duprId || '—'}</td>
-                    <td class="p-4">${genderStr}</td>
-                    <td class="p-4">${player.age || '—'}</td>
-                    <td class="p-4 font-semibold text-blue-600">
+                    <td class="${genderCellClass}">${genderStr}</td>
+                    <td class="${ageCellClass}">${player.age || '—'}</td>
+                    <td class="${doublesCellClass}">
                         <div class="flex items-center">
                             <span>${dblVal}</span>
                             ${drScoreHtml}
                         </div>
                     </td>
-                    <td class="p-4 font-semibold text-emerald-600">
+                    <td class="${singlesCellClass}">
                         <div class="flex items-center">
                             <span>${sglVal}</span>
                             ${srScoreHtml}
                         </div>
                     </td>
-                    <td class="p-4 text-xs text-slate-400 max-w-xs truncate" title="${cleanedLocation}">${cleanedLocation}</td>
+                    <td class="${originCellClass}" title="${cleanedLocation}">${cleanedLocation}</td>
                 </tr>
             `;
         }).join('');
@@ -172,16 +179,16 @@
             const iconSpan = header.querySelector('.sort-icon');
 
             if (field === currentSortField) {
-                header.classList.add('bg-amber-50', 'text-amber-700', 'font-bold');
-                header.classList.remove('bg-slate-100', 'text-slate-700');
+                header.classList.add('bg-slate-200', 'text-slate-700', 'font-bold');
+                header.classList.remove('bg-slate-100');
                 iconSpan.textContent = currentSortDirection === 'asc' ? '⏶' : '⏷';
                 iconSpan.classList.remove('text-slate-400');
-                iconSpan.classList.add('text-amber-600');
+                iconSpan.classList.add('text-slate-500');
             } else {
-                header.classList.remove('bg-amber-50', 'text-amber-700', 'font-bold');
+                header.classList.remove('bg-slate-200', 'font-bold');
                 header.classList.add('bg-slate-100', 'text-slate-700');
                 iconSpan.textContent = '';
-                iconSpan.classList.remove('text-amber-600');
+                iconSpan.classList.remove('text-slate-500');
                 iconSpan.classList.add('text-slate-400');
             }
         });
