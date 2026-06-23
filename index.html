@@ -1,90 +1,283 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Player Leaderboard</title>
+    <title>Таблица Игроков DUPR</title>
+    <!-- Loads the player data directly into memory instantly without fetch -->
+    <script src="players.js"></script>
+    <!-- Tailwind CSS Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: sans-serif; margin: 40px; background: #f4f4f9; }
-        max-container { max-width: 800px; margin: 0 auto; }
-        .controls { margin-bottom: 20px; display: flex; gap: 10px; align-items: center; }
-        select { padding: 8px; font-size: 16px; border-radius: 6px; border: 1px solid #ccc; }
-        table { width: 100%; border-collapse: collapse; background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
-        th, td { padding: 12px 15px; text-align: left; border-bottom: 1px solid #eee; }
-        th { background-color: #0076ff; color: white; }
-        tr:hover { background-color: #f1f5f9; }
+        .bg-slate-175 { background-color: #e9eef5; }
     </style>
 </head>
-<body>
+<body class="bg-slate-50 text-slate-800 antialiased min-h-screen p-4 md:p-8">
 
-<div class="max-container">
-    <h2>Player Rankings</h2>
-    
-    <div class="controls">
-        <label for="sortOrder">Sort by:</label>
-        <select id="sortOrder">
-            <option value="rank1-asc">Rank 1 (Lowest to Highest)</option>
-            <option value="rank1-desc">Rank 1 (Highest to Lowest)</option>
-            <option value="rank2-asc">Rank 2 (Lowest to Highest)</option>
-            <option value="rank2-desc">Rank 2 (Highest to Lowest)</option>
-        </select>
+<div class="max-w-7xl mx-auto bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
+    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
+        <div>
+            <h2 class="text-2xl font-bold text-slate-900">Рейтинг Игроков</h2>
+            <p id="counterBadge" class="text-sm text-slate-500 mt-1">Загрузка данных...</p>
+        </div>
+        
+        <!-- Search Bar Input Container -->
+        <div class="w-full sm:w-80">
+            <label for="searchBar" class="block text-sm font-medium text-slate-600 mb-1">Поиск игрока</label>
+            <input 
+                type="text" 
+                id="searchBar" 
+                placeholder="Поиск по имени или фамилии..." 
+                class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white"
+            >
+        </div>
     </div>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Player Name</th>
-                <th>Rank 1</th>
-                <th>Rank 2</th>
-            </tr>
-        </thead>
-        <tbody id="playerTableBody">
-            <!-- JavaScript inserts rows here -->
-        </tbody>
-    </table>
+    <!-- Responsive Data Table Layout Container -->
+    <div class="overflow-x-auto rounded-xl border border-slate-200">
+        <table class="w-full text-left border-collapse">
+            <thead>
+                <tr class="bg-slate-100 border-b border-slate-200 text-slate-700 font-semibold text-sm select-none">
+                    <!-- Fixed Position Index Column -->
+                    <th class="p-4 w-12 text-center text-slate-400 font-normal">#</th>
+                    
+                    <!-- Clickable Interactive Headers with data-sort properties -->
+                    <th data-sort="surname" class="p-4 text-left whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors" style="text-align: left;">
+                        Player's name <span class="sort-icon text-xs text-slate-400 ml-1"></span>
+                    </th>
+                    <th class="p-4 text-slate-400 font-medium">DUPR ID</th>
+                    <th data-sort="gender" class="p-4 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
+                        G <span class="sort-icon text-xs text-slate-400 ml-1"></span>
+                    </th>
+                    <th data-sort="age" class="p-4 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
+                        Age <span class="sort-icon text-xs text-slate-400 ml-1"></span>
+                    </th>
+                    <th data-sort="doubles" class="p-4 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
+                        Doubles <span class="sort-icon text-xs text-slate-400 ml-1"></span>
+                    </th>
+                    <th data-sort="singles" class="p-4 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
+                        Singles <span class="sort-icon text-xs text-slate-400 ml-1"></span>
+                    </th>
+                    <!-- Renamed Header Category Column -->
+                    <th data-sort="shortAddress" class="p-4 text-left whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors" style="text-align: left;">
+                        DUPR origin <span class="sort-icon text-xs text-slate-400 ml-1"></span>
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="playerTableBody" class="divide-y divide-slate-100 text-sm text-slate-600">
+                <tr>
+                    <td colspan="8" class="p-8 text-center text-slate-400">Инициализация интерфейса...</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 </div>
 
 <script>
-    // 1. Generate 500 mock players for demonstration
-    const players = Array.from({ length: 500 }, (_, i) => ({
-        name: `Player ${i + 1}`,
-        rank1: Math.floor(Math.random() * 1000) + 1,
-        rank2: Math.floor(Math.random() * 1000) + 1
-    }));
+    let masterPlayersList = [];
+    
+    let currentSortField = 'doubles';
+    let currentSortDirection = 'desc'; 
 
     const tableBody = document.getElementById('playerTableBody');
-    const sortSelect = document.getElementById('sortOrder');
+    const searchBar = document.getElementById('searchBar');
+    const counterBadge = document.getElementById('counterBadge');
+    const headers = document.querySelectorAll('th[data-sort]');
 
-    // 2. Function to render the rows to the DOM
-    function renderTable(data) {
-        tableBody.innerHTML = data.map(player => `
-            <tr>
-                <td>${player.name}</td>
-                <td>${player.rank1}</td>
-                <td>${player.rank2}</td>
-            </tr>
-        `).join('');
+    function initApp() {
+        if (typeof window.playersData !== 'undefined' && Array.isArray(window.playersData)) {
+            masterPlayersList = window.playersData.map(player => {
+                const nameParts = player.name.split(/\s+/).filter(part => part.length > 0);
+                const surname = nameParts.length > 1 ? nameParts[nameParts.length - 1] : player.name;
+                return { ...player, surname };
+            });
+            processAndRenderData();
+        } else {
+            tableBody.innerHTML = `
+                <tr>
+                    <td colspan="8" class="p-8 text-center text-red-500 font-medium">
+                        Ошибка: Объект данных не найден. Убедитесь, что ваш файл сохранен как "players.js" и содержит "window.playersData = [...]".
+                    </td>
+                </tr>`;
+        }
     }
 
-    // 3. Sorting Logic
-    function sortPlayers() {
-        const [field, direction] = sortSelect.value.split('-');
+    // Helper function to clean up adjacent duplicate layout location entities
+    function formatLocation(addressStr) {
+        if (!addressStr) return '—';
         
-        const sortedData = [...players].sort((a, b) => {
-            if (direction === 'asc') {
-                return a[field] - b[field];
+        // Split text entries into structural arrays (e.g. ["Moscow", "Moscow", "RU"])
+        const parts = addressStr.split(',').map(p => p.trim());
+        
+        // Remove adjacent repeated location names:
+        // "Moscow, Moscow, RU" -> "Moscow, RU"
+        // "Minsk, Minsk Region, BY" -> "Minsk, BY"
+        // "Vladimir, Vladimir Oblast, RU" -> "Vladimir, RU"
+        if (parts.length >= 2) {
+            const city = parts[0].toLowerCase();
+            const region = parts[1].toLowerCase();
+            const repeatedRegion = region === city || region === `${city} region` || region === `${city} oblast`;
+
+            if (repeatedRegion) {
+                parts.splice(1, 1);
+            }
+        }
+        
+        return parts.join(', ');
+    }
+
+    function renderTable(data) {
+        if (data.length === 0) {
+            tableBody.innerHTML = `
+                <tr>
+                    <td colspan="8" class="p-8 text-center text-slate-400 italic">Игроки не найдены</td>
+                </tr>`;
+            return;
+        }
+
+        tableBody.innerHTML = data.map((player, idx) => {
+            const dblVal = (player.doubles && player.doubles !== 'NR') ? parseFloat(player.doubles).toFixed(3) : 'NR';
+            const sglVal = (player.singles && player.singles !== 'NR') ? parseFloat(player.singles).toFixed(3) : 'NR';
+            
+            const genderStr = player.gender === 'MALE' ? 'М' : player.gender === 'FEMALE' ? 'Ж' : player.gender;
+
+            // Location text formatter logic run prior to mounting layout node elements
+            const cleanedLocation = formatLocation(player.shortAddress);
+
+            // Cleaned Badge indicator formatting scripts
+            const drScoreHtml = (player.drScore !== undefined && player.drScore !== null)
+                ? `<span style="width: 24px; height: 24px; min-width: 24px;" class="inline-flex items-center justify-center ml-2 rounded-full bg-blue-100 text-blue-800 text-[10px] font-bold" title="Double Rate Score: ${player.drScore}">${player.drScore}</span>`
+                : '';
+            const srScoreHtml = (player.srScore !== undefined && player.srScore !== null)
+                ? `<span style="width: 24px; height: 24px; min-width: 24px;" class="inline-flex items-center justify-center ml-2 rounded-full bg-emerald-100 text-emerald-800 text-[10px] font-bold" title="Single Rate Score: ${player.srScore}">${player.srScore}</span>`
+                : '';
+
+            const duprProfileUrl = player.id ? `https://dashboard.dupr.com/dashboard/player/${player.id}` : '';
+            const duprIdHtml = player.duprId
+                ? duprProfileUrl
+                    ? `<a href="${duprProfileUrl}" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-slate-800 hover:underline">${player.duprId}</a>`
+                    : player.duprId
+                : '—';
+
+            const nameCellClass = currentSortField === 'surname' ? 'p-4 font-medium bg-slate-175 text-slate-600' : 'p-4 font-medium text-slate-900';
+            const genderCellClass = currentSortField === 'gender' ? 'p-4 bg-slate-175 text-slate-600' : 'p-4';
+            const ageCellClass = currentSortField === 'age' ? 'p-4 bg-slate-175 text-slate-600' : 'p-4';
+            const doublesCellClass = currentSortField === 'doubles' ? 'p-4 font-semibold bg-slate-175 text-slate-600' : 'p-4 font-semibold text-blue-600';
+            const singlesCellClass = currentSortField === 'singles' ? 'p-4 font-semibold bg-slate-175 text-slate-600' : 'p-4 font-semibold text-emerald-600';
+            const originCellClass = currentSortField === 'shortAddress' ? 'p-4 text-xs bg-slate-175 text-slate-600 max-w-xs truncate' : 'p-4 text-xs text-slate-400 max-w-xs truncate';
+
+            return `
+                <tr class="hover:bg-slate-50/70 transition-colors">
+                    <td class="p-4 text-center font-medium text-slate-400 border-r border-slate-100">${idx + 1}</td>
+                    <!-- Removed avatarHtml container node wrappers to prevent visual rendering layout conflicts -->
+                    <td class="${nameCellClass}">${player.name}</td>
+                    <td class="p-4 text-xs font-mono text-slate-400">${duprIdHtml}</td>
+                    <td class="${genderCellClass}">${genderStr}</td>
+                    <td class="${ageCellClass}">${player.age || '—'}</td>
+                    <td class="${doublesCellClass}">
+                        <div class="flex items-center">
+                            <span>${dblVal}</span>
+                            ${drScoreHtml}
+                        </div>
+                    </td>
+                    <td class="${singlesCellClass}">
+                        <div class="flex items-center">
+                            <span>${sglVal}</span>
+                            ${srScoreHtml}
+                        </div>
+                    </td>
+                    <td class="${originCellClass}" title="${cleanedLocation}">${cleanedLocation}</td>
+                </tr>
+            `;
+        }).join('');
+    }
+
+    function updateHeaderStyles() {
+        headers.forEach(header => {
+            const field = header.getAttribute('data-sort');
+            const iconSpan = header.querySelector('.sort-icon');
+
+            if (field === currentSortField) {
+                header.classList.add('bg-slate-200', 'text-slate-700', 'font-bold');
+                header.classList.remove('bg-slate-100');
+                iconSpan.textContent = currentSortDirection === 'asc' ? '⏶' : '⏷';
+                iconSpan.classList.remove('text-slate-400');
+                iconSpan.classList.add('text-slate-500');
             } else {
-                return b[field] - a[field];
+                header.classList.remove('bg-slate-200', 'font-bold');
+                header.classList.add('bg-slate-100', 'text-slate-700');
+                iconSpan.textContent = '';
+                iconSpan.classList.remove('text-slate-500');
+                iconSpan.classList.add('text-slate-400');
             }
         });
-
-        renderTable(sortedData);
     }
 
-    // 4. Event Listeners & Initial Load
-    sortSelect.addEventListener('change', sortPlayers);
-    sortPlayers(); // Run once on startup
-</script>
 
-</body>
-</html>
+        function processAndRenderData() {
+            const searchTerm = searchBar.value.toLowerCase().trim();
+
+            // Comprehensive search filter matching against player name, surname, location string, or duprId
+            let processedData = masterPlayersList.filter(player => 
+                player.name.toLowerCase().includes(searchTerm) || 
+                player.surname.toLowerCase().includes(searchTerm) ||
+                (player.duprId && player.duprId.toLowerCase().includes(searchTerm)) ||
+                (player.shortAddress && player.shortAddress.toLowerCase().includes(searchTerm))
+            );
+
+            // Render Dynamic Header Counter Values 
+            counterBadge.textContent = `Найдено игроков: ${processedData.length} из ${masterPlayersList.length}`;
+
+            // Multi-type Sorting Core Engine
+            processedData.sort((a, b) => {
+                let valA = a[currentSortField];
+                let valB = b[currentSortField];
+
+                // Normalize unrated strings ("NR") or null variants to establish deterministic sorted orders
+                if (currentSortField === 'doubles' || currentSortField === 'singles') {
+                    valA = (valA && valA !== 'NR') ? parseFloat(valA) : (currentSortDirection === 'asc' ? Infinity : -Infinity);
+                    valB = (valB && valB !== 'NR') ? parseFloat(valB) : (currentSortDirection === 'asc' ? Infinity : -Infinity);
+                } else {
+                    if (valA === null || valA === undefined) valA = currentSortDirection === 'asc' ? Infinity : -Infinity;
+                    if (valB === null || valB === undefined) valB = currentSortDirection === 'asc' ? Infinity : -Infinity;
+                }
+
+                // Text Based Processing Route (with fallback to simple sorting if localeCompare is unavailable)
+                if (typeof valA === 'string' && typeof valB === 'string') {
+                    return currentSortDirection === 'asc' 
+                        ? valA.localeCompare(valB, 'ru') 
+                        : valB.localeCompare(valA, 'ru');
+                }
+
+                // Numeric Processing Route
+                return currentSortDirection === 'asc' ? valA - valB : valB - valA;
+            });
+
+            updateHeaderStyles();
+            renderTable(processedData);
+        }
+
+        // Attach dynamic click events across sorting columns
+        headers.forEach(header => {
+            header.addEventListener('click', () => {
+                const selectedField = header.getAttribute('data-sort');
+
+                if (currentSortField === selectedField) {
+                    currentSortDirection = currentSortDirection === 'asc' ? 'desc' : 'asc';
+                } else {
+                    currentSortField = selectedField;
+                    currentSortDirection = (selectedField === 'surname' || selectedField === 'shortAddress' || selectedField === 'gender') ? 'asc' : 'desc';
+                }
+                processAndRenderData();
+            });
+        });
+
+        searchBar.addEventListener('input', processAndRenderData);
+
+        // Boot execution from cache
+        initApp();
+    </script>
+
+    </body>
+    </html>
+   
