@@ -39,24 +39,24 @@
                     <th class="p-4 w-12 text-center text-slate-400 font-normal">#</th>
                     
                     <!-- Clickable Interactive Headers with data-sort properties -->
-                    <th data-sort="surname" class="p-4 text-left cursor-pointer hover:bg-slate-200/60 transition-colors" style="text-align: left;">
-                        Имя Игрока <span class="sort-icon text-xs text-slate-400 ml-1"></span>
+                    <th data-sort="surname" class="p-4 text-left whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors" style="text-align: left;">
+                        Player's name <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
                     <th class="p-4 text-slate-400 font-medium">DUPR ID</th>
-                    <th data-sort="gender" class="p-4 cursor-pointer hover:bg-slate-200/60 transition-colors">
-                        Пол <span class="sort-icon text-xs text-slate-400 ml-1"></span>
+                    <th data-sort="gender" class="p-4 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
+                        G <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
-                    <th data-sort="age" class="p-4 cursor-pointer hover:bg-slate-200/60 transition-colors">
-                        Возраст <span class="sort-icon text-xs text-slate-400 ml-1"></span>
+                    <th data-sort="age" class="p-4 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
+                        Age <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
-                    <th data-sort="doubles" class="p-4 cursor-pointer hover:bg-slate-200/60 transition-colors">
-                        Двойной <span class="sort-icon text-xs text-slate-400 ml-1"></span>
+                    <th data-sort="doubles" class="p-4 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
+                        Doubles <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
-                    <th data-sort="singles" class="p-4 cursor-pointer hover:bg-slate-200/60 transition-colors">
-                        Одиночный <span class="sort-icon text-xs text-slate-400 ml-1"></span>
+                    <th data-sort="singles" class="p-4 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
+                        Singles <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
                     <!-- Renamed Header Category Column -->
-                    <th data-sort="shortAddress" class="p-4 text-left cursor-pointer hover:bg-slate-200/60 transition-colors" style="text-align: left;">
+                    <th data-sort="shortAddress" class="p-4 text-left whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors" style="text-align: left;">
                         DUPR origin <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
                 </tr>
@@ -172,14 +172,17 @@
             const iconSpan = header.querySelector('.sort-icon');
 
             if (field === currentSortField) {
-                header.classList.add('bg-blue-50', 'text-blue-700', 'font-bold');
+                header.classList.add('bg-amber-50', 'text-amber-700', 'font-bold');
                 header.classList.remove('bg-slate-100', 'text-slate-700');
-                iconSpan.textContent = currentSortDirection === 'asc' ? '▲' : '▼';
-                iconSpan.classList.add('text-blue-500');
+                iconSpan.textContent = currentSortDirection === 'asc' ? '⏶' : '⏷';
+                iconSpan.classList.remove('text-slate-400');
+                iconSpan.classList.add('text-amber-600');
             } else {
-                header.classList.remove('bg-blue-50', 'text-blue-700', 'font-bold');
+                header.classList.remove('bg-amber-50', 'text-amber-700', 'font-bold');
                 header.classList.add('bg-slate-100', 'text-slate-700');
                 iconSpan.textContent = '';
+                iconSpan.classList.remove('text-amber-600');
+                iconSpan.classList.add('text-slate-400');
             }
         });
     }
