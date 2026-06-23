@@ -17,7 +17,7 @@
 <div class="max-w-7xl mx-auto bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
     <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
         <div>
-            <h2 class="text-2xl font-bold text-slate-700">DUPR rate RU pickleball players on 22/06/2026</h2>
+            <h2 class="text-sm sm:text-base md:text-xl font-bold text-slate-700 whitespace-nowrap">DUPR rate RU 🇷🇺 pickleball players on 22/06/2026</h2>
             <p id="counterBadge" class="text-sm text-slate-500 mt-1">Загрузка данных...</p>
         </div>
         
@@ -86,7 +86,7 @@
 
     function initApp() {
         if (typeof window.playersData !== 'undefined' && Array.isArray(window.playersData)) {
-            masterPlayersList = window.playersData.map(player => {
+            masterPlayersList = window.playersData.filter(player => !/,\s*EE$/i.test(player.shortAddress || '')).map(player => {
                 const nameParts = player.name.split(/\s+/).filter(part => part.length > 0);
                 const surname = nameParts.length > 1 ? nameParts[nameParts.length - 1] : player.name;
                 return { ...player, surname };
