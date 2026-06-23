@@ -25,28 +25,16 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 6348824866,
-        "name": "Igor Kitkov",
-        "duprId": "X5GGPX",
-        "age": 41,
+        "id": 7651091088,
+        "name": "Alexey Pilipchuk",
+        "duprId": "RX0XPQ",
+        "age": 48,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.354",
-        "drScore": 10,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 8494519640,
-        "name": "Valeriy Chastnykh",
-        "duprId": "ZDO0DW",
-        "age": 63,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.143",
-        "drScore": 20,
-        "singles": "NR",
-        "srScore": 0
+        "doubles": "2.988",
+        "drScore": 1,
+        "singles": "2.761",
+        "srScore": 10
     },
     {
         "id": 6147756122,
@@ -71,6 +59,16 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 4763658272,
+        "name": "Тунг Хоанг",
+        "duprId": "2P5R6R",
+        "age": 14,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
         "id": 8161049614,
         "name": "Dina Sankova",
         "duprId": "0Z6JKQ",
@@ -91,23 +89,21 @@ window.playersData =
         "singles": "NR"
     },
     {
-        "id": 5106437361,
-        "name": "Oleg Savvin",
-        "duprId": "D5Q596",
-        "age": 68,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.854",
-        "drScore": 10,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
         "id": 7831918283,
         "name": "Ekaterina Alyona Kuznetsov",
         "duprId": "55YEXV",
         "age": 21,
         "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 7601156032,
+        "name": "Mikhail Gusev",
+        "duprId": "XKG0Y4",
+        "age": 40,
+        "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
         "singles": "NR"
@@ -136,52 +132,26 @@ window.playersData =
         "singles": "NR"
     },
     {
-        "id": 5256268168,
-        "name": "Vo Nina",
-        "duprId": "Q9OOY0",
-        "age": 45,
-        "gender": "FEMALE",
+        "id": 8559535441,
+        "name": "Vadim Labunskii",
+        "duprId": "MPRLML",
+        "age": 32,
+        "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/766f758e-da13-49ff-9b2e-6d8dd4482a43.jpg",
-        "doubles": "2.604",
-        "drScore": 10,
+        "doubles": "4.018",
+        "drScore": 1,
         "singles": "NR",
         "srScore": 0
     },
     {
-        "id": 6850675648,
-        "name": "Andrey Abramov",
-        "duprId": "55J9V0",
-        "age": 58,
-        "gender": "MALE",
+        "id": 5649201415,
+        "name": "Svetlana Velikanova",
+        "duprId": "D5E2X6",
+        "age": 52,
+        "gender": "FEMALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
         "singles": "NR"
-    },
-    {
-        "id": 5008685174,
-        "name": "Alexey Berzi",
-        "duprId": "99XVLR",
-        "age": 63,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.012",
-        "drScore": 10,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 8268060226,
-        "name": "Alexander Elfimov",
-        "duprId": "567JML",
-        "age": 33,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/BZCzEqGr80SdjtejuUMNsuSa.jpg",
-        "doubles": "4.018",
-        "drScore": 1,
-        "singles": "4.810",
-        "srScore": 20
     },
     {
         "id": 7658970114,
@@ -192,18 +162,6 @@ window.playersData =
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
         "singles": "NR"
-    },
-    {
-        "id": 5602158851,
-        "name": "Niyaz Ismagilov",
-        "duprId": "2Q09XR",
-        "age": 60,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.429",
-        "drScore": 20,
-        "singles": "NR",
-        "srScore": 0
     },
     {
         "id": 8540542531,
@@ -228,18 +186,6 @@ window.playersData =
         "singles": "NR"
     },
     {
-        "id": 6774813705,
-        "name": "Vladimir  Masterenko",
-        "duprId": "94977J",
-        "age": 69,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.188",
-        "drScore": 1,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
         "id": 4659361321,
         "name": "Polina  Lagutina",
         "duprId": "2QM9G4",
@@ -252,6 +198,132 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 6910573041,
+        "name": "Evgeniy Sychev",
+        "duprId": "7JP05M",
+        "age": 36,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 5169213162,
+        "name": "Svetlana Nesterenko",
+        "duprId": "PWJDZZ",
+        "age": 59,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 7622138945,
+        "name": "Nikolay Zobov",
+        "duprId": "K5WR6Y",
+        "age": 52,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/d9641cdf-f1a5-4b83-a906-0a32a171f3c5.jpg",
+        "doubles": "NR",
+        "drScore": 0,
+        "singles": "2.554",
+        "srScore": 1
+    },
+    {
+        "id": 8333611297,
+        "name": "Maxim Alekseev",
+        "duprId": "N76NON",
+        "age": 50,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "drScore": 0,
+        "singles": "3.571",
+        "srScore": 20
+    },
+    {
+        "id": 4312516089,
+        "name": "Yuri Andreyev",
+        "duprId": "WNGX6Q",
+        "age": 34,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.373",
+        "drScore": 1,
+        "singles": "3.613",
+        "srScore": 1
+    },
+    {
+        "id": 6135745741,
+        "name": "Vadim Bazhenov",
+        "duprId": "9D4LDV",
+        "age": 33,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.000",
+        "drScore": 40,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5070825253,
+        "name": "Mia Nguyen",
+        "duprId": "ELJ56M",
+        "age": 27,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 4545001310,
+        "name": "Ivan Fedorov",
+        "duprId": "P52DXX",
+        "age": 32,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.682",
+        "drScore": 60,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 4633971998,
+        "name": "michel gerebtzoff",
+        "duprId": "YNJ9OG",
+        "age": 54,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.297",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5256268168,
+        "name": "Vo Nina",
+        "duprId": "Q9OOY0",
+        "age": 45,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/766f758e-da13-49ff-9b2e-6d8dd4482a43.jpg",
+        "doubles": "2.604",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 6850675648,
+        "name": "Andrey Abramov",
+        "duprId": "55J9V0",
+        "age": 58,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
         "id": 4530317735,
         "name": "Sergei Babaev",
         "duprId": "QX7VKN",
@@ -262,14 +334,28 @@ window.playersData =
         "singles": "NR"
     },
     {
-        "id": 7034571149,
-        "name": "Alex  Knyazev",
-        "duprId": "KYGNY7",
-        "age": 43,
+        "id": 5106437361,
+        "name": "Oleg Savvin",
+        "duprId": "D5Q596",
+        "age": 68,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
+        "doubles": "3.854",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 8494519640,
+        "name": "Valeriy Chastnykh",
+        "duprId": "ZDO0DW",
+        "age": 63,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.143",
+        "drScore": 20,
+        "singles": "NR",
+        "srScore": 0
     },
     {
         "id": 8110925530,
@@ -284,14 +370,205 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 5070825253,
-        "name": "Mia Nguyen",
-        "duprId": "ELJ56M",
-        "age": 27,
+        "id": 4915883914,
+        "name": "pablo freemam",
+        "duprId": "LWQ95K",
+        "age": 30,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 6348824866,
+        "name": "Igor Kitkov",
+        "duprId": "X5GGPX",
+        "age": 41,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.354",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 8268060226,
+        "name": "Alexander Elfimov",
+        "duprId": "567JML",
+        "age": 33,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/BZCzEqGr80SdjtejuUMNsuSa.jpg",
+        "doubles": "4.018",
+        "drScore": 1,
+        "singles": "4.580",
+        "srScore": 20
+    },
+    {
+        "id": 6103989512,
+        "name": "Evgeny Martens",
+        "duprId": "J5ONRJ",
+        "age": 43,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.591",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7092245998,
+        "name": "Vasilii Klimov",
+        "duprId": "67XKZG",
+        "age": 40,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "4.530",
+        "drScore": 1,
+        "singles": "4.286",
+        "srScore": 10
+    },
+    {
+        "id": 5008085440,
+        "name": "Sonya Guseva",
+        "duprId": "2QK2VR",
+        "age": 25,
         "gender": "FEMALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
         "singles": "NR"
+    },
+    {
+        "id": 5008685174,
+        "name": "Alexey Berzi",
+        "duprId": "99XVLR",
+        "age": 63,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.012",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 6774813705,
+        "name": "Vladimir  Masterenko",
+        "duprId": "94977J",
+        "age": 69,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.188",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7134376484,
+        "name": "Vera Ilina",
+        "duprId": "O69DPP",
+        "age": 30,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/UCFJWkBrcGovuNqz9nJnIbBs.jpg",
+        "doubles": "3.314",
+        "drScore": 100,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7034571149,
+        "name": "Alex  Knyazev",
+        "duprId": "KYGNY7",
+        "age": 43,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 5602158851,
+        "name": "Niyaz Ismagilov",
+        "duprId": "2Q09XR",
+        "age": 60,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.429",
+        "drScore": 20,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 4793919557,
+        "name": "Sergei Polyakov",
+        "duprId": "ELRZ6V",
+        "age": 77,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.973",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 8244864347,
+        "name": "Maxim Pechonik",
+        "duprId": "KXLYVY",
+        "age": 32,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.678",
+        "drScore": 20,
+        "singles": "3.849",
+        "srScore": 30
+    },
+    {
+        "id": 7399885578,
+        "name": "Andrey Chernikov",
+        "duprId": "67D7VG",
+        "age": 53,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.172",
+        "drScore": 80,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7466711720,
+        "name": "Alexandra Klimova",
+        "duprId": "4Z0Z5G",
+        "age": 33,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/hWHwhmNaoUu7xaneQgmxjtx0.jpg",
+        "doubles": "3.443",
+        "drScore": 70,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 6040040318,
+        "name": "Mikhail Pustovalov",
+        "duprId": "V4DJW7",
+        "age": 35,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.257",
+        "drScore": 10,
+        "singles": "3.453",
+        "srScore": 20
+    },
+    {
+        "id": 5933799288,
+        "name": "David Manukyan",
+        "duprId": "0QOQJQ",
+        "age": 32,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.220",
+        "drScore": 1,
+        "singles": "3.581",
+        "srScore": 1
     },
     {
         "id": 7781317688,
@@ -307,16 +584,6 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 4529457826,
-        "name": "Gregorius Malread",
-        "duprId": "QJXY5D",
-        "age": 55,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
         "id": 4761760977,
         "name": "Konstantin Agarev",
         "duprId": "P5D7RG",
@@ -330,10 +597,43 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 4529457826,
+        "name": "Gregorius Malread",
+        "duprId": "QJXY5D",
+        "age": 55,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
         "id": 4817463075,
         "name": "Klim Amelin",
         "duprId": "ORPGXE",
         "age": 29,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 5485058644,
+        "name": "Alexander Uvarov",
+        "duprId": "DYEKRX",
+        "age": 28,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/f238fece-401a-453b-bf56-4b5ff220c091.jpg",
+        "doubles": "NR",
+        "drScore": 0,
+        "singles": "3.951",
+        "srScore": 10
+    },
+    {
+        "id": 6087294521,
+        "name": "DMITRII KUZNETSOV",
+        "duprId": "D5JDRM",
+        "age": 24,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
@@ -350,14 +650,70 @@ window.playersData =
         "singles": "NR"
     },
     {
-        "id": 6087294521,
-        "name": "DMITRII KUZNETSOV",
-        "duprId": "D5JDRM",
-        "age": 24,
+        "id": 7204970223,
+        "name": "Ho Son",
+        "duprId": "JP9WWD",
+        "age": 26,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.995",
+        "drScore": 60,
+        "singles": "4.643",
+        "srScore": 30
+    },
+    {
+        "id": 7925011531,
+        "name": "Lyudmila Petrova",
+        "duprId": "EXO7GJ",
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 6024854720,
+        "name": "Nikolay Lukashev",
+        "duprId": "ONP4EE",
+        "age": 41,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
         "singles": "NR"
+    },
+    {
+        "id": 6175508683,
+        "name": "Regina Nabiulina",
+        "duprId": "PPRVGM",
+        "age": 34,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 5523876185,
+        "name": "Olga Tkachuk",
+        "duprId": "QX0Z04",
+        "age": 45,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/6bcc84d1-fc0a-4403-ad5e-7d8c910711d0.jpg",
+        "doubles": "2.844",
+        "drScore": 100,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5969469070,
+        "name": "Нгок Ха Чан",
+        "duprId": "WN479Q",
+        "age": 36,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.089",
+        "drScore": 1,
+        "singles": "2.575",
+        "srScore": 10
     },
     {
         "id": 6658285773,
@@ -367,16 +723,6 @@ window.playersData =
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/011fe845-69fb-4bc2-abfa-0690433f67ac.jpg",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 5101258586,
-        "name": "Lee Moe",
-        "duprId": "RWVD0E",
-        "age": 31,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
         "singles": "NR"
     },
@@ -391,29 +737,6 @@ window.playersData =
         "singles": "NR"
     },
     {
-        "id": 5041227804,
-        "name": "Andrey  Davidchik",
-        "duprId": "7ZYJ70",
-        "age": 40,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 6779440227,
-        "name": "Vadim Mamonov",
-        "duprId": "V454VJ",
-        "age": 38,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/yNlVKX93m2Aj6fvSl9f9zDhW.jpg",
-        "doubles": "2.629",
-        "drScore": 1,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
         "id": 7428311838,
         "name": "Anton Lukin",
         "duprId": "4ZO6EG",
@@ -424,44 +747,6 @@ window.playersData =
         "drScore": 10,
         "singles": "3.385",
         "srScore": 1
-    },
-    {
-        "id": 6255631911,
-        "name": "Andrei Suslov",
-        "duprId": "M2DO2D",
-        "age": 34,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/af672b22-368a-419e-bb7a-4514016816f7.jpg",
-        "doubles": "4.152",
-        "drScore": 80,
-        "singles": "4.370",
-        "srScore": 30
-    },
-    {
-        "id": 6415234583,
-        "name": "Asya Shvekova",
-        "duprId": "Z9VN7L",
-        "age": 39,
-        "gender": "FEMALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.542",
-        "drScore": 40,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 5176767874,
-        "name": "Перевозкин  Михаил",
-        "duprId": "RX0X6N",
-        "age": 45,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/gStCJvsGpfZaBgNYGBXWajtI.jpg",
-        "doubles": "3.202",
-        "drScore": 10,
-        "singles": "NR",
-        "srScore": 0
     },
     {
         "id": 5308503272,
@@ -476,97 +761,26 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 5526202164,
-        "name": "Nguyen Anh Tu",
-        "duprId": "X0DRK4",
-        "age": 46,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.142",
-        "drScore": 30,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 4669238588,
-        "name": "Jan Zavyalov",
-        "duprId": "L2Y45Z",
-        "age": 48,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.945",
-        "drScore": 1,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 4891908941,
-        "name": "Anna Blagova",
-        "duprId": "Q52KZ5",
-        "age": 41,
+        "id": 8177214494,
+        "name": "Zhanna Maksakova",
+        "duprId": "ORDR7W",
+        "age": 37,
         "gender": "FEMALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/033ab7d8-333b-4861-ae3b-076da4d694c6.jpg",
-        "doubles": "3.429",
-        "drScore": 1,
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 7646264617,
+        "name": "Natalya Kuznetsova",
+        "duprId": "DYEEZ6",
+        "age": 49,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.420",
+        "drScore": 80,
         "singles": "NR",
         "srScore": 0
-    },
-    {
-        "id": 7497752243,
-        "name": "Dmitriy Demidenko",
-        "duprId": "X2EKV4",
-        "age": 57,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "4.103",
-        "drScore": 100,
-        "singles": "4.370",
-        "srScore": 80
-    },
-    {
-        "id": 5211667793,
-        "name": "Andrey Zholudev",
-        "duprId": "RYL76Z",
-        "age": 54,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.568",
-        "drScore": 30,
-        "singles": "3.404",
-        "srScore": 70
-    },
-    {
-        "id": 6240469024,
-        "name": "Philip Lavrentiev",
-        "duprId": "KY7L6Y",
-        "age": 45,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 7071649478,
-        "name": "Maxim Levoshin",
-        "duprId": "7NDJD0",
-        "age": 37,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.457",
-        "drScore": 100,
-        "singles": "3.782",
-        "srScore": 100
-    },
-    {
-        "id": 7656180623,
-        "name": "Yaroslav Kadigrob",
-        "duprId": "ZD7GGD",
-        "age": 52,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
     },
     {
         "id": 5922609875,
@@ -574,6 +788,28 @@ window.playersData =
         "duprId": "Z4Q5EP",
         "age": 25,
         "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 5320884754,
+        "name": "Dmitrii Pozhidaev",
+        "duprId": "0QVWW2",
+        "age": 29,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.734",
+        "drScore": 30,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7266908019,
+        "name": "Ivan Leontev",
+        "duprId": "0ZGZ4N",
+        "age": 49,
+        "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
         "singles": "NR"
@@ -604,16 +840,16 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 5865218638,
-        "name": "Vitaly Yusupov",
-        "duprId": "WX0YJM",
-        "age": 39,
+        "id": 7071649478,
+        "name": "Maxim Levoshin",
+        "duprId": "7NDJD0",
+        "age": 37,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.918",
-        "drScore": 1,
-        "singles": "NR",
-        "srScore": 0
+        "doubles": "3.457",
+        "drScore": 100,
+        "singles": "3.782",
+        "srScore": 100
     },
     {
         "id": 4324276608,
@@ -626,114 +862,55 @@ window.playersData =
         "singles": "NR"
     },
     {
-        "id": 7340777985,
-        "name": "ALEkSANDR Kabakov",
-        "duprId": "V69P9J",
-        "age": 39,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.000",
-        "drScore": 40,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 5320884754,
-        "name": "Dmitrii Pozhidaev",
-        "duprId": "0QVWW2",
-        "age": 29,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.734",
-        "drScore": 30,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 7266908019,
-        "name": "Ivan Leontev",
-        "duprId": "0ZGZ4N",
-        "age": 49,
+        "id": 6240469024,
+        "name": "Philip Lavrentiev",
+        "duprId": "KY7L6Y",
+        "age": 45,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
         "singles": "NR"
     },
     {
-        "id": 6542776365,
-        "name": "Anastasiia Korzunina",
-        "duprId": "PPYWWZ",
-        "age": 27,
-        "gender": "FEMALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.341",
-        "drScore": 20,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 7814983637,
-        "name": "Vladimir Orlov",
-        "duprId": "4V24XK",
-        "age": 57,
+        "id": 6129843469,
+        "name": "Roman Ukolov",
+        "duprId": "WNPJKM",
+        "age": 16,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.004",
-        "drScore": 10,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 6654594823,
-        "name": "Aleksandr Lysov",
-        "duprId": "KXLJQY",
-        "age": 34,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.807",
-        "drScore": 20,
-        "singles": "3.338",
-        "srScore": 30
-    },
-    {
-        "id": 5020537685,
-        "name": "Силантий  Куприянов",
-        "duprId": "X2MRQ4",
-        "age": 19,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.459",
+        "doubles": "2.994",
         "drScore": 1,
         "singles": "NR",
         "srScore": 0
     },
     {
-        "id": 6404984680,
-        "name": "Marina Pankratova",
-        "duprId": "ORQEX2",
-        "age": 43,
+        "id": 8453423964,
+        "name": "Taisiya Kopylova",
+        "duprId": "55VME5",
+        "age": 25,
         "gender": "FEMALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.007",
-        "drScore": 10,
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/072fcb94-5855-4814-b3b4-6e52d17f2922.jpg",
+        "doubles": "4.144",
+        "drScore": 1,
         "singles": "NR",
         "srScore": 0
     },
     {
-        "id": 6004765005,
-        "name": "Vu  Tue",
-        "duprId": "LWLYWK",
-        "age": 54,
+        "id": 7656180623,
+        "name": "Yaroslav Kadigrob",
+        "duprId": "ZD7GGD",
+        "age": 52,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
         "singles": "NR"
     },
     {
-        "id": 6283132681,
-        "name": "Quoc Thang Nguyen",
-        "duprId": "7JX559",
-        "age": 22,
+        "id": 6867834519,
+        "name": "Valeriy Mishchebko",
+        "duprId": "4PN9X2",
+        "age": 45,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
@@ -744,6 +921,16 @@ window.playersData =
         "name": "Arseny Sapelkin",
         "duprId": "QJ0WMN",
         "age": 32,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 5041227804,
+        "name": "Andrey  Davidchik",
+        "duprId": "7ZYJ70",
+        "age": 40,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
@@ -770,6 +957,292 @@ window.playersData =
         "singles": "NR"
     },
     {
+        "id": 8005404875,
+        "name": "Ivan Goryachkin",
+        "duprId": "3XK4M7",
+        "age": 28,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/ZiFbBwpg5cOUQkHmlWKt8MYI.jpg",
+        "doubles": "4.131",
+        "drScore": 30,
+        "singles": "4.101",
+        "srScore": 30
+    },
+    {
+        "id": 4760185631,
+        "name": "Chase Alex",
+        "duprId": "6NLYQD",
+        "age": 31,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 6799551316,
+        "name": "Yuri Andreyev",
+        "duprId": "55K69P",
+        "age": 34,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 6404984680,
+        "name": "Marina Pankratova",
+        "duprId": "ORQEX2",
+        "age": 43,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.007",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5078181424,
+        "name": "Anna Martynova",
+        "duprId": "Y4KOZP",
+        "age": 31,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.980",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7877019825,
+        "name": "Elena Loshina",
+        "duprId": "PP2OVQ",
+        "age": 37,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.305",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5101258586,
+        "name": "Lee Moe",
+        "duprId": "RWVD0E",
+        "age": 31,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 5526202164,
+        "name": "Nguyen Anh Tu",
+        "duprId": "X0DRK4",
+        "age": 46,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.142",
+        "drScore": 30,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7340777985,
+        "name": "ALEkSANDR Kabakov",
+        "duprId": "V69P9J",
+        "age": 39,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.000",
+        "drScore": 40,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 6004765005,
+        "name": "Vu  Tue",
+        "duprId": "LWLYWK",
+        "age": 54,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 7213091282,
+        "name": "Kirill Sirin",
+        "duprId": "YXN5ND",
+        "age": 35,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "4.008",
+        "drScore": 30,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 4323820466,
+        "name": "Nikolay Chernyshov",
+        "duprId": "RYX4WM",
+        "age": 30,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/e5f8517d-af38-48ea-b336-8f4738f3eeaa.jpg",
+        "doubles": "3.798",
+        "drScore": 100,
+        "singles": "3.911",
+        "srScore": 60
+    },
+    {
+        "id": 8031750040,
+        "name": "Irina  Osokina",
+        "duprId": "O69JY2",
+        "age": 37,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/e20b5227-664d-40dd-98d1-e85f4a0292fb.jpg",
+        "doubles": "3.284",
+        "drScore": 20,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 6415771268,
+        "name": "Alessia Karvatskaya",
+        "duprId": "X2Y7PR",
+        "age": 50,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/Q0CmeY6sNsBZdhIlRPsqvw7W.jpg",
+        "doubles": "3.600",
+        "drScore": 20,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 6415234583,
+        "name": "Asya Shvekova",
+        "duprId": "Z9VN7L",
+        "age": 39,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.542",
+        "drScore": 40,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 4891908941,
+        "name": "Anna Blagova",
+        "duprId": "Q52KZ5",
+        "age": 41,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/033ab7d8-333b-4861-ae3b-076da4d694c6.jpg",
+        "doubles": "3.429",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5865218638,
+        "name": "Vitaly Yusupov",
+        "duprId": "WX0YJM",
+        "age": 39,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.918",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 6255631911,
+        "name": "Andrei Suslov",
+        "duprId": "M2DO2D",
+        "age": 34,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/af672b22-368a-419e-bb7a-4514016816f7.jpg",
+        "doubles": "4.152",
+        "drScore": 80,
+        "singles": "4.370",
+        "srScore": 30
+    },
+    {
+        "id": 4697532278,
+        "name": "Stanislav Zhigunov",
+        "duprId": "EW4LEO",
+        "age": 37,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/58302c45-fcb8-4f47-982a-5823dd2718a2.jpg",
+        "doubles": "3.361",
+        "drScore": 40,
+        "singles": "3.584",
+        "srScore": 90
+    },
+    {
+        "id": 7814983637,
+        "name": "Vladimir Orlov",
+        "duprId": "4V24XK",
+        "age": 57,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.004",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5020537685,
+        "name": "Силантий  Куприянов",
+        "duprId": "X2MRQ4",
+        "age": 19,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.459",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5176767874,
+        "name": "Перевозкин  Михаил",
+        "duprId": "RX0X6N",
+        "age": 45,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/gStCJvsGpfZaBgNYGBXWajtI.jpg",
+        "doubles": "3.202",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5211667793,
+        "name": "Andrey Zholudev",
+        "duprId": "RYL76Z",
+        "age": 54,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.568",
+        "drScore": 30,
+        "singles": "3.404",
+        "srScore": 70
+    },
+    {
+        "id": 5637242653,
+        "name": "Anna Karpova",
+        "duprId": "JMJ4LJ",
+        "age": 26,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "3.042"
+    },
+    {
         "id": 6749981239,
         "name": "Denis Krasilshchik",
         "duprId": "RDKJ0N",
@@ -782,6 +1255,89 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 6654594823,
+        "name": "Aleksandr Lysov",
+        "duprId": "KXLJQY",
+        "age": 34,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.807",
+        "drScore": 20,
+        "singles": "3.338",
+        "srScore": 30
+    },
+    {
+        "id": 7627524443,
+        "name": "Elena Rogova",
+        "duprId": "V6QZEJ",
+        "age": 40,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 4669238588,
+        "name": "Jan Zavyalov",
+        "duprId": "L2Y45Z",
+        "age": 48,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.945",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 6542776365,
+        "name": "Anastasiia Korzunina",
+        "duprId": "PPYWWZ",
+        "age": 27,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.341",
+        "drScore": 20,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7974336467,
+        "name": "Sofiya Bushina",
+        "duprId": "0Q4P2N",
+        "age": 23,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.924",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 6779440227,
+        "name": "Vadim Mamonov",
+        "duprId": "V454VJ",
+        "age": 38,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/yNlVKX93m2Aj6fvSl9f9zDhW.jpg",
+        "doubles": "2.629",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7497752243,
+        "name": "Dmitriy Demidenko",
+        "duprId": "X2EKV4",
+        "age": 57,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "4.103",
+        "drScore": 100,
+        "singles": "4.370",
+        "srScore": 80
+    },
+    {
         "id": 5582148269,
         "name": "Yulia  Tsareva",
         "duprId": "5YKZG0",
@@ -789,6 +1345,18 @@ window.playersData =
         "gender": "FEMALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "2.571",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5267037148,
+        "name": "Vadim Amelin",
+        "duprId": "WZG2LL",
+        "age": 29,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.831",
         "drScore": 1,
         "singles": "NR",
         "srScore": 0
@@ -820,19 +1388,6 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 5460401330,
-        "name": "Le Hong Minh",
-        "duprId": "V2R0ZE",
-        "age": 58,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/b0b5bd7f-d5d7-4dc5-843c-afdcb4a285da.jpg",
-        "doubles": "3.246",
-        "drScore": 100,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
         "id": 5708902850,
         "name": "LE THUY HUONG",
         "duprId": "RWEN2N",
@@ -841,6 +1396,19 @@ window.playersData =
         "shortAddress": "Moscow, Moscow, RU",
         "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/0e1b364b-89b6-4e7d-b9db-a7f8407fa9d5.jpg",
         "doubles": "3.557",
+        "drScore": 100,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5460401330,
+        "name": "Le Hong Minh",
+        "duprId": "V2R0ZE",
+        "age": 58,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/b0b5bd7f-d5d7-4dc5-843c-afdcb4a285da.jpg",
+        "doubles": "3.246",
         "drScore": 100,
         "singles": "NR",
         "srScore": 0
@@ -859,16 +1427,17 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 7097214801,
-        "name": "Maria Savvina",
-        "duprId": "JYYYVM",
-        "age": 44,
-        "gender": "FEMALE",
+        "id": 5991848387,
+        "name": "Степан Чернегов",
+        "duprId": "Y4Q9Y4",
+        "age": 22,
+        "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.854",
-        "drScore": 10,
-        "singles": "NR",
-        "srScore": 0
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/e6a89487-a083-42a1-8bad-a0faf682f009.jpg",
+        "doubles": "4.617",
+        "drScore": 1,
+        "singles": "4.882",
+        "srScore": 1
     },
     {
         "id": 6526133353,
@@ -908,79 +1477,6 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 7387566938,
-        "name": "Elia Efimov",
-        "duprId": "DWEQX6",
-        "age": 35,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 4438823585,
-        "name": "Nadezhda Ryzhkova",
-        "duprId": "0Q5LV2",
-        "age": 33,
-        "gender": "FEMALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/bbb7f639-b95e-4e73-91d2-2c80ff4bf5e1.jpg",
-        "doubles": "3.608",
-        "drScore": 100,
-        "singles": "3.294",
-        "srScore": 30
-    },
-    {
-        "id": 7197281359,
-        "name": "Nikita Minaev",
-        "duprId": "56RVPR",
-        "age": 37,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "drScore": 0,
-        "singles": "3.873",
-        "srScore": 20
-    },
-    {
-        "id": 7754324474,
-        "name": "Evgeniya Pakuro",
-        "duprId": "DNXGWL",
-        "age": 48,
-        "gender": "FEMALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/1OrgeOnGejXngVNMRo7HAC4V.jpg",
-        "doubles": "2.724",
-        "drScore": 1,
-        "singles": "2.595",
-        "srScore": 1
-    },
-    {
-        "id": 4480425753,
-        "name": "ARTEM LIKHACHEV",
-        "duprId": "Q5WOK4",
-        "age": 31,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/f163500f-b0f8-4bd6-b43c-69e9d21eaf3f.jpg",
-        "doubles": "3.240",
-        "drScore": 100,
-        "singles": "3.042",
-        "srScore": 10
-    },
-    {
-        "id": 6141744262,
-        "name": "Vladimir Vladimir",
-        "duprId": "Q5W0X4",
-        "age": 45,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.544",
-        "drScore": 100,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
         "id": 5115524194,
         "name": "Milena Khalil",
         "duprId": "VX2455",
@@ -1005,49 +1501,39 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 7089755554,
-        "name": "Hoang Thai",
-        "duprId": "JP0KX4",
-        "age": 26,
+        "id": 6141744262,
+        "name": "Vladimir Vladimir",
+        "duprId": "Q5W0X4",
+        "age": 45,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 5258165103,
-        "name": "Andrey Gunchenko",
-        "duprId": "Z9626W",
-        "age": 54,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/7c371884-e898-430e-8865-39febad74fce.png",
-        "doubles": "3.275",
+        "doubles": "3.544",
         "drScore": 100,
-        "singles": "3.168",
-        "srScore": 10
-    },
-    {
-        "id": 8499841605,
-        "name": "Mikhail Baklanov",
-        "duprId": "QJ2P9N",
-        "age": 66,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.973",
-        "drScore": 1,
         "singles": "NR",
         "srScore": 0
     },
     {
-        "id": 6486949223,
-        "name": "Alesya Pechonik",
-        "duprId": "EW425O",
-        "age": 26,
+        "id": 4480425753,
+        "name": "ARTEM LIKHACHEV",
+        "duprId": "Q5WOK4",
+        "age": 31,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/f163500f-b0f8-4bd6-b43c-69e9d21eaf3f.jpg",
+        "doubles": "3.240",
+        "drScore": 100,
+        "singles": "3.042",
+        "srScore": 10
+    },
+    {
+        "id": 4684997168,
+        "name": "Elena Levoshina",
+        "duprId": "D9ZW6L",
+        "age": 36,
         "gender": "FEMALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.472",
-        "drScore": 20,
+        "doubles": "2.870",
+        "drScore": 100,
         "singles": "NR",
         "srScore": 0
     },
@@ -1084,6 +1570,19 @@ window.playersData =
         "drScore": 1,
         "singles": "NR",
         "srScore": 0
+    },
+    {
+        "id": 6390041395,
+        "name": "Andrey Romashov",
+        "duprId": "RX57KQ",
+        "age": 45,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/45c26d89-891d-4f60-b48b-0ba4a5f9a54a.jpg",
+        "doubles": "4.165",
+        "drScore": 90,
+        "singles": "4.034",
+        "srScore": 40
     },
     {
         "id": 7056966666,
@@ -1147,28 +1646,6 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 8253381332,
-        "name": "Ma Chuong Hoang",
-        "duprId": "7J5ZY0",
-        "age": 36,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "4.160",
-        "drScore": 30,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 5001890169,
-        "name": "Andrew lomtev",
-        "duprId": "NN7N0Z",
-        "age": 22,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
         "id": 6213758999,
         "name": "Alla  Egorova",
         "duprId": "NXQRW2",
@@ -1181,26 +1658,6 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 7677418091,
-        "name": "Tùng Nguyễn",
-        "duprId": "XOXPW7",
-        "age": 30,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 5040097637,
-        "name": "Nikita Kuryumov",
-        "duprId": "LWL0JK",
-        "age": 28,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
         "id": 8286265114,
         "name": "Thi Mai Hoa ( Maya) Nguyen",
         "duprId": "6K2EZK",
@@ -1211,13 +1668,211 @@ window.playersData =
         "singles": "NR"
     },
     {
-        "id": 6097635935,
-        "name": "Polina Ladonikova",
-        "duprId": "GWMNOD",
-        "age": 37,
+        "id": 5001890169,
+        "name": "Andrew lomtev",
+        "duprId": "NN7N0Z",
+        "age": 22,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 7677418091,
+        "name": "Tùng Nguyễn",
+        "duprId": "XOXPW7",
+        "age": 30,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 4869908609,
+        "name": "Dmitry Kuzmin",
+        "duprId": "MPKZ9V",
+        "age": 35,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 7942941251,
+        "name": "Liana Brix",
+        "duprId": "QPG600",
+        "age": 62,
         "gender": "FEMALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.809",
+        "doubles": "3.415",
+        "drScore": 100,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7387566938,
+        "name": "Elia Efimov",
+        "duprId": "DWEQX6",
+        "age": 35,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 5795161403,
+        "name": "Anton Novikov",
+        "duprId": "0P25PN",
+        "age": 38,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.784",
+        "drScore": 60,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 4933940962,
+        "name": "Сергей Вдовин",
+        "duprId": "99RYNV",
+        "age": 61,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/0743d2e7-197f-45dc-86be-ec8c0dc02791.jpg",
+        "doubles": "3.478",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7197281359,
+        "name": "Nikita Minaev",
+        "duprId": "56RVPR",
+        "age": 37,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "drScore": 0,
+        "singles": "3.873",
+        "srScore": 20
+    },
+    {
+        "id": 7673330342,
+        "name": "Lada Antipova",
+        "duprId": "GX00GX",
+        "age": 50,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.878",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 4438823585,
+        "name": "Nadezhda Ryzhkova",
+        "duprId": "0Q5LV2",
+        "age": 33,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/bbb7f639-b95e-4e73-91d2-2c80ff4bf5e1.jpg",
+        "doubles": "3.608",
+        "drScore": 100,
+        "singles": "3.294",
+        "srScore": 30
+    },
+    {
+        "id": 6486949223,
+        "name": "Alesya Pechonik",
+        "duprId": "EW425O",
+        "age": 26,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.472",
+        "drScore": 20,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7754324474,
+        "name": "Evgeniya Pakuro",
+        "duprId": "DNXGWL",
+        "age": 48,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/1OrgeOnGejXngVNMRo7HAC4V.jpg",
+        "doubles": "2.724",
+        "drScore": 1,
+        "singles": "2.595",
+        "srScore": 1
+    },
+    {
+        "id": 5258165103,
+        "name": "Andrey Gunchenko",
+        "duprId": "Z9626W",
+        "age": 54,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/7c371884-e898-430e-8865-39febad74fce.png",
+        "doubles": "3.275",
+        "drScore": 100,
+        "singles": "3.168",
+        "srScore": 10
+    },
+    {
+        "id": 7764586880,
+        "name": "Albert",
+        "duprId": "EL46MW",
+        "age": 36,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.209",
+        "drScore": 10,
+        "singles": "2.924",
+        "srScore": 1
+    },
+    {
+        "id": 8253381332,
+        "name": "Ma Chuong Hoang",
+        "duprId": "7J5ZY0",
+        "age": 36,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "4.160",
+        "drScore": 30,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7089755554,
+        "name": "Hoang Thai",
+        "duprId": "JP0KX4",
+        "age": 26,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 8499841605,
+        "name": "Mikhail Baklanov",
+        "duprId": "QJ2P9N",
+        "age": 66,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.973",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 8067724756,
+        "name": "Viktoria Letavina",
+        "duprId": "PZPZVE",
+        "age": 33,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.544",
         "drScore": 1,
         "singles": "NR",
         "srScore": 0
@@ -1232,17 +1887,6 @@ window.playersData =
         "singles": "NR"
     },
     {
-        "id": 5564411160,
-        "name": "Taarush Lalwani",
-        "duprId": "Y5JQNP",
-        "age": 26,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/e1d6da0c-ff02-4bf0-96c8-066921c00b41.jpg",
-        "doubles": "NR",
-        "singles": "3.518"
-    },
-    {
         "id": 8221101153,
         "name": "Nguyen Thinh",
         "duprId": "EXMX2V",
@@ -1253,14 +1897,17 @@ window.playersData =
         "singles": "NR"
     },
     {
-        "id": 7156991577,
-        "name": "Victor Titov",
-        "duprId": "QJR70R",
-        "age": 45,
+        "id": 8399687180,
+        "name": "Eugene Shumikhin",
+        "duprId": "N5G052",
+        "age": 36,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/f48c1fd1-028d-4b8e-913e-84ff9e151df3.jpg",
+        "doubles": "2.597",
+        "drScore": 100,
+        "singles": "NR",
+        "srScore": 0
     },
     {
         "id": 8339333366,
@@ -1346,53 +1993,14 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 6767815373,
-        "name": "Elena Pekich",
-        "duprId": "JYQYMW",
-        "age": 45,
+        "id": 7446756734,
+        "name": "Ekaterina Komarova",
+        "duprId": "LZNEQK",
+        "age": 36,
         "gender": "FEMALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.980",
-        "drScore": 10,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 7469565013,
-        "name": "Ivan Burimskiy",
-        "duprId": "6PMLWD",
-        "age": 39,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.769",
-        "drScore": 10,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 5458042812,
-        "name": "Dmitry Kalyuzhnyy",
-        "duprId": "DN9DYM",
-        "age": 35,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/8e3ba47e-3f00-452c-b679-78d79c0a40e2.jpg",
         "doubles": "NR",
-        "drScore": 0,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 6701072441,
-        "name": "Valentina Zavarzina",
-        "duprId": "X2YMN4",
-        "age": 35,
-        "gender": "FEMALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.918",
-        "drScore": 1,
-        "singles": "NR",
-        "srScore": 0
+        "singles": "NR"
     },
     {
         "id": 4474596838,
@@ -1412,66 +2020,6 @@ window.playersData =
         "gender": "FEMALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "2.417",
-        "drScore": 1,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 8363604291,
-        "name": "Sofia Guseva",
-        "duprId": "DN4PZ6",
-        "age": 25,
-        "gender": "FEMALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 4775620678,
-        "name": "Alexei Grunichev",
-        "duprId": "DNX57M",
-        "age": 47,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.859",
-        "drScore": 40,
-        "singles": "2.841",
-        "srScore": 80
-    },
-    {
-        "id": 4998332756,
-        "name": "Alexander Berezhnoi",
-        "duprId": "L2LZ7Z",
-        "age": 19,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/40c9fcf1-5c64-4aaa-a175-e0a99287a354.jpg",
-        "doubles": "4.000",
-        "drScore": 100,
-        "singles": "4.274",
-        "srScore": 100
-    },
-    {
-        "id": 7511168762,
-        "name": "Ksenia  Dudko",
-        "duprId": "L2L5LQ",
-        "age": 31,
-        "gender": "FEMALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/52b46402-1d46-4f8a-91b3-67b2d8316129.png",
-        "doubles": "4.112",
-        "drScore": 10,
-        "singles": "3.901",
-        "srScore": 10
-    },
-    {
-        "id": 8029923359,
-        "name": "Roman Chebotarev",
-        "duprId": "XKJKZ5",
-        "age": 37,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.422",
         "drScore": 1,
         "singles": "NR",
         "srScore": 0
@@ -1502,28 +2050,206 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 7724507197,
-        "name": "Vladislav Malyarskiy",
-        "duprId": "2QK4Y7",
+        "id": 7311649436,
+        "name": "Roman Ocheretko",
+        "duprId": "MED5KP",
+        "age": 48,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/fcdc8df3-fc13-4e39-87bc-5f8bc28f6156.jpg",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 4858673537,
+        "name": "Sergei Amelin",
+        "duprId": "6PQVXD",
+        "age": 58,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 5264593778,
+        "name": "Mikhail Petrov",
+        "duprId": "9DOYGE",
+        "age": 46,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 5646421390,
+        "name": "Dante Kharris",
+        "duprId": "J5ZZWW",
+        "age": 27,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.820",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7807610527,
+        "name": "posa чан",
+        "duprId": "LWJ2QQ",
+        "age": 42,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 7447391792,
+        "name": "Mo Li",
+        "duprId": "XONELX",
+        "age": 45,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.347",
+        "drScore": 1,
+        "singles": "3.207",
+        "srScore": 1
+    },
+    {
+        "id": 5598910392,
+        "name": "Nikolai Kolchev",
+        "duprId": "9JG72K",
+        "age": 51,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.351",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7725442270,
+        "name": "Varya Trankina",
+        "duprId": "0ZKX5Q",
+        "age": 18,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.874",
+        "drScore": 1,
+        "singles": "3.397",
+        "srScore": 1
+    },
+    {
+        "id": 4339039285,
+        "name": "Anastasia Mayer",
+        "duprId": "9J7VVV",
+        "age": 39,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/3O34jWI9tLMHbQ0EA19GtVYQ.jpg",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 6231935031,
+        "name": "Leonid Ovchinnikov",
+        "duprId": "4QR7GK",
+        "age": 33,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.246",
+        "drScore": 70,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 4468102432,
+        "name": "Sofiia Gunchenko",
+        "duprId": "E97PMO",
+        "age": 22,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.285",
+        "drScore": 60,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 6767815373,
+        "name": "Elena Pekich",
+        "duprId": "JYQYMW",
+        "age": 45,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.980",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7469565013,
+        "name": "Ivan Burimskiy",
+        "duprId": "6PMLWD",
+        "age": 39,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.769",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5564411160,
+        "name": "Taarush Lalwani",
+        "duprId": "Y5JQNP",
+        "age": 26,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/e1d6da0c-ff02-4bf0-96c8-066921c00b41.jpg",
+        "doubles": "NR",
+        "singles": "3.518"
+    },
+    {
+        "id": 5448065091,
+        "name": "Alex Kibalov",
+        "duprId": "OR6492",
+        "age": 35,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 5624127172,
+        "name": "Aleksei Zhigalov",
+        "duprId": "0PRE9G",
         "age": 44,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.284",
-        "drScore": 70,
-        "singles": "3.208",
-        "srScore": 10
+        "doubles": "NR",
+        "singles": "NR"
     },
     {
-        "id": 5819054473,
-        "name": "vsievolod naumoff",
-        "duprId": "GWR7OX",
-        "age": 31,
+        "id": 5458042812,
+        "name": "Dmitry Kalyuzhnyy",
+        "duprId": "DN9DYM",
+        "age": 35,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.766",
-        "drScore": 90,
-        "singles": "2.997",
-        "srScore": 10
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/8e3ba47e-3f00-452c-b679-78d79c0a40e2.jpg",
+        "doubles": "NR",
+        "drScore": 0,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5628677072,
+        "name": "Leonid Kononenko",
+        "duprId": "P5LQ7X",
+        "age": 60,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
     },
     {
         "id": 6117227451,
@@ -1538,28 +2264,28 @@ window.playersData =
         "srScore": 20
     },
     {
-        "id": 6466867111,
-        "name": "Thuy Dieu Nguyen",
-        "duprId": "XONEDX",
-        "age": 33,
-        "gender": "FEMALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "4.040",
-        "drScore": 1,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 6153247008,
-        "name": "Sergey  Belov",
-        "duprId": "RY9OLN",
-        "age": 27,
+        "id": 5819054473,
+        "name": "vsievolod naumoff",
+        "duprId": "GWR7OX",
+        "age": 31,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.483",
-        "drScore": 10,
-        "singles": "3.826",
-        "srScore": 20
+        "doubles": "2.766",
+        "drScore": 90,
+        "singles": "2.997",
+        "srScore": 10
+    },
+    {
+        "id": 7755395189,
+        "name": "IBRAHIM YILDIZ",
+        "duprId": "YXRXV4",
+        "age": 45,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.401",
+        "drScore": 1,
+        "singles": "3.055",
+        "srScore": 1
     },
     {
         "id": 4773413616,
@@ -1574,27 +2300,14 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 4401842306,
-        "name": "Natalya Pavlunina",
-        "duprId": "2QXP69",
-        "age": 26,
+        "id": 4507630728,
+        "name": "Kate",
+        "duprId": "ELZMZO",
+        "age": 24,
         "gender": "FEMALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.334",
-        "drScore": 1,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 8400347930,
-        "name": "Paramvir Gill",
-        "duprId": "67M27K",
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "4.430",
-        "drScore": 100,
-        "singles": "3.372",
-        "srScore": 1
+        "doubles": "2.787",
+        "singles": "NR"
     },
     {
         "id": 5274275577,
@@ -1621,26 +2334,61 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 5264593778,
-        "name": "Mikhail Petrov",
-        "duprId": "9DOYGE",
-        "age": 46,
+        "id": 8209607398,
+        "name": "Ekaterina Ogurtsova",
+        "duprId": "M2D5EV",
+        "age": 17,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "4.078",
+        "drScore": 100,
+        "singles": "4.087",
+        "srScore": 90
+    },
+    {
+        "id": 8400347930,
+        "name": "Paramvir Gill",
+        "duprId": "67M27K",
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "4.430",
+        "drScore": 100,
+        "singles": "3.372",
+        "srScore": 1
+    },
+    {
+        "id": 6032744155,
+        "name": "Gayk Avakian",
+        "duprId": "PW2JMZ",
+        "age": 33,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
         "singles": "NR"
     },
     {
-        "id": 5646421390,
-        "name": "Dante Kharris",
-        "duprId": "J5ZZWW",
-        "age": 27,
-        "gender": "MALE",
+        "id": 4401842306,
+        "name": "Natalya Pavlunina",
+        "duprId": "2QXP69",
+        "age": 26,
+        "gender": "FEMALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.820",
+        "doubles": "3.334",
         "drScore": 1,
         "singles": "NR",
         "srScore": 0
+    },
+    {
+        "id": 4775620678,
+        "name": "Alexei Grunichev",
+        "duprId": "DNX57M",
+        "age": 47,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.859",
+        "drScore": 40,
+        "singles": "2.841",
+        "srScore": 80
     },
     {
         "id": 5540602066,
@@ -1653,64 +2401,93 @@ window.playersData =
         "singles": "NR"
     },
     {
-        "id": 4858673537,
-        "name": "Sergei Amelin",
-        "duprId": "6PQVXD",
-        "age": 58,
+        "id": 7156991577,
+        "name": "Victor Titov",
+        "duprId": "QJR70R",
+        "age": 45,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
         "singles": "NR"
     },
     {
-        "id": 7447391792,
-        "name": "Mo Li",
-        "duprId": "XONELX",
-        "age": 45,
+        "id": 4998332756,
+        "name": "Alexander Berezhnoi",
+        "duprId": "L2LZ7Z",
+        "age": 19,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.347",
-        "drScore": 1,
-        "singles": "3.207",
-        "srScore": 1
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/40c9fcf1-5c64-4aaa-a175-e0a99287a354.jpg",
+        "doubles": "4.000",
+        "drScore": 100,
+        "singles": "4.274",
+        "srScore": 100
     },
     {
-        "id": 6281670711,
-        "name": "Boris  Pershin",
-        "duprId": "D5990Y",
-        "age": 38,
+        "id": 4934871427,
+        "name": "Kirill Bush",
+        "duprId": "0Q0QV4",
+        "age": 43,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.878",
-        "drScore": 10,
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/VNrbdGnHV0e7acezaBgERJnT.jpg",
+        "doubles": "3.444",
+        "drScore": 70,
         "singles": "NR",
         "srScore": 0
     },
     {
-        "id": 5448065091,
-        "name": "Alex Kibalov",
-        "duprId": "OR6492",
-        "age": 35,
-        "gender": "MALE",
+        "id": 7511168762,
+        "name": "Ksenia  Dudko",
+        "duprId": "L2L5LQ",
+        "age": 31,
+        "gender": "FEMALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/52b46402-1d46-4f8a-91b3-67b2d8316129.png",
+        "doubles": "4.112",
+        "drScore": 10,
+        "singles": "3.901",
+        "srScore": 10
     },
     {
-        "id": 5624127172,
-        "name": "Aleksei Zhigalov",
-        "duprId": "0PRE9G",
-        "age": 44,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 6032744155,
-        "name": "Gayk Avakian",
-        "duprId": "PW2JMZ",
+        "id": 6466867111,
+        "name": "Thuy Dieu Nguyen",
+        "duprId": "XONEDX",
         "age": 33,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "4.040",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5359190255,
+        "name": "Maxim Zhuravlev",
+        "duprId": "7Z57QN",
+        "age": 32,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 6153247008,
+        "name": "Sergey  Belov",
+        "duprId": "RY9OLN",
+        "age": 27,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.483",
+        "drScore": 10,
+        "singles": "3.826",
+        "srScore": 20
+    },
+    {
+        "id": 5392140335,
+        "name": "Alexander Gawrikov",
+        "duprId": "X27RE4",
+        "age": 47,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
@@ -1729,59 +2506,26 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 7755395189,
-        "name": "IBRAHIM YILDIZ",
-        "duprId": "YXRXV4",
-        "age": 45,
+        "id": 4713008548,
+        "name": "Olga Martynova",
+        "duprId": "K5NEJ7",
+        "age": 44,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.778",
+        "drScore": 40,
+        "singles": "4.320",
+        "srScore": 10
+    },
+    {
+        "id": 6281670711,
+        "name": "Boris  Pershin",
+        "duprId": "D5990Y",
+        "age": 38,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.401",
-        "drScore": 1,
-        "singles": "3.055",
-        "srScore": 1
-    },
-    {
-        "id": 4339039285,
-        "name": "Anastasia Mayer",
-        "duprId": "9J7VVV",
-        "age": 39,
-        "gender": "FEMALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/3O34jWI9tLMHbQ0EA19GtVYQ.jpg",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 7807610527,
-        "name": "posa чан",
-        "duprId": "LWJ2QQ",
-        "age": 42,
-        "gender": "FEMALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 7725442270,
-        "name": "Varya Trankina",
-        "duprId": "0ZKX5Q",
-        "age": 18,
-        "gender": "FEMALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.874",
-        "drScore": 1,
-        "singles": "3.397",
-        "srScore": 1
-    },
-    {
-        "id": 6231935031,
-        "name": "Leonid Ovchinnikov",
-        "duprId": "4QR7GK",
-        "age": 33,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.246",
-        "drScore": 70,
+        "doubles": "2.878",
+        "drScore": 10,
         "singles": "NR",
         "srScore": 0
     },
@@ -1820,6 +2564,16 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 5497310543,
+        "name": "Nikita Beregovoi",
+        "duprId": "N5PGYW",
+        "age": 28,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
         "id": 5033177385,
         "name": "Doan Van Thanh",
         "duprId": "D5054Y",
@@ -1828,19 +2582,6 @@ window.playersData =
         "shortAddress": "Moscow, Moscow, RU",
         "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/6cabc14a-25b6-44d5-8099-02125c8855a4.jpg",
         "doubles": "2.953",
-        "drScore": 10,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 6545596507,
-        "name": "Bui Khoi",
-        "duprId": "PPOOGX",
-        "age": 45,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/51db58b2-bcb9-4ee9-b60d-b4b544e5e0e5.jpg",
-        "doubles": "2.604",
         "drScore": 10,
         "singles": "NR",
         "srScore": 0
@@ -1858,6 +2599,101 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 7327727001,
+        "name": "Phạm Thanh Tùng",
+        "duprId": "YN660E",
+        "age": 51,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/aa2fda02-4f40-4881-9db9-e82a8f08f5f3.jpg",
+        "doubles": "2.691",
+        "drScore": 100,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 6266034927,
+        "name": "Wu Xiaoqi",
+        "duprId": "2ZE06Y",
+        "age": 45,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.101",
+        "drScore": 1,
+        "singles": "3.311",
+        "srScore": 1
+    },
+    {
+        "id": 6586642456,
+        "name": "Hai Long Nguyen",
+        "duprId": "N5WOYN",
+        "age": 41,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.297",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7806184794,
+        "name": "Nala Nala",
+        "duprId": "JPRL2O",
+        "age": 45,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.101",
+        "drScore": 1,
+        "singles": "3.602",
+        "srScore": 10
+    },
+    {
+        "id": 5122135319,
+        "name": "Thu Ha Thi Nguyen",
+        "duprId": "P5EROQ",
+        "age": 50,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "4.040",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 8352775501,
+        "name": "Elena Barchan",
+        "duprId": "Z4N4QP",
+        "age": 40,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 6450725041,
+        "name": "Kirill Blintsov",
+        "duprId": "ZZR67Q",
+        "age": 32,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "drScore": 0,
+        "singles": "3.454",
+        "srScore": 90
+    },
+    {
+        "id": 6705747612,
+        "name": "Anton Gorbachev",
+        "duprId": "MPRL0L",
+        "age": 44,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.449",
+        "drScore": 1,
+        "singles": "3.473",
+        "srScore": 1
+    },
+    {
         "id": 6763666059,
         "name": "Alex Pozdnyakov",
         "duprId": "KXKQ97",
@@ -1868,66 +2704,6 @@ window.playersData =
         "drScore": 40,
         "singles": "NR",
         "srScore": 0
-    },
-    {
-        "id": 6483044874,
-        "name": "Alex S",
-        "duprId": "N7VD96",
-        "age": 30,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.355",
-        "drScore": 1,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 4923076272,
-        "name": "Ildar Davydov",
-        "duprId": "99GGK7",
-        "age": 31,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.411",
-        "drScore": 1,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 8135807263,
-        "name": "Aleksei Struk",
-        "duprId": "JJ7VLW",
-        "age": 54,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 7328553721,
-        "name": "Алексей Баталов",
-        "duprId": "O69EME",
-        "age": 19,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/2c602650-6599-4f00-8a0b-57b444315c15.jpg",
-        "doubles": "3.481",
-        "drScore": 10,
-        "singles": "3.130",
-        "srScore": 10
-    },
-    {
-        "id": 5637202387,
-        "name": "Баталова Елена",
-        "duprId": "JJ7244",
-        "age": 44,
-        "gender": "FEMALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/622dde88-6097-4597-a5d0-718397574377.jpg",
-        "doubles": "3.353",
-        "drScore": 10,
-        "singles": "3.929",
-        "srScore": 10
     },
     {
         "id": 6332572305,
@@ -1942,28 +2718,16 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 6247843002,
-        "name": "Trịnh Hoàng Trung",
-        "duprId": "KDYG5K",
-        "age": 22,
+        "id": 6849290408,
+        "name": "Daniil Velesevich",
+        "duprId": "7J4VWM",
+        "age": 25,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.741",
-        "drScore": 20,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 7893096881,
-        "name": "Irina Komova",
-        "duprId": "949OMV",
-        "age": 53,
-        "gender": "FEMALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.800",
-        "drScore": 20,
-        "singles": "NR",
-        "srScore": 0
+        "doubles": "3.373",
+        "drScore": 1,
+        "singles": "3.572",
+        "srScore": 1
     },
     {
         "id": 5803580518,
@@ -1974,42 +2738,6 @@ window.playersData =
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
         "singles": "NR"
-    },
-    {
-        "id": 6576833705,
-        "name": "Dmitryy Nepokrytyy",
-        "duprId": "4VLP66",
-        "age": 41,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.838",
-        "drScore": 1,
-        "singles": "2.734",
-        "srScore": 10
-    },
-    {
-        "id": 7732968672,
-        "name": "Tung Bach Le",
-        "duprId": "V6R6KP",
-        "age": 47,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.605",
-        "drScore": 30,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 7587965594,
-        "name": "Mikhail Lebedev",
-        "duprId": "0QOQRX",
-        "age": 63,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.868",
-        "drScore": 60,
-        "singles": "2.932",
-        "srScore": 40
     },
     {
         "id": 6670904733,
@@ -2024,32 +2752,10 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 8325648376,
-        "name": "Alexey Semashko",
-        "duprId": "OWVL4P",
-        "age": 53,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.874",
-        "drScore": 1,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 7230880634,
-        "name": "Adrian( el chino)  Acosta",
-        "duprId": "G060JD",
-        "age": 33,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 4721960839,
-        "name": "nina Bagirova",
-        "duprId": "OWYJ02",
-        "age": 44,
+        "id": 4646034108,
+        "name": "Ilya Baraz",
+        "duprId": "PP42DG",
+        "age": 40,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
@@ -2076,18 +2782,6 @@ window.playersData =
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "3.608",
         "drScore": 10,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 7163929004,
-        "name": "Polina Knyazeva",
-        "duprId": "GWJ2JM",
-        "age": 19,
-        "gender": "FEMALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "2.874",
-        "drScore": 1,
         "singles": "NR",
         "srScore": 0
     },
@@ -2127,42 +2821,23 @@ window.playersData =
         "singles": "NR"
     },
     {
-        "id": 5930841270,
-        "name": "Andrei  Katyrin",
-        "duprId": "0POLMN",
-        "age": 39,
-        "gender": "MALE",
+        "id": 5202809745,
+        "name": "Anna Le",
+        "duprId": "LWLN7J",
+        "age": 33,
+        "gender": "FEMALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 5047517659,
-        "name": "Aleksandr  Kupriianov",
-        "duprId": "EW4Q6J",
-        "age": 56,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.306",
-        "drScore": 10,
-        "singles": "3.648",
-        "srScore": 30
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/2137cb39-c357-4b7a-9746-4b465186701f.jpg",
+        "doubles": "2.463",
+        "drScore": 80,
+        "singles": "NR",
+        "srScore": 0
     },
     {
         "id": 4439628540,
         "name": "Dmitry Tsvetkov",
         "duprId": "GX5P9Q",
         "age": 35,
-        "gender": "MALE",
-        "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 4880338184,
-        "name": "Anton Kalashnikov",
-        "duprId": "YMZ2LP",
-        "age": 40,
         "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
@@ -2182,6 +2857,19 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 6545596507,
+        "name": "Bui Khoi",
+        "duprId": "PPOOGX",
+        "age": 45,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/51db58b2-bcb9-4ee9-b60d-b4b544e5e0e5.jpg",
+        "doubles": "2.604",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
         "id": 5926675099,
         "name": "Linh Chi Dao",
         "duprId": "DYZ5OL",
@@ -2192,6 +2880,190 @@ window.playersData =
         "drScore": 40,
         "singles": "NR",
         "srScore": 0
+    },
+    {
+        "id": 6960129322,
+        "name": "Alisa Kokorina",
+        "duprId": "0ZNG9Q",
+        "age": 27,
+        "gender": "FEMALE",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/IXGdziIthSkHJ2qcnbC6PWnn.jpg",
+        "doubles": "2.684",
+        "drScore": 50,
+        "singles": "2.858",
+        "srScore": 20
+    },
+    {
+        "id": 6557280658,
+        "name": "Maryana Pavlova",
+        "duprId": "6PGJME",
+        "age": 36,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 7893096881,
+        "name": "Irina Komova",
+        "duprId": "949OMV",
+        "age": 53,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.800",
+        "drScore": 20,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5930841270,
+        "name": "Andrei  Katyrin",
+        "duprId": "0POLMN",
+        "age": 39,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 7088843859,
+        "name": "ORLOV DENIS",
+        "duprId": "30V5V4",
+        "age": 41,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/ya8KsA65NrdlJGo32gkplpGa.jpg",
+        "doubles": "3.616",
+        "drScore": 20,
+        "singles": "3.522",
+        "srScore": 10
+    },
+    {
+        "id": 5133189290,
+        "name": "Ekaterina Chudnenko",
+        "duprId": "8GXE0D",
+        "age": 42,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/68707ab5-dd5a-4251-8cc3-06368f1e527c.jpg",
+        "doubles": "4.568",
+        "drScore": 90,
+        "singles": "4.463",
+        "srScore": 20
+    },
+    {
+        "id": 7230880634,
+        "name": "Adrian( el chino)  Acosta",
+        "duprId": "G060JD",
+        "age": 33,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 4721960839,
+        "name": "nina Bagirova",
+        "duprId": "OWYJ02",
+        "age": 44,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 8378781153,
+        "name": "Dimitrii Ivanov Chakubash",
+        "duprId": "ZZLN2W",
+        "age": 25,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 7163929004,
+        "name": "Polina Knyazeva",
+        "duprId": "GWJ2JM",
+        "age": 19,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.874",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7732968672,
+        "name": "Tung Bach Le",
+        "duprId": "V6R6KP",
+        "age": 47,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.605",
+        "drScore": 30,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 6576833705,
+        "name": "Dmitryy Nepokrytyy",
+        "duprId": "4VLP66",
+        "age": 41,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.838",
+        "drScore": 1,
+        "singles": "2.734",
+        "srScore": 10
+    },
+    {
+        "id": 5047517659,
+        "name": "Aleksandr  Kupriianov",
+        "duprId": "EW4Q6J",
+        "age": 56,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.306",
+        "drScore": 10,
+        "singles": "3.648",
+        "srScore": 30
+    },
+    {
+        "id": 5637202387,
+        "name": "Баталова Елена",
+        "duprId": "JJ7244",
+        "age": 44,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/622dde88-6097-4597-a5d0-718397574377.jpg",
+        "doubles": "3.353",
+        "drScore": 10,
+        "singles": "3.929",
+        "srScore": 10
+    },
+    {
+        "id": 5388700618,
+        "name": "Alina Ilicheva",
+        "duprId": "76RPVN",
+        "age": 41,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/BqomyESTiwrYyeHvcAmaDN6Y.jpg",
+        "doubles": "3.478",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 8135807263,
+        "name": "Aleksei Struk",
+        "duprId": "JJ7VLW",
+        "age": 54,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
     },
     {
         "id": 7635712357,
@@ -2206,14 +3078,100 @@ window.playersData =
         "srScore": 80
     },
     {
-        "id": 6557280658,
-        "name": "Maryana Pavlova",
-        "duprId": "6PGJME",
+        "id": 7328553721,
+        "name": "Алексей Баталов",
+        "duprId": "O69EME",
+        "age": 19,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/2c602650-6599-4f00-8a0b-57b444315c15.jpg",
+        "doubles": "3.481",
+        "drScore": 10,
+        "singles": "3.130",
+        "srScore": 10
+    },
+    {
+        "id": 7006945382,
+        "name": "Leonid  Potemkin",
+        "duprId": "EW42EE",
         "age": 36,
-        "gender": "FEMALE",
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.754",
+        "drScore": 1,
+        "singles": "3.263",
+        "srScore": 30
+    },
+    {
+        "id": 6483044874,
+        "name": "Alex S",
+        "duprId": "N7VD96",
+        "age": 30,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.355",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7587965594,
+        "name": "Mikhail Lebedev",
+        "duprId": "0QOQRX",
+        "age": 63,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.868",
+        "drScore": 60,
+        "singles": "2.932",
+        "srScore": 40
+    },
+    {
+        "id": 7860951351,
+        "name": "Nguyen Quang Chung",
+        "duprId": "WN4P9K",
+        "age": 39,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.604",
+        "drScore": 100,
+        "singles": "3.911",
+        "srScore": 70
+    },
+    {
+        "id": 4880338184,
+        "name": "Anton Kalashnikov",
+        "duprId": "YMZ2LP",
+        "age": 40,
+        "gender": "MALE",
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
         "singles": "NR"
+    },
+    {
+        "id": 4923076272,
+        "name": "Ildar Davydov",
+        "duprId": "99GGK7",
+        "age": 31,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.411",
+        "drScore": 1,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5116008607,
+        "name": "Nikolay Sidorov",
+        "duprId": "X26XR7",
+        "age": 34,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/9eb399a1-3757-4cfd-b1c6-b324a5a3499a.jpg",
+        "doubles": "4.005",
+        "drScore": 100,
+        "singles": "3.690",
+        "srScore": 80
     },
     {
         "id": 4875245737,
@@ -2237,6 +3195,18 @@ window.playersData =
         "shortAddress": "Moscow, Moscow, RU",
         "doubles": "NR",
         "singles": "NR"
+    },
+    {
+        "id": 7431918995,
+        "name": "Natalia Kalacheva",
+        "duprId": "YNVM94",
+        "age": 42,
+        "gender": "FEMALE",
+        "shortAddress": "Moskva, Moskva, RU",
+        "doubles": "NR",
+        "drScore": 0,
+        "singles": "2.739",
+        "srScore": 1
     },
     {
         "id": 5457260605,
@@ -2283,6 +3253,16 @@ window.playersData =
         "drScore": 100,
         "singles": "NR",
         "srScore": 0
+    },
+    {
+        "id": 8111934531,
+        "name": "Павел Любенко",
+        "duprId": "6P79R0",
+        "age": 26,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
     },
     {
         "id": 4830445673,
@@ -2335,6 +3315,18 @@ window.playersData =
         "srScore": 30
     },
     {
+        "id": 8585836490,
+        "name": "Asya Shvekova",
+        "duprId": "4VKG7G",
+        "age": 38,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.623",
+        "drScore": 70,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
         "id": 7313983588,
         "name": "Na La",
         "duprId": "ELE0DV",
@@ -2381,6 +3373,18 @@ window.playersData =
         "singles": "NR"
     },
     {
+        "id": 7882421100,
+        "name": "Mary Martynova",
+        "duprId": "P5JNQM",
+        "age": 19,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.594",
+        "drScore": 30,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
         "id": 8328532730,
         "name": "Alexander Ristich",
         "duprId": "RD6V0Z",
@@ -2403,6 +3407,18 @@ window.playersData =
         "singles": "NR"
     },
     {
+        "id": 8337674616,
+        "name": "Pavel Pitkov",
+        "duprId": "DY7LGM",
+        "age": 50,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.243",
+        "drScore": 1,
+        "singles": "3.678",
+        "srScore": 1
+    },
+    {
         "id": 5293479631,
         "name": "Ekaterina  Efremova",
         "duprId": "P5ML0M",
@@ -2416,16 +3432,16 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 8337674616,
-        "name": "Pavel Pitkov",
-        "duprId": "DY7LGM",
-        "age": 50,
-        "gender": "MALE",
+        "id": 7486610433,
+        "name": "Ekaterina Donskova",
+        "duprId": "OW9VYW",
+        "age": 39,
+        "gender": "FEMALE",
         "shortAddress": "Moscow, Moscow, RU",
-        "doubles": "3.243",
-        "drScore": 1,
-        "singles": "3.678",
-        "srScore": 1
+        "doubles": "3.473",
+        "drScore": 80,
+        "singles": "NR",
+        "srScore": 0
     },
     {
         "id": 8040821172,
@@ -2472,6 +3488,18 @@ window.playersData =
         "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/649573e6-2da6-4fcf-8401-ff9d3e9dc4a0.jpg",
         "doubles": "4.636",
         "drScore": 30,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 4689971937,
+        "name": "Pavel Kravtsov",
+        "duprId": "556OY5",
+        "age": 29,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow",
+        "doubles": "2.412",
+        "drScore": 10,
         "singles": "NR",
         "srScore": 0
     },
@@ -2525,6 +3553,18 @@ window.playersData =
         "srScore": 30
     },
     {
+        "id": 4463883600,
+        "name": "Ruslan Nurmatov",
+        "duprId": "X2YW5X",
+        "age": 44,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "4.884",
+        "drScore": 30,
+        "singles": "4.980",
+        "srScore": 20
+    },
+    {
         "id": 5993273592,
         "name": "Bogdan  Nurmatov",
         "duprId": "76RXPM",
@@ -2571,6 +3611,18 @@ window.playersData =
         "shortAddress": "Moscow",
         "doubles": "NR",
         "singles": "NR"
+    },
+    {
+        "id": 6172865951,
+        "name": "Elizabeth Levina",
+        "duprId": "7NDN09",
+        "age": 46,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "2.904",
+        "drScore": 20,
+        "singles": "NR",
+        "srScore": 0
     },
     {
         "id": 4633934723,
@@ -2635,6 +3687,19 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 5301103584,
+        "name": "Tatiana Berezkina",
+        "duprId": "KX66PQ",
+        "age": 41,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/5e1d6b8f-c7fb-47d8-b84e-72ed5c171db3.jpg",
+        "doubles": "3.588",
+        "drScore": 100,
+        "singles": "3.261",
+        "srScore": 20
+    },
+    {
         "id": 6151918516,
         "name": "Vitalii Danilin",
         "duprId": "ELDXQM",
@@ -2663,6 +3728,19 @@ window.playersData =
         "shortAddress": "Balashikha, МО, RU",
         "doubles": "NR",
         "singles": "NR"
+    },
+    {
+        "id": 5333511737,
+        "name": "Kirill Knyazkov",
+        "duprId": "ORNQ42",
+        "age": 39,
+        "gender": "MALE",
+        "shortAddress": "Odintsovo, МО, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/6402d1a6-f769-48df-b52c-d2a50d2fa68a.jpg",
+        "doubles": "2.746",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
     },
     {
         "id": 7130983958,
@@ -2710,6 +3788,18 @@ window.playersData =
         "doubles": "3.188",
         "drScore": 100,
         "singles": "3.478",
+        "srScore": 1
+    },
+    {
+        "id": 4801573762,
+        "name": "Minh nguyen",
+        "duprId": "9J2QNR",
+        "age": 39,
+        "gender": "MALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.287",
+        "drScore": 60,
+        "singles": "3.247",
         "srScore": 1
     },
     {
@@ -2763,6 +3853,16 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 7230345185,
+        "name": "Julia Kravtsova",
+        "duprId": "ZZ9G4D",
+        "age": 28,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
         "id": 5796252275,
         "name": "Aleksandra Malyarskaya",
         "duprId": "DYJ7V4",
@@ -2807,6 +3907,18 @@ window.playersData =
         "drScore": 100,
         "singles": "3.996",
         "srScore": 60
+    },
+    {
+        "id": 5544617271,
+        "name": "Ekaterina Afanaseva",
+        "duprId": "RDQDKN",
+        "age": 38,
+        "gender": "FEMALE",
+        "shortAddress": "Moscow, Moscow, RU",
+        "doubles": "3.769",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
     },
     {
         "id": 6949384778,
@@ -2858,6 +3970,16 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 6620933380,
+        "name": "Vladimir Fedorov",
+        "duprId": "E9YDNV",
+        "age": 50,
+        "gender": "MALE",
+        "shortAddress": "Zelenograd, Moscow, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
         "id": 6974918290,
         "name": "And Abramov",
         "duprId": "X2VO55",
@@ -2866,18 +3988,6 @@ window.playersData =
         "shortAddress": "Zelenograd, Moscow, RU",
         "doubles": "3.751",
         "drScore": 1,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 8453008747,
-        "name": "Art Maslov",
-        "duprId": "0Q0GYN",
-        "age": 45,
-        "gender": "MALE",
-        "shortAddress": "Zelenograd, Moscow, RU",
-        "doubles": "2.288",
-        "drScore": 100,
         "singles": "NR",
         "srScore": 0
     },
@@ -2894,6 +4004,18 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 8453008747,
+        "name": "Art Maslov",
+        "duprId": "0Q0GYN",
+        "age": 45,
+        "gender": "MALE",
+        "shortAddress": "Zelenograd, Moscow, RU",
+        "doubles": "2.288",
+        "drScore": 100,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
         "id": 6821751324,
         "name": "Elena Shevchenko",
         "duprId": "M2JEVD",
@@ -2905,6 +4027,19 @@ window.playersData =
         "drScore": 100,
         "singles": "4.187",
         "srScore": 1
+    },
+    {
+        "id": 7772211851,
+        "name": "Ilya Markov",
+        "duprId": "O6LDQW",
+        "age": 45,
+        "gender": "MALE",
+        "shortAddress": "Ozeretskoe, МО, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/5w8uTkkGkJMbmbrYHYlJft1g.jpg",
+        "doubles": "3.198",
+        "drScore": 90,
+        "singles": "3.428",
+        "srScore": 70
     },
     {
         "id": 4568011153,
@@ -2950,16 +4085,16 @@ window.playersData =
         "singles": "NR"
     },
     {
-        "id": 7065390302,
-        "name": "Горбачёв  Антон",
-        "duprId": "X29GM4",
-        "age": 44,
+        "id": 5838146422,
+        "name": "Ilya Orlov",
+        "duprId": "5E6LRP",
+        "age": 52,
         "gender": "MALE",
         "shortAddress": "Sergiyev Posad, МО, RU",
-        "doubles": "3.918",
-        "drScore": 30,
-        "singles": "4.088",
-        "srScore": 30
+        "doubles": "NR",
+        "drScore": 0,
+        "singles": "3.607",
+        "srScore": 10
     },
     {
         "id": 8221832096,
@@ -2972,6 +4107,18 @@ window.playersData =
         "drScore": 0,
         "singles": "4.299",
         "srScore": 1
+    },
+    {
+        "id": 7065390302,
+        "name": "Горбачёв  Антон",
+        "duprId": "X29GM4",
+        "age": 44,
+        "gender": "MALE",
+        "shortAddress": "Sergiyev Posad, МО, RU",
+        "doubles": "3.918",
+        "drScore": 30,
+        "singles": "4.088",
+        "srScore": 30
     },
     {
         "id": 6595706228,
@@ -2990,6 +4137,16 @@ window.playersData =
         "name": "PETR SHEVCHENKO",
         "duprId": "N50LPZ",
         "age": 27,
+        "gender": "MALE",
+        "shortAddress": "Russia, МО, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 5907788818,
+        "name": "Viktor Pakhno",
+        "duprId": "GXMNKD",
+        "age": 39,
         "gender": "MALE",
         "shortAddress": "Russia, МО, RU",
         "doubles": "NR",
@@ -3040,6 +4197,18 @@ window.playersData =
         "singles": "NR"
     },
     {
+        "id": 5041552773,
+        "name": "Наталья Черненко",
+        "duprId": "RXE9VQ",
+        "age": 49,
+        "gender": "FEMALE",
+        "shortAddress": "Ryazan, Ryazan Oblast, RU",
+        "doubles": "2.610",
+        "drScore": 20,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
         "id": 4647764851,
         "name": "Yana Newell",
         "duprId": "3LWKMQ",
@@ -3086,6 +4255,16 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 5833745310,
+        "name": "Sergey Denisov",
+        "duprId": "W56XPG",
+        "age": 38,
+        "gender": "MALE",
+        "shortAddress": "Nizhny Novgorod, Nizhny Novgorod Oblast, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
         "id": 6250166598,
         "name": "Anna Chinenova",
         "duprId": "JPXGEJ",
@@ -3129,6 +4308,18 @@ window.playersData =
         "drScore": 10,
         "singles": "NR",
         "srScore": 0
+    },
+    {
+        "id": 7436929892,
+        "name": "Ivan  Grigorev",
+        "duprId": "7N6VOM",
+        "age": 31,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "3.195",
+        "drScore": 100,
+        "singles": "3.498",
+        "srScore": 60
     },
     {
         "id": 5765978564,
@@ -3179,6 +4370,16 @@ window.playersData =
         "drScore": 30,
         "singles": "NR",
         "srScore": 0
+    },
+    {
+        "id": 7083535078,
+        "name": "Ekaterina Zudilina",
+        "duprId": "RX0XRE",
+        "age": 40,
+        "gender": "FEMALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "NR",
+        "singles": "NR"
     },
     {
         "id": 6028485557,
@@ -3241,6 +4442,19 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 6173093337,
+        "name": "Maria Klokotzky ",
+        "duprId": "9PR06E",
+        "age": 39,
+        "gender": "FEMALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/8a4a2594-c3d8-4a7e-b72f-5d5fb8d4367d.jpg",
+        "doubles": "5.574",
+        "drScore": 100,
+        "singles": "4.992",
+        "srScore": 50
+    },
+    {
         "id": 5634303207,
         "name": "Aleksandr Terskov",
         "duprId": "Y4DZ7P",
@@ -3280,28 +4494,16 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 5996403182,
-        "name": "Sergey Lebedev",
-        "duprId": "30P6JN",
-        "age": 63,
+        "id": 8197756320,
+        "name": "Boris Kulakov",
+        "duprId": "VXR74J",
+        "age": 47,
         "gender": "MALE",
         "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
-        "doubles": "2.822",
-        "drScore": 40,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 5670747512,
-        "name": "Pavel Verchyk",
-        "duprId": "6NW4XQ",
-        "age": 31,
-        "gender": "MALE",
-        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
-        "doubles": "3.818",
+        "doubles": "3.529",
         "drScore": 1,
-        "singles": "3.672",
-        "srScore": 10
+        "singles": "3.325",
+        "srScore": 1
     },
     {
         "id": 6590812249,
@@ -3341,16 +4543,38 @@ window.playersData =
         "srScore": 40
     },
     {
-        "id": 6448455409,
-        "name": "Arseny Shahov",
-        "duprId": "PP00WE",
+        "id": 5996403182,
+        "name": "Sergey Lebedev",
+        "duprId": "30P6JN",
+        "age": 63,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "2.822",
+        "drScore": 40,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 5015164895,
+        "name": "Mikhal Gerasimov",
+        "duprId": "KYQONY",
+        "age": 28,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "2.299",
+        "singles": "NR"
+    },
+    {
+        "id": 5670747512,
+        "name": "Pavel Verchyk",
+        "duprId": "6NW4XQ",
         "age": 31,
         "gender": "MALE",
         "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
-        "doubles": "2.679",
-        "drScore": 30,
-        "singles": "NR",
-        "srScore": 0
+        "doubles": "3.818",
+        "drScore": 1,
+        "singles": "3.672",
+        "srScore": 10
     },
     {
         "id": 5541636618,
@@ -3376,16 +4600,14 @@ window.playersData =
         "singles": "NR"
     },
     {
-        "id": 7835544449,
-        "name": "Svetlana Lebedeva",
-        "duprId": "3PPQLQ",
-        "age": 58,
-        "gender": "FEMALE",
+        "id": 6683933555,
+        "name": "Ilmir Akhmadeev",
+        "duprId": "7Z0LQ5",
+        "age": 37,
+        "gender": "MALE",
         "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
-        "doubles": "3.786",
-        "drScore": 60,
-        "singles": "NR",
-        "srScore": 0
+        "doubles": "NR",
+        "singles": "NR"
     },
     {
         "id": 8168484095,
@@ -3398,52 +4620,6 @@ window.playersData =
         "drScore": 1,
         "singles": "3.547",
         "srScore": 1
-    },
-    {
-        "id": 6683933555,
-        "name": "Ilmir Akhmadeev",
-        "duprId": "7Z0LQ5",
-        "age": 37,
-        "gender": "MALE",
-        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 7432717220,
-        "name": "Dmitrii Skakun",
-        "duprId": "Z09O2P",
-        "age": 58,
-        "gender": "MALE",
-        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 6620866130,
-        "name": "Victor Serbinov",
-        "duprId": "7J0KZ9",
-        "age": 70,
-        "gender": "MALE",
-        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/d6c94f52-59c9-4fde-b4a8-f2193526c9ea.jpg",
-        "doubles": "3.482",
-        "drScore": 60,
-        "singles": "NR",
-        "srScore": 0
-    },
-    {
-        "id": 5396317191,
-        "name": "Oleg Trenkin",
-        "duprId": "XOEO95",
-        "age": 40,
-        "gender": "MALE",
-        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/07LnL5csL4b39pvvtj5M6Hh3.jpg",
-        "doubles": "3.206",
-        "drScore": 10,
-        "singles": "NR",
-        "srScore": 0
     },
     {
         "id": 7937347150,
@@ -3459,6 +4635,76 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 6448455409,
+        "name": "Arseny Shahov",
+        "duprId": "PP00WE",
+        "age": 31,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "2.679",
+        "drScore": 30,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 6620866130,
+        "name": "Victor Serbinov",
+        "duprId": "7J0KZ9",
+        "age": 70,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/d6c94f52-59c9-4fde-b4a8-f2193526c9ea.jpg",
+        "doubles": "3.482",
+        "drScore": 60,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 8364873975,
+        "name": "ilia  Neialov",
+        "duprId": "4PNE4M",
+        "age": 36,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 5396317191,
+        "name": "Oleg Trenkin",
+        "duprId": "XOEO95",
+        "age": 40,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/07LnL5csL4b39pvvtj5M6Hh3.jpg",
+        "doubles": "3.206",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7835544449,
+        "name": "Svetlana Lebedeva",
+        "duprId": "3PPQLQ",
+        "age": 58,
+        "gender": "FEMALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "3.786",
+        "drScore": 60,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 7432717220,
+        "name": "Dmitrii Skakun",
+        "duprId": "Z09O2P",
+        "age": 58,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
         "id": 7170497650,
         "name": "Elena Fomina",
         "duprId": "0PW7KG",
@@ -3472,26 +4718,17 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 8336687797,
-        "name": "Diana Grigoryan",
-        "duprId": "XORY75",
-        "age": 17,
-        "gender": "FEMALE",
+        "id": 7731897973,
+        "name": "Ruslan Botez",
+        "duprId": "PZ0V2X",
+        "age": 47,
+        "gender": "MALE",
         "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
-        "doubles": "2.787",
-        "drScore": 20,
-        "singles": "3.141",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/67610de3-6fa4-4754-9717-0ce234413d54.jpg",
+        "doubles": "2.946",
+        "drScore": 30,
+        "singles": "3.666",
         "srScore": 30
-    },
-    {
-        "id": 6495274316,
-        "name": "Anastasia Bobrova",
-        "duprId": "LZQ976",
-        "age": 45,
-        "gender": "FEMALE",
-        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
-        "doubles": "2.354",
-        "singles": "NR"
     },
     {
         "id": 6905324743,
@@ -3506,18 +4743,6 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 6761449976,
-        "name": "Anastasia Tulsanova",
-        "duprId": "J599E4",
-        "age": 17,
-        "gender": "FEMALE",
-        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
-        "doubles": "3.718",
-        "drScore": 100,
-        "singles": "3.559",
-        "srScore": 50
-    },
-    {
         "id": 8346151170,
         "name": "Denis Trotsenko",
         "duprId": "KY5NZQ",
@@ -3526,6 +4751,29 @@ window.playersData =
         "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
         "doubles": "2.402",
         "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
+        "id": 4604580151,
+        "name": "Gleb Beloborodov",
+        "duprId": "EVWMZW",
+        "age": 15,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 5377988586,
+        "name": "Alexander Chekmarev",
+        "duprId": "KDWWZY",
+        "age": 38,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/joYGoUgstn5bADniTKy5xWUP.jpg",
+        "doubles": "2.895",
+        "drScore": 30,
         "singles": "NR",
         "srScore": 0
     },
@@ -3564,6 +4812,52 @@ window.playersData =
         "srScore": 10
     },
     {
+        "id": 6761449976,
+        "name": "Anastasia Tulsanova",
+        "duprId": "J599E4",
+        "age": 17,
+        "gender": "FEMALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "3.718",
+        "drScore": 100,
+        "singles": "3.559",
+        "srScore": 50
+    },
+    {
+        "id": 8336687797,
+        "name": "Diana Grigoryan",
+        "duprId": "XORY75",
+        "age": 17,
+        "gender": "FEMALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "2.787",
+        "drScore": 20,
+        "singles": "3.141",
+        "srScore": 30
+    },
+    {
+        "id": 6495274316,
+        "name": "Anastasia Bobrova",
+        "duprId": "LZQ976",
+        "age": 45,
+        "gender": "FEMALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "2.354",
+        "singles": "NR"
+    },
+    {
+        "id": 8140179671,
+        "name": "Svetlana Privalova",
+        "duprId": "X0GYQX",
+        "age": 55,
+        "gender": "FEMALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "3.377",
+        "drScore": 30,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
         "id": 4940635504,
         "name": "Vladislav Romanov",
         "duprId": "J5OXNO",
@@ -3590,6 +4884,29 @@ window.playersData =
         "srScore": 0
     },
     {
+        "id": 4920757754,
+        "name": "Elafimov Vyacheslav",
+        "duprId": "VXVNKP",
+        "age": 36,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 4754430493,
+        "name": "Konstantin leonov",
+        "duprId": "ORZMWE",
+        "age": 35,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/d5ea184f-d93b-4bc8-a608-4247a16f5b2a.jpg",
+        "doubles": "2.687",
+        "drScore": 10,
+        "singles": "NR",
+        "srScore": 0
+    },
+    {
         "id": 7635496621,
         "name": "Dmitri Elfimov",
         "duprId": "Y4QMZP",
@@ -3597,16 +4914,6 @@ window.playersData =
         "gender": "MALE",
         "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
         "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/316578f8-2775-470a-88a1-94e9da060076.jpg",
-        "doubles": "NR",
-        "singles": "NR"
-    },
-    {
-        "id": 4920757754,
-        "name": "Elafimov Vyacheslav",
-        "duprId": "VXVNKP",
-        "age": 36,
-        "gender": "MALE",
-        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
         "doubles": "NR",
         "singles": "NR"
     },
@@ -3645,17 +4952,26 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 6891969427,
-        "name": "Aleksandr Abramow",
-        "duprId": "WZRR9K",
-        "age": 34,
+        "id": 7494600209,
+        "name": "Dmitriy  Baev",
+        "duprId": "4V9P6M",
+        "age": 45,
         "gender": "MALE",
         "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
-        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/ca2e7542-c1ba-44dd-a136-ba55b2236be3.jpg",
-        "doubles": "3.221",
-        "drScore": 60,
-        "singles": "NR",
-        "srScore": 0
+        "doubles": "3.869",
+        "drScore": 10,
+        "singles": "3.731",
+        "srScore": 10
+    },
+    {
+        "id": 6428994933,
+        "name": "Artem Galitzine",
+        "duprId": "E96PJJ",
+        "age": 32,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "NR",
+        "singles": "NR"
     },
     {
         "id": 4967814218,
@@ -3671,26 +4987,14 @@ window.playersData =
         "srScore": 0
     },
     {
-        "id": 6428994933,
-        "name": "Artem Galitzine",
-        "duprId": "E96PJJ",
-        "age": 32,
+        "id": 6523392493,
+        "name": "Konstantin Lronov",
+        "duprId": "Y4N9MG",
+        "age": 35,
         "gender": "MALE",
         "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
         "doubles": "NR",
         "singles": "NR"
-    },
-    {
-        "id": 4590252128,
-        "name": "Tima kuznetsov",
-        "duprId": "EX0EOJ",
-        "age": 36,
-        "gender": "MALE",
-        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
-        "doubles": "3.005",
-        "drScore": 90,
-        "singles": "2.855",
-        "srScore": 10
     },
     {
         "id": 7394053157,
@@ -3703,6 +5007,18 @@ window.playersData =
         "drScore": 1,
         "singles": "3.561",
         "srScore": 1
+    },
+    {
+        "id": 4590252128,
+        "name": "Tima kuznetsov",
+        "duprId": "EX0EOJ",
+        "age": 36,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "3.005",
+        "drScore": 90,
+        "singles": "2.855",
+        "srScore": 10
     },
     {
         "id": 5871371085,
@@ -3739,6 +5055,16 @@ window.playersData =
         "name": "Stepan Logvin",
         "duprId": "0ZV6PG",
         "age": 31,
+        "gender": "MALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
+        "id": 4796877786,
+        "name": "Denis Vasenichev",
+        "duprId": "ZZQ9EM",
+        "age": 39,
         "gender": "MALE",
         "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
         "doubles": "NR",
@@ -3791,6 +5117,19 @@ window.playersData =
         "srScore": 80
     },
     {
+        "id": 6400509718,
+        "name": "Karina Kashtaner",
+        "duprId": "4PK4GM",
+        "age": 20,
+        "gender": "FEMALE",
+        "shortAddress": "Saint Petersburg, Saint Petersburg, RU",
+        "imageUrl": "https://d3nzu3hg08kotg.cloudfront.net/images/44900639-263b-4f89-a84c-07cc3f15bf05.jpg",
+        "doubles": "3.883",
+        "drScore": 100,
+        "singles": "4.141",
+        "srScore": 60
+    },
+    {
         "id": 6777636660,
         "name": "Ekaterina-Victoria Martianova",
         "duprId": "JY56KD",
@@ -3841,6 +5180,16 @@ window.playersData =
         "srScore": 10
     },
     {
+        "id": 7717274309,
+        "name": "Misha",
+        "duprId": "5ELYLL",
+        "age": 34,
+        "gender": "MALE",
+        "shortAddress": "Minsk, Minsk Region, BY",
+        "doubles": "NR",
+        "singles": "NR"
+    },
+    {
         "id": 4650568293,
         "name": "Anna Dolgova",
         "duprId": "KDGEKY",
@@ -3863,18 +5212,6 @@ window.playersData =
         "srScore": 1
     },
     {
-        "id": 4496120920,
-        "name": "Adam Goedde",
-        "duprId": "99JZVR",
-        "age": 30,
-        "gender": "MALE",
-        "shortAddress": "Võnnu, Tartu County, EE",
-        "doubles": "4.033",
-        "drScore": 40,
-        "singles": "3.382",
-        "srScore": 10
-    },
-    {
         "id": 5806411311,
         "name": "Ekaterina Korkunova",
         "duprId": "D54GVY",
@@ -3883,5 +5220,5 @@ window.playersData =
         "shortAddress": "Kazan, Republic of Tatarstan, RU",
         "doubles": "NR",
         "singles": "NR"
-    }
+    }   
 ];
