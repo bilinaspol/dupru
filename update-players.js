@@ -8,8 +8,17 @@ const [
   ,
   baseFileArg = 'players.js',
   todayFileArg = 'players.json',
-  outFileArg = 'players-updated.js',
+  outFileArg = 'players.js',
+  dateArg = formatTodayDate(),
+  indexFileArg = 'index.html',
 ] = process.argv;
+
+function formatTodayDate(date = new Date()) {
+  const day = String(date.getDate()).padStart(2, '0');
+  const month = String(date.getMonth() + 1).padStart(2, '0');
+  const year = date.getFullYear();
+  return `${day}/${month}/${year}`;
+}
 
 function readPlayers(filePath) {
   const fullPath = path.resolve(filePath);
@@ -40,6 +49,30 @@ function writePlayersJs(filePath, players) {
   );
 }
 
+function updateIndexDate(filePath, dateText) {
+  const fullPath = path.resolve(filePath);
+
+  if (!fs.existsSync(fullPath)) {
+    console.log(`Skipped ${filePath}: file not found`);
+    return false;
+  }
+
+  const html = fs.readFileSync(fullPath, 'utf8');
+  const updatedHtml = html.replace(
+    /(pickleball players on )\d{2}\/\d{2}\/\d{4}/,
+    `$1${dateText}`
+  );
+
+  if (updatedHtml === html) {
+    console.log(`Skipped ${filePath}: date heading pattern not found`);
+    return false;
+  }
+
+  fs.writeFileSync(fullPath, updatedHtml);
+  console.log(`Updated ${filePath}: title date is now ${dateText}`);
+  return true;
+}
+
 function main() {
   const basePlayers = readPlayers(baseFileArg);
   const todayPlayers = readPlayers(todayFileArg);
@@ -49,6 +82,7 @@ function main() {
   const mergedPlayers = [...basePlayers, ...newPlayers];
 
   writePlayersJs(outFileArg, mergedPlayers);
+  updateIndexDate(indexFileArg, dateArg);
 
   console.log(`Base ${baseFileArg}: ${basePlayers.length} player(s)`);
   console.log(`Today ${todayFileArg}: ${todayPlayers.length} player(s)`);
