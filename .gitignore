@@ -1,3 +1,9 @@
-players.json
-players622.json
+players[0-9]*.json
+players-[0-9]*.js
+diff[0-9]*.json
 diff.json
+absent[0-9]*.json
+absent.json
+compare-players[0-9]*.js
+work[0-9]*.txt
+work.txt

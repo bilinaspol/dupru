@@ -3,7 +3,14 @@
 const fs = require('fs');
 const path = require('path');
 
-const [, , oldFileArg = 'players622.json', newFileArg = 'players.json', outFileArg = 'diff.json'] = process.argv;
+const [
+  ,
+  ,
+  oldFileArg = 'players622.json',
+  newFileArg = 'players.json',
+  outFileArg = 'diff.json',
+  absentFileArg = 'absent.json',
+] = process.argv;
 
 function readPlayers(filePath) {
   const fullPath = path.resolve(filePath);
@@ -57,7 +64,16 @@ function main() {
       .map(player => [player.duprId, player])
   );
 
+  const newDuprIds = new Set(
+    newPlayers
+      .filter(player => player.duprId)
+      .map(player => player.duprId)
+  );
+
   const diffPlayers = [];
+  const absentPlayers = oldPlayers
+    .filter(player => player.duprId && !newDuprIds.has(player.duprId))
+    .map(player => ({ ...player, isAbsent: true }));
 
   for (const player of newPlayers) {
     const oldPlayer = oldByDuprId.get(player.duprId);
@@ -90,20 +106,36 @@ function main() {
   }
 
   fs.writeFileSync(outFileArg, `${JSON.stringify(diffPlayers, null, 2)}\n`);
+  fs.writeFileSync(absentFileArg, `${JSON.stringify(absentPlayers, null, 2)}\n`);
 
   console.log(`Compared old=${oldFileArg} (${oldPlayers.length}) with new=${newFileArg} (${newPlayers.length})`);
   console.log(`Wrote ${diffPlayers.length} changed/new player(s) to ${outFileArg}`);
+  console.log(`Wrote ${absentPlayers.length} absent player(s) to ${absentFileArg}`);
 
   if (diffPlayers.length) {
+    console.log('\nChanged/new players:');
     console.table(diffPlayers.map(player => ({
+      mark: player.isNew ? 'NEW' : 'CHANGED',
       name: player.name,
       age: player.age ?? '',
       doubles: player.doubles ?? '',
       'doubles-diff': player.isNew ? 'NEW' : (player['doubles-diff'] ?? ''),
-      singles: player.singles ?? '',
-      'singles-diff': player.isNew ? 'NEW' : (player['singles-diff'] ?? ''),
-    })));
-  }
-}
 
-main();
+      singles: player.singles ?? '',
+            'singles-diff': player.isNew ? 'NEW' : (player['singles-diff'] ?? ''),
+          })));
+        }
+
+        if (absentPlayers.length) {
+          console.log('\nAbsent players:');
+          console.table(absentPlayers.map(player => ({
+            mark: 'ABSENT',
+            name: player.name,
+            age: player.age ?? '',
+            doubles: player.doubles ?? '',
+            singles: player.singles ?? '',
+          })));
+        }
+      }
+
+      main();
