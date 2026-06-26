@@ -27,7 +27,7 @@
 <div class="max-w-7xl mx-auto bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
     <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
         <div>
-            <h2 class="text-sm sm:text-base md:text-xl font-bold text-slate-700 whitespace-nowrap">DUPR rate RU <span class="ru-flag" aria-label="Russian flag" title="Russian flag"></span> pickleball players on 24/06/2026</h2>
+            <h2 class="text-sm sm:text-base md:text-xl font-bold text-slate-700 whitespace-nowrap">DUPR rate RU <span class="ru-flag" aria-label="Russian flag" title="Russian flag"></span> pickleball players on 26/06/2026</h2>
             <p id="counterBadge" class="text-sm text-slate-500 mt-1">Загрузка данных...</p>
         </div>
         
@@ -69,7 +69,7 @@
                         Singles <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
                     <!-- Renamed Header Category Column -->
-                    <th data-sort="shortAddress" class="p-4 text-left whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors" style="text-align: left;">
+<th data-sort="shortAddress" class="p-4 text-left whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors" style="text-align: left;">
                         DUPR origin <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
                 </tr>
@@ -94,19 +94,54 @@
     const counterBadge = document.getElementById('counterBadge');
     const headers = document.querySelectorAll('th[data-sort]');
 
-    function initApp() {
-        if (typeof window.playersData !== 'undefined' && Array.isArray(window.playersData)) {
-            masterPlayersList = window.playersData.filter(player => !/,\s*EE$/i.test(player.shortAddress || '')).map(player => {
-                const nameParts = player.name.split(/\s+/).filter(part => part.length > 0);
-                const surname = nameParts.length > 1 ? nameParts[nameParts.length - 1] : player.name;
-                return { ...player, surname };
-            });
-            processAndRenderData();
-        } else {
+    async function decodeGzippedBase64Json(base64Text) {
+        if (!('DecompressionStream' in window)) {
+            throw new Error('Browser does not support DecompressionStream for gzip decoding');
+        }
+
+        const binary = atob(base64Text);
+        const bytes = new Uint8Array(binary.length);
+        for (let i = 0; i < binary.length; i++) {
+            bytes[i] = binary.charCodeAt(i);
+        }
+
+        const stream = new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'));
+        return JSON.parse(await new Response(stream).text());
+    }
+
+    async function getPlayersData() {
+        if (Array.isArray(window.playersData)) {
+            return window.playersData;
+        }
+
+        if (typeof window.playersDataGzipBase64 === 'string') {
+            const players = await decodeGzippedBase64Json(window.playersDataGzipBase64);
+            window.playersData = players;
+            return players;
+        }
+
+        return null;
+    }
+
+    async function initApp() {
+        try {
+            const playersData = await getPlayersData();
+            if (Array.isArray(playersData)) {
+                masterPlayersList = playersData.filter(player => !/,\s*EE$/i.test(player.shortAddress || '')).map(player => {
+                    const nameParts = player.name.split(/\s+/).filter(part => part.length > 0);
+                    const surname = nameParts.length > 1 ? nameParts[nameParts.length - 1] : player.name;
+                    return { ...player, surname };
+                });
+                processAndRenderData();
+            } else {
+                throw new Error('Players data object was not found');
+            }
+        } catch (error) {
+            console.error(error);
             tableBody.innerHTML = `
                 <tr>
                     <td colspan="8" class="p-8 text-center text-red-500 font-medium">
-                        Ошибка: Объект данных не найден. Убедитесь, что ваш файл сохранен как "players.js" и содержит "window.playersData = [...]".
+                        Ошибка: данные игроков не найдены или не распакованы. Убедитесь, что "players.js" содержит "window.playersDataGzipBase64 = ...".
                     </td>
                 </tr>`;
         }
@@ -137,7 +172,7 @@
     }
 
     function renderTable(data) {
-        if (data.length === 0) {
+if (data.length === 0) {
             tableBody.innerHTML = `
                 <tr>
                     <td colspan="8" class="p-8 text-center text-slate-400 italic">Игроки не найдены</td>
@@ -195,7 +230,7 @@
                             <span>${sglVal}</span>
                             ${srScoreHtml}
                         </div>
-                    </td>
+</td>
                     <td class="${originCellClass}" title="${cleanedLocation}">${cleanedLocation}</td>
                 </tr>
             `;
@@ -277,7 +312,7 @@
                 } else {
                     currentSortField = selectedField;
                     currentSortDirection = (selectedField === 'surname' || selectedField === 'shortAddress' || selectedField === 'gender') ? 'asc' : 'desc';
-                }
+}
                 processAndRenderData();
             });
         });
@@ -290,4 +325,3 @@
 
     </body>
     </html>
-   
