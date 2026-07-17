@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Таблица Игроков DUPR</title>
     <!-- Loads the player data directly into memory instantly without fetch -->
-    <script src="players.js?v=20260706-1243"></script>
+    <script src="players.js?v=20260717-1552"></script>
     <!-- Tailwind CSS Play CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
@@ -20,63 +20,117 @@
             border-radius: 2px;
             background: linear-gradient(to bottom, #fff 0 33.333%, #1c57a7 33.333% 66.666%, #d52b1e 66.666% 100%);
         }
+        .compact-player-table {
+            table-layout: fixed;
+            width: 900px;
+            min-width: 900px;
+        }
+        .compact-player-table .col-index { width: 42px; }
+        .compact-player-table .col-name { width: 150px; }
+        .compact-player-table .col-ru-name { width: 168px; }
+        .compact-player-table .col-dupr { width: 76px; }
+        .compact-player-table .col-gender { width: 42px; }
+        .compact-player-table .col-age { width: 52px; }
+        .compact-player-table .col-rating { width: 90px; }
+        .compact-player-table .col-origin { width: 130px; }
+        .compact-player-table .col-select { width: 60px; }
+        .player-select {
+            width: 18px;
+            height: 18px;
+            accent-color: #2563eb;
+            cursor: pointer;
+        }
+        .selected-status {
+            border-color: #cbd5e1;
+            background: #f8fafc;
+            color: #475569;
+        }
+        .selected-status:hover { background: #f1f5f9; }
+        .selected-status.has-selection {
+            border-color: #2563eb;
+            background: #2563eb;
+            color: #fff;
+        }
+        .selected-status.has-selection:hover { background: #1d4ed8; }
+        #clearSearchButton[hidden] { display: none; }
     </style>
 </head>
 <body class="bg-slate-50 text-slate-800 antialiased min-h-screen p-4 md:p-8">
 
 <div class="max-w-7xl mx-auto bg-white rounded-2xl shadow-sm border border-slate-200 p-6">
-    <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-6">
-        <div>
-            <h2 class="text-sm sm:text-base md:text-xl font-bold text-slate-700 whitespace-nowrap">DUPR rate RU <span class="ru-flag" aria-label="Russian flag" title="Russian flag"></span> pickleball players on 06/07/2026</h2>
-            <p id="counterBadge" class="text-sm text-slate-500 mt-1">Загрузка данных...</p>
-        </div>
-        
-        <!-- Search Bar Input Container -->
-        <div class="w-full sm:w-80">
-            <label for="searchBar" class="block text-sm font-medium text-slate-600 mb-1">Поиск игрока</label>
-            <input 
-                type="text" 
-                id="searchBar" 
-                placeholder="Поиск по имени или фамилии..." 
-                class="w-full px-4 py-2 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white"
+    <div id="topToolbar" class="flex flex-wrap items-center justify-start gap-3 mb-2">
+        <h2 class="text-sm sm:text-base md:text-xl font-bold text-slate-700 whitespace-nowrap">DUPR rate RU <span class="ru-flag" aria-label="Russian flag" title="Russian flag"></span> pickleball players on 17/07/2026</h2>
+        <div class="relative w-[200px] shrink-0">
+            <input
+                type="text"
+                id="searchBar"
+                placeholder="Поиск по английскому или русскому имени..."
+                aria-label="Поиск игрока"
+                class="w-full h-10 pl-3 pr-9 border border-slate-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500 bg-white text-sm"
             >
+            <button
+                type="button"
+                id="clearSearchButton"
+                aria-label="Очистить поиск"
+                title="Очистить поиск"
+                class="absolute inset-y-0 right-0 w-9 flex items-center justify-center text-xl leading-none text-slate-400 hover:text-slate-700"
+                hidden
+            >×</button>
         </div>
+        <button
+            type="button"
+            id="selectedStatus"
+            class="selected-status h-10 px-4 rounded-lg border text-sm font-semibold transition-colors"
+        >Selected / выбрано 0</button>
     </div>
+    <p id="counterBadge" class="text-sm text-slate-500 mb-6">Загрузка данных...</p>
 
     <!-- Responsive Data Table Layout Container -->
-    <div class="overflow-x-auto rounded-xl border border-slate-200">
-        <table class="w-full text-left border-collapse">
+    <div class="w-fit max-w-full overflow-x-auto rounded-xl border border-slate-200">
+        <table class="compact-player-table text-left border-collapse">
+            <colgroup>
+                <col class="col-index">
+                <col class="col-name">
+                <col class="col-ru-name">
+                <col class="col-dupr">
+                <col class="col-gender">
+                <col class="col-age">
+                <col class="col-rating">
+                <col class="col-rating">
+                <col class="col-origin">
+                <col class="col-select">
+            </colgroup>
             <thead>
                 <tr class="bg-slate-100 border-b border-slate-200 text-slate-700 font-semibold text-sm select-none">
-                    <!-- Fixed Position Index Column -->
-                    <th class="p-4 w-12 text-center text-slate-400 font-normal">#</th>
-                    
-                    <!-- Clickable Interactive Headers with data-sort properties -->
-                    <th data-sort="surname" class="p-4 text-left whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors" style="text-align: left;">
-                        Player's name <span class="sort-icon text-xs text-slate-400 ml-1"></span>
+                    <th class="px-2 py-3 text-center text-slate-400 font-normal">#</th>
+                    <th data-sort="surname" class="px-3 py-3 text-left whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
+                        Player's Name <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
-                    <th class="p-4 text-slate-400 font-medium">DUPR ID</th>
-                    <th data-sort="gender" class="p-4 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
+                    <th data-sort="ru-name" class="px-3 py-3 text-left whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
+                        Имя игрока <span class="sort-icon text-xs text-slate-400 ml-1"></span>
+                    </th>
+                    <th class="px-2 py-3 text-slate-400 font-medium whitespace-nowrap">DUPR ID</th>
+                    <th data-sort="gender" class="px-2 py-3 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
                         G <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
-                    <th data-sort="age" class="p-4 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
+                    <th data-sort="age" class="px-2 py-3 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
                         Age <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
-                    <th data-sort="doubles" class="p-4 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
+                    <th data-sort="doubles" class="px-2 py-3 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
                         Doubles <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
-                    <th data-sort="singles" class="p-4 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
+                    <th data-sort="singles" class="px-2 py-3 whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
                         Singles <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
-                    <!-- Renamed Header Category Column -->
-<th data-sort="shortAddress" class="p-4 text-left whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors" style="text-align: left;">
+                    <th data-sort="shortAddress" class="px-3 py-3 text-left whitespace-nowrap cursor-pointer hover:bg-slate-200/60 transition-colors">
                         DUPR origin <span class="sort-icon text-xs text-slate-400 ml-1"></span>
                     </th>
+                    <th class="px-2 py-3 text-center text-slate-500 font-medium">Select</th>
                 </tr>
             </thead>
             <tbody id="playerTableBody" class="divide-y divide-slate-100 text-sm text-slate-600">
                 <tr>
-                    <td colspan="8" class="p-8 text-center text-slate-400">Инициализация интерфейса...</td>
+                    <td colspan="10" class="p-8 text-center text-slate-400">Инициализация интерфейса...</td>
                 </tr>
             </tbody>
         </table>
@@ -92,13 +146,19 @@
 
 <script>
     let masterPlayersList = [];
-    
+    const playersByKey = new Map();
+    const selectedPlayerIds = new Set();
+    const SELECTED_POPUP_VERSION = 'pre-table-v2';
+    let selectedPopup = null;
+
     let currentSortField = 'doubles';
-    let currentSortDirection = 'desc'; 
+    let currentSortDirection = 'desc';
 
     const tableBody = document.getElementById('playerTableBody');
     const searchBar = document.getElementById('searchBar');
+    const clearSearchButton = document.getElementById('clearSearchButton');
     const counterBadge = document.getElementById('counterBadge');
+    const selectedStatus = document.getElementById('selectedStatus');
     const headers = document.querySelectorAll('th[data-sort]');
 
     async function decodeGzippedBase64Json(base64Text) {
@@ -137,8 +197,11 @@
                 masterPlayersList = playersData.filter(player => !/,\s*EE$/i.test(player.shortAddress || '')).map(player => {
                     const nameParts = player.name.split(/\s+/).filter(part => part.length > 0);
                     const surname = nameParts.length > 1 ? nameParts[nameParts.length - 1] : player.name;
-                    return { ...player, surname };
+                    const ruName = player['ru-name'] || player.name;
+                    return { ...player, 'ru-name': ruName, surname };
                 });
+                playersByKey.clear();
+                masterPlayersList.forEach(player => playersByKey.set(getPlayerKey(player), player));
                 processAndRenderData();
             } else {
                 throw new Error('Players data object was not found');
@@ -147,11 +210,225 @@
             console.error(error);
             tableBody.innerHTML = `
                 <tr>
-                    <td colspan="8" class="p-8 text-center text-red-500 font-medium">
+                    <td colspan="10" class="p-8 text-center text-red-500 font-medium">
                         Ошибка: данные игроков не найдены или не распакованы. Убедитесь, что "players.js" содержит "window.playersDataGzipBase64 = ...".
                     </td>
                 </tr>`;
         }
+    }
+
+    function getPlayerKey(player) {
+        return String(player.duprId || player.id || '');
+    }
+
+    function escapeHtml(value) {
+        return String(value ?? '').replace(/[&<>"']/g, character => ({
+            '&': '&amp;',
+            '<': '&lt;',
+            '>': '&gt;',
+            '"': '&quot;',
+            "'": '&#39;'
+        })[character]);
+    }
+
+    function formatPopupRating(value, suffix) {
+        if (!value || value === 'NR') return 'NR';
+        const number = Number.parseFloat(value);
+        return Number.isFinite(number) ? `${number.toFixed(3)}${suffix}` : `${value}${suffix}`;
+    }
+
+    function getSelectedPlayers() {
+        return Array.from(selectedPlayerIds)
+            .map(playerKey => playersByKey.get(playerKey))
+            .filter(Boolean);
+    }
+
+    function getSelectedLineParts(player) {
+        const profileUrl = player.id ? `https://dashboard.dupr.com/dashboard/player/${player.id}` : '—';
+        return {
+            name: player.name || '—',
+            ruName: player['ru-name'] || '—',
+            duprId: player.duprId || '—',
+            profileUrl,
+            age: String(player.age || '—'),
+            doubles: formatPopupRating(player.doubles, 'd'),
+            singles: formatPopupRating(player.singles, 's')
+        };
+    }
+
+    function buildSelectedTable() {
+        const lines = getSelectedPlayers().map(getSelectedLineParts);
+        const headers = {
+            name: 'PLAYER',
+            ruName: 'ИМЯ ИГРОКА',
+            duprId: 'DUPR ID',
+            age: 'AGE',
+            doubles: 'DOUBLES',
+            singles: 'SINGLES',
+            profileUrl: 'DUPR PROFILE URL'
+        };
+        const orderedKeys = ['name', 'ruName', 'duprId', 'age', 'doubles', 'singles'];
+        const widthFor = key => Math.max(headers[key].length, ...lines.map(line => String(line[key]).length));
+        const widths = Object.fromEntries(orderedKeys.map(key => [key, widthFor(key)]));
+        const pad = (value, key) => String(value).padEnd(widths[key]);
+        const prefixFor = values => orderedKeys.map(key => pad(values[key], key)).join('   ') + '   ';
+        const headerLine = prefixFor(headers) + headers.profileUrl;
+        const dividerLine = orderedKeys.map(key => '-'.repeat(widths[key])).join('   ') + '   ' + '-'.repeat(headers.profileUrl.length);
+        const plainRows = lines.map(line => prefixFor(line) + line.profileUrl);
+        const htmlRows = lines.map(line => {
+            const prefix = escapeHtml(prefixFor(line));
+            const url = line.profileUrl === '—'
+                ? '—'
+                : `<a href="${escapeHtml(line.profileUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(line.profileUrl)}</a>`;
+            return prefix + url;
+        });
+        const plainText = [headerLine, dividerLine, ...plainRows].join('\n');
+        const htmlBody = [escapeHtml(headerLine), escapeHtml(dividerLine), ...htmlRows].join('\n');
+        const htmlText = `<pre style="font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; white-space: pre;">${htmlBody}</pre>`;
+        return { plainText, htmlBody, htmlText };
+    }
+
+    function selectedCopyFormats() {
+        const { plainText, htmlText } = buildSelectedTable();
+        return { plainText, htmlText };
+    }
+
+    function writeSelectedPopupShell(popup) {
+        popup.document.open();
+        popup.document.write(`<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selected DUPR players</title>
+    <style>
+        * { box-sizing: border-box; }
+        body { margin: 0; min-height: 100vh; padding: 16px; background: #10202d; color: #f8fafc; overflow: auto; }
+        .panel { width: max-content; min-width: 760px; padding: 15px 17px; border-left: 4px solid #f052a3; border-radius: 9px; background: #302440; box-shadow: 0 12px 30px rgba(0, 0, 0, 0.28); }
+        .toolbar { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; font-family: Arial, sans-serif; }
+        .title { margin: 0; font-size: 15px; color: #e2e8f0; }
+        button { border: 1px solid #f472b6; border-radius: 7px; padding: 7px 11px; color: #fff; background: #9d2867; font-weight: 700; cursor: pointer; }
+        button:hover { background: #b83280; }
+        button:disabled { cursor: not-allowed; opacity: 0.45; }
+        #selectedList { margin: 0; color: #f8fafc; font: 14px/1.55 ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; white-space: pre; user-select: text; }
+        #selectedList a { color: #f472b6; text-decoration: none; }
+        #selectedList a:hover { text-decoration: underline; }
+        #copyStatus { min-height: 18px; margin-top: 10px; color: #f9a8d4; font: 12px Arial, sans-serif; }
+    </style>
+</head>
+<body>
+    <section id="selectedPanel" class="panel" data-popup-version="${SELECTED_POPUP_VERSION}">
+        <div class="toolbar">
+            <h1 class="title">Selected / выбрано <span id="selectedCount">0</span></h1>
+            <button type="button" id="copySelectedButton">Copy list</button>
+        </div>
+        <pre id="selectedList"></pre>
+        <div id="copyStatus" aria-live="polite"></div>
+    </section>
+</body>
+</html>`);
+        popup.document.close();
+        popup.document.getElementById('copySelectedButton').addEventListener('click', copySelectedPopupList);
+    }
+
+    async function copySelectedPopupList() {
+        if (!selectedPopup || selectedPopup.closed) return;
+        const { plainText, htmlText } = selectedCopyFormats();
+        const documentRef = selectedPopup.document;
+        const list = documentRef.getElementById('selectedList');
+        const status = documentRef.getElementById('copyStatus');
+        if (!plainText || !list) return;
+
+        const copyHandler = event => {
+            event.preventDefault();
+            event.clipboardData.setData('text/plain', plainText);
+            event.clipboardData.setData('text/html', htmlText);
+        };
+        documentRef.addEventListener('copy', copyHandler, { once: true });
+
+        const selection = selectedPopup.getSelection();
+        const range = documentRef.createRange();
+        range.selectNodeContents(list);
+        selection.removeAllRanges();
+        selection.addRange(range);
+        let copied = documentRef.execCommand('copy');
+        selection.removeAllRanges();
+
+        if (!copied) {
+            documentRef.removeEventListener('copy', copyHandler);
+            try {
+                await selectedPopup.navigator.clipboard.writeText(plainText);
+                copied = true;
+            } catch (error) {
+                console.error('Unable to copy selected players', error);
+            }
+        }
+        status.textContent = copied
+            ? 'Скопировано с прямыми URL. Telegram должен распознать их как ссылки.'
+            : 'Копирование заблокировано браузером — выделите список и нажмите Ctrl+C.';
+    }
+
+    function ensureSelectedPopup() {
+        if (!selectedPopup || selectedPopup.closed) return false;
+        try {
+            const panel = selectedPopup.document.getElementById('selectedPanel');
+            const list = selectedPopup.document.getElementById('selectedList');
+            const shellIsCurrent = panel
+                && panel.dataset.popupVersion === SELECTED_POPUP_VERSION
+                && list
+                && list.tagName === 'PRE';
+            if (!shellIsCurrent) {
+                writeSelectedPopupShell(selectedPopup);
+            }
+            return true;
+        } catch (error) {
+            console.error('Unable to access selected players popup', error);
+            selectedPopup = null;
+            return false;
+        }
+    }
+
+    function renderSelectedPopup(openPopup = false) {
+        if (openPopup) {
+            const width = 1280;
+            const height = 450;
+            const left = Math.max(0, window.screenX + window.outerWidth - width - 30);
+            const top = Math.max(0, window.screenY + 70);
+            selectedPopup = window.open(
+                '',
+                'duprSelectedPlayers',
+                `popup=yes,width=${width},height=${height},left=${left},top=${top},resizable=yes,scrollbars=yes`
+            );
+            if (!selectedPopup) {
+                alert('Браузер заблокировал отдельное окно. Разрешите pop-up для этой страницы.');
+                return;
+            }
+            try {
+                selectedPopup.resizeTo(width, height);
+            } catch (error) {
+                // Some browser/window-manager combinations do not allow script resizing.
+            }
+        }
+
+        if (!ensureSelectedPopup()) return;
+        const players = getSelectedPlayers();
+        const list = selectedPopup.document.getElementById('selectedList');
+        selectedPopup.document.getElementById('selectedCount').textContent = String(players.length);
+        if (players.length) {
+            list.innerHTML = buildSelectedTable().htmlBody;
+        } else {
+            list.textContent = 'Список пуст. Отметьте игроков в основном окне.';
+        }
+        selectedPopup.document.getElementById('copySelectedButton').disabled = players.length === 0;
+        selectedPopup.document.getElementById('copyStatus').textContent = '';
+        if (openPopup) selectedPopup.focus();
+    }
+
+    function updateSelectionUi() {
+        const count = selectedPlayerIds.size;
+        selectedStatus.textContent = `Selected / выбрано ${count}`;
+        selectedStatus.classList.toggle('has-selection', count > 0);
+        renderSelectedPopup(false);
     }
 
     // Helper function to clean up adjacent duplicate layout location entities
@@ -182,7 +459,7 @@
 if (data.length === 0) {
             tableBody.innerHTML = `
                 <tr>
-                    <td colspan="8" class="p-8 text-center text-slate-400 italic">Игроки не найдены</td>
+                    <td colspan="10" class="p-8 text-center text-slate-400 italic">Игроки не найдены</td>
                 </tr>`;
             return;
         }
@@ -207,38 +484,50 @@ if (data.length === 0) {
             const duprProfileUrl = player.id ? `https://dashboard.dupr.com/dashboard/player/${player.id}` : '';
             const duprIdHtml = player.duprId
                 ? duprProfileUrl
-                    ? `<a href="${duprProfileUrl}" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-slate-800 hover:underline">${player.duprId}</a>`
-                    : player.duprId
+                    ? `<a href="${escapeHtml(duprProfileUrl)}" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-slate-800 hover:underline">${escapeHtml(player.duprId)}</a>`
+                    : escapeHtml(player.duprId)
                 : '—';
+            const playerKey = getPlayerKey(player);
+            const checkedAttribute = selectedPlayerIds.has(playerKey) ? ' checked' : '';
 
-            const nameCellClass = currentSortField === 'surname' ? 'p-4 font-medium bg-slate-175 text-slate-600' : 'p-4 font-medium text-slate-900';
-            const genderCellClass = currentSortField === 'gender' ? 'p-4 bg-slate-175 text-slate-600' : 'p-4';
-            const ageCellClass = currentSortField === 'age' ? 'p-4 bg-slate-175 text-slate-600' : 'p-4';
-            const doublesCellClass = currentSortField === 'doubles' ? 'p-4 font-semibold bg-slate-175 text-slate-600' : 'p-4 font-semibold text-blue-600';
-            const singlesCellClass = currentSortField === 'singles' ? 'p-4 font-semibold bg-slate-175 text-slate-600' : 'p-4 font-semibold text-emerald-600';
-            const originCellClass = currentSortField === 'shortAddress' ? 'p-4 text-xs bg-slate-175 text-slate-600 max-w-xs truncate' : 'p-4 text-xs text-slate-400 max-w-xs truncate';
+            const nameCellClass = currentSortField === 'surname' ? 'px-3 py-3 font-medium leading-tight break-words bg-slate-175 text-slate-600' : 'px-3 py-3 font-medium leading-tight break-words text-slate-900';
+            const ruNameCellClass = currentSortField === 'ru-name' ? 'px-3 py-3 font-medium leading-tight break-words bg-slate-175 text-slate-600' : 'px-3 py-3 font-medium leading-tight break-words text-slate-900';
+            const genderCellClass = currentSortField === 'gender' ? 'px-2 py-3 bg-slate-175 text-slate-600' : 'px-2 py-3';
+            const ageCellClass = currentSortField === 'age' ? 'px-2 py-3 bg-slate-175 text-slate-600' : 'px-2 py-3';
+            const doublesCellClass = currentSortField === 'doubles' ? 'px-2 py-3 font-semibold bg-slate-175 text-slate-600' : 'px-2 py-3 font-semibold text-blue-600';
+            const singlesCellClass = currentSortField === 'singles' ? 'px-2 py-3 font-semibold bg-slate-175 text-slate-600' : 'px-2 py-3 font-semibold text-emerald-600';
+            const originCellClass = currentSortField === 'shortAddress' ? 'px-3 py-3 text-xs bg-slate-175 text-slate-600 truncate' : 'px-3 py-3 text-xs text-slate-400 truncate';
 
             return `
                 <tr class="hover:bg-slate-50/70 transition-colors">
-                    <td class="p-4 text-center font-medium text-slate-400 border-r border-slate-100">${idx + 1}</td>
-                    <!-- Removed avatarHtml container node wrappers to prevent visual rendering layout conflicts -->
-                    <td class="${nameCellClass}">${player.name}</td>
-                    <td class="p-4 text-xs font-mono text-slate-400">${duprIdHtml}</td>
-                    <td class="${genderCellClass}">${genderStr}</td>
-                    <td class="${ageCellClass}">${player.age || '—'}</td>
+                    <td class="px-2 py-3 text-center font-medium text-slate-400 border-r border-slate-100">${idx + 1}</td>
+                    <td class="${nameCellClass}">${escapeHtml(player.name)}</td>
+                    <td class="${ruNameCellClass}">${escapeHtml(player['ru-name'])}</td>
+                    <td class="px-2 py-3 text-xs font-mono text-slate-400">${duprIdHtml}</td>
+                    <td class="${genderCellClass}">${escapeHtml(genderStr)}</td>
+                    <td class="${ageCellClass}">${escapeHtml(player.age || '—')}</td>
                     <td class="${doublesCellClass}">
                         <div class="flex items-center">
-                            <span>${dblVal}</span>
+                            <span>${escapeHtml(dblVal)}</span>
                             ${drScoreHtml}
                         </div>
                     </td>
                     <td class="${singlesCellClass}">
                         <div class="flex items-center">
-                            <span>${sglVal}</span>
+                            <span>${escapeHtml(sglVal)}</span>
                             ${srScoreHtml}
                         </div>
-</td>
-                    <td class="${originCellClass}" title="${cleanedLocation}">${cleanedLocation}</td>
+                    </td>
+                    <td class="${originCellClass}" title="${escapeHtml(cleanedLocation)}">${escapeHtml(cleanedLocation)}</td>
+                    <td class="px-2 py-3 text-center">
+                        <input
+                            type="checkbox"
+                            class="player-select"
+                            value="${escapeHtml(playerKey)}"
+                            aria-label="Выбрать ${escapeHtml(player.name)}"
+                            ${checkedAttribute}
+                        >
+                    </td>
                 </tr>
             `;
         }).join('');
@@ -272,6 +561,7 @@ if (data.length === 0) {
             // Comprehensive search filter matching against player name, surname, location string, or duprId
             let processedData = masterPlayersList.filter(player => 
                 player.name.toLowerCase().includes(searchTerm) || 
+                player['ru-name'].toLowerCase().includes(searchTerm) ||
                 player.surname.toLowerCase().includes(searchTerm) ||
                 (player.duprId && player.duprId.toLowerCase().includes(searchTerm)) ||
                 (player.shortAddress && player.shortAddress.toLowerCase().includes(searchTerm))
@@ -324,8 +614,35 @@ if (data.length === 0) {
             });
         });
 
-        searchBar.addEventListener('input', processAndRenderData);
+        function updateClearSearchButton() {
+            clearSearchButton.hidden = searchBar.value.length === 0;
+        }
 
+        searchBar.addEventListener('input', () => {
+            updateClearSearchButton();
+            processAndRenderData();
+        });
+        clearSearchButton.addEventListener('click', () => {
+            searchBar.value = '';
+            updateClearSearchButton();
+            processAndRenderData();
+            searchBar.focus();
+        });
+
+        tableBody.addEventListener('change', event => {
+            const checkbox = event.target.closest('.player-select');
+            if (!checkbox) return;
+            if (checkbox.checked) {
+                selectedPlayerIds.add(checkbox.value);
+            } else {
+                selectedPlayerIds.delete(checkbox.value);
+            }
+            updateSelectionUi();
+        });
+
+        selectedStatus.addEventListener('click', () => renderSelectedPopup(true));
+
+        updateSelectionUi();
         // Boot execution from cache
         initApp();
     </script>

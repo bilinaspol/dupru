@@ -1,10 +1,6 @@
-players[0-9]*.json
-players.json
-players-[0-9]*.js
-diff[0-9]*.json
-diff.json
-absent[0-9]*.json
-absent.json
-compare-players[0-9]*.js
-work[0-9]*.txt
-work.txt
+# Publish only the GitHub Pages artifacts from this worktree.
+# All source snapshots, maintenance scripts, reports, and backups stay local.
+*
+!/.gitignore
+!/index.html
+!/players.js
