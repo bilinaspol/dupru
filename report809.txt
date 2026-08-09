@@ -40,7 +40,7 @@ CHANGED  | Vladislav Malyarskiy   | Владислав Малярский  | 2QK
 CHANGED  | Valeriy Petruk         | Валерий Петрук       | 2Z9X97 | 56  | 3.267   | +0.024       | 3.409   |             
 CHANGED  | Iaroslava Popovich     | Ярослава Попович     | DD0OJM | 35  | 2.138   | NR → 2.138   | NR      |             
 CHANGED  | Bruno Chapel           | Бруно Чапел          | Z0R6XP | 66  | 3.151   | NR → 3.151   | NR      |             
-CHANGED  | Alex Sazankov          | Алексей Сазанков     | Z0RMQP | 27  | 3.335   | NR → 3.335   | NR      |             
+CHANGED  | Alex Sazankov          | Александр Сазанков     | Z0RMQP | 27  | 3.335   | NR → 3.335   | NR      |
 CHANGED  | Iaroslav Leksin        | Ярослав Лексин       | VLJ7D5 | 34  | 2.026   | +0.026       | NR      |             
 
 Non-listed refresh:
