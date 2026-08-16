@@ -1,0 +1,37 @@
+DUPR doubles changes — 16/08/2026
+Source: report816.txt
+Order: newly established doubles ratings (NR → rating), then numeric doubles changes descending (+ to −), then rows without a doubles change.
+
+category | name               | ru-name             | duprId | age | doubles | doubles-diff | singles | singles-diff
+---------+--------------------+---------------------+--------+-----+---------+--------------+---------+-------------
+CHANGED  | Andrew Teterin     | Андрей Тетерин      | Y5R7WP | 18  | 3.091   | NR → 3.091   | NR      |             
+CHANGED  | Igor Slashchev     | Игорь Слащев        | V6KPV5 | 57  | 2.434   | NR → 2.434   | NR      |             
+CHANGED  | Inna Naumkina      | Инна Наумкина       | G5OQRV | 44  | 2.642   | +0.225       | NR      |             
+CHANGED  | Oleg Teterin       | Олег Тетерин        | KZY0V6 | 50  | 3.648   | +0.111       | 3.028   |             
+CHANGED  | Eugene Shumikhin   | Евгений Шумихин     | N5G052 | 36  | 2.692   | +0.095       | NR      |             
+CHANGED  | Alexander Ristich  | Александр Ристич    | RD6V0Z | 29  | 3.876   | +0.087       | NR      |             
+CHANGED  | Anna Le            | Анна Ле             | LWLN7J | 33  | 2.518   | +0.079       | NR      |             
+CHANGED  | Vadim Amelin       | Вадим Амелин        | WZG2LL | 29  | 3.256   | +0.071       | NR      |             
+CHANGED  | Andrey Romashov    | Андрей Ромашов      | RX57KQ | 45  | 4.243   | +0.060       | 4.034   |             
+CHANGED  | Ilya Pchelintsev   | Илья Пчелинцев      | KDVGR7 | 29  | 3.377   | +0.059       | 3.143   |             
+CHANGED  | Art Maslov         | Артем Маслов        | 0Q0GYN | 45  | 2.327   | +0.039       | NR      |             
+CHANGED  | Vladimir Vladimir  | Владимир Жебровский | Q5W0X4 | 46  | 3.544   | +0.038       | NR      |             
+CHANGED  | Andrey  Davidchik  | Андрей Давидчик     | 7ZYJ70 | 40  | 3.374   | +0.035       | NR      |             
+CHANGED  | ARTEM LIKHACHEV    | Артем Лихачев       | Q5WOK4 | 31  | 3.253   | +0.013       | 3.042   |             
+CHANGED  | Veronika Suslova   | Вероника Суслова    | EW4QGE | 33  | 2.069   | +0.005       | NR      |             
+CHANGED  | Alexander  Smirnov | Александр Смирнов   | OZRJ6L | 27  | 3.455   | +0.001       | NR      |             
+CHANGED  | Alex Sazankov      | Александр Сазанков  | Z0RMQP | 27  | 3.334   | -0.001       | NR      |             
+CHANGED  | Valeriy Petruk     | Валерий Петрук      | 2Z9X97 | 56  | 3.236   | -0.007       | 3.409   |             
+CHANGED  | Olga Tkachuk       | Ольга Ткачук        | QX0Z04 | 45  | 2.834   | -0.010       | NR      |             
+CHANGED  | Panteley  Zhilkin  | Пантелей Жилкин     | 0PPVOG | 30  | 2.855   | -0.011       | 3.339   |             
+CHANGED  | Ivan Fedorov       | Иван Федоров        | P52DXX | 32  | 2.834   | -0.023       | NR      |             
+CHANGED  | Maria Klokotzky    | Мария Клокоцки      | 9PR06E | 39  | 5.494   | -0.039       | 4.992   |             
+CHANGED  | Maksim Frolov      | Максим Фролов       | 0PGVEN | 22  | 3.516   | -0.048       | NR      |             
+CHANGED  | Anna Gusar         | Анна Гусар          | YN6M5D | 46  | 3.286   | -0.058       | NR      |             
+CHANGED  | Alexander Uvarov   | Александр Уваров    | DYEKRX | 29  | 3.601   | -0.099       | 3.951   |             
+CHANGED  | Yury Khyuppenen    | Юрий Хюппенен       | KXDEK7 | 54  | 3.815   | -0.105       | 3.996   |             
+CHANGED  | Ekaterina Donskova | Екатерина Донскова  | OW9VYW | 39  | 3.341   | -0.132       | NR      |             
+CHANGED  | Hai Long Nguyen    | Хай Лонг Нгуен      | N5WOYN | 41  | 3.336   | -0.147       | NR      |             
+CHANGED  | Valeriia Chekunova | Валерия Чекунова    | 2ZMM74 | 61  | 2.658   | -0.647       | NR      |             
+CHANGED  | Alyona Rudetskaia  | Алёна Рудецкая      | DNM056 | 39  | 2.969   | -0.658       | NR      |             
+CHANGED  | Evgenia Filippova  | Евгения Филиппова   | V45XZJ | 48  | 3.085   |              | 3.634   | +0.001      
