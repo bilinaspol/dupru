@@ -1,0 +1,186 @@
+DUPR update-all report
+Date: 18/08/2026
+Baseline: players816all.json (531)
+Editable roster: ru-players.json (531)
+Roster additions over baseline: 0
+Listed today: 387
+Non-listed in browse results: 149
+Non-listed refreshed by profile API: 149
+Non-listed API failures: 0
+Non-listed pending: 0
+Completed: true
+NEW: 5
+CHANGED: 7
+FINAL: 536
+
+NEW / CHANGED players:
+category | name                 | ru-name            | duprId | age | doubles | doubles-diff | singles | singles-diff
+---------+----------------------+--------------------+--------+-----+---------+--------------+---------+-------------
+NEW      | Gleb  Gerbelev       |                    | KZ9EXY | 24  | 3.454   | NEW          | NR      | NEW         
+NEW      | Yaroslav Kochetov    |                    | 7K2KM5 | 32  | 3.074   | NEW          | NR      | NEW         
+NEW      | Victoriia Kolyvanova |                    | X5PKGX | 31  | NR      | NEW          | NR      | NEW         
+NEW      | Юлия  Макарова       |                    | LP6ZVQ | 36  | 3.035   | NEW          | NR      | NEW         
+NEW      | Gleb Nasedkin        |                    | 574KW5 | 24  | 2.795   | NEW          | NR      | NEW         
+CHANGED  | Maria Klokotzky      | Мария Клокоцки     | 9PR06E | 39  | 5.488   | -0.006       | 4.992   |             
+CHANGED  | Alex Sazankov        | Александр Сазанков | Z0RMQP | 27  | 3.335   | +0.001       | NR      |             
+CHANGED  | Nina Sotnikova       | Нина Сотникова     | 7K592N | 35  | 3.572   | NR → 3.572   | NR      |             
+CHANGED  | Roman Samosadko      | Роман Самосадко    | Z0LP6L | 31  | 3.484   | NR → 3.484   | NR      |             
+CHANGED  | Aleksey Nikolaev     | Алексей Николаев   | 7KWONM | 36  | 3.931   | NR → 3.931   | NR      |             
+CHANGED  | Nikita Stroev        | Никита Строев      | LP6DNQ | 33  | 3.702   | NR → 3.702   | NR      |             
+CHANGED  | Maxim Mitrofanov     | Махим Митрофанов   | 7KGQX0 | 41  | 4.556   | NR → 4.556   | NR      |             
+
+Non-listed refresh:
+category  | name                       | ru-name                  | duprId | id        
+----------+----------------------------+--------------------------+--------+-----------
+REFRESHED | Ilia Kukushin              | Илья Кукушин             | 2PD5R7 | 5560305342
+REFRESHED | Arsenii Tarasov            | Арсений Тарасов          | D5DJJL | 8351728744
+REFRESHED | Sofia  Rodina              | София Родина             | EX2QNJ | 7793265721
+REFRESHED | Viet Dung Nguyen           | Вьет Дунг Нгуен          | GWDRLM | 6832351663
+REFRESHED | Dina Sankova               | Дина Санькова            | 0Z6JKQ | 8161049614
+REFRESHED | Oleg Ezhov                 | Олег Ежов                | N5MGQ6 | 7141018289
+REFRESHED | Mikhail Gusev              | Михаил Гусев             | XKG0Y4 | 7601156032
+REFRESHED | Vadim Labunskii            | Вадим Лабунский          | MPRLML | 8559535441
+REFRESHED | Kate Pozhidaeva            | Катя Пожидаева           | RY5WQD | 8540542531
+REFRESHED | Andrey Klimov              | Андрей Климов            | VX2XOJ | 4628158330
+REFRESHED | Polina  Lagutina           | Полина Лагутина          | 2QM9G4 | 4659361321
+REFRESHED | Evgeniy Sychev             | Евгений Сычев            | 7JP05M | 6910573041
+REFRESHED | Vo Nina                    | Во Нина                  | Q9OOY0 | 5256268168
+REFRESHED | Andrey Abramov             | Андрей Абрамов           | 55J9V0 | 6850675648
+REFRESHED | Alexander Elfimov          | Александр Елфимов        | 567JML | 8268060226
+REFRESHED | Evgeny Martens             | Евгений Мартенс          | J5ONRJ | 6103989512
+REFRESHED | Vladimir  Masterenko       | Владимир Мастеренко      | 94977J | 6774813705
+REFRESHED | Sergei Polyakov            | Сергей Поляков           | ELRZ6V | 4793919557
+REFRESHED | Alexander Uvarov           | Александр Уваров         | DYEKRX | 5485058644
+REFRESHED | Ho Son                     | Хо Сон                   | JP9WWD | 7204970223
+REFRESHED | Нгок Ха Чан                | Нгок Ха Чан              | WN479Q | 5969469070
+REFRESHED | Maksim Frolov              | Максим Фролов            | 0PGVEN | 8292207086
+REFRESHED | Zhanna Maksakova           | Жанна Максакова          | ORDR7W | 8177214494
+REFRESHED | Natalya Kuznetsova         | Наталья Кузнецова        | DYEEZ6 | 7646264617
+REFRESHED | Ivan Leontev               | Иван Леонтьев            | 0ZGZ4N | 7266908019
+REFRESHED | Зунг Чыонг                 | Зунг Чыонг               | D95P6Y | 6787201935
+REFRESHED | Daniil Petruk              | Даниил Петрук            | Y4XZED | 8155279947
+REFRESHED | Ivan Goryachkin            | Иван Горячкин            | 3XK4M7 | 8005404875
+REFRESHED | Marina Pankratova          | Марина Панкратова        | ORQEX2 | 6404984680
+REFRESHED | Lee Moe                    | Ли Мо                    | RWVD0E | 5101258586
+REFRESHED | ALEkSANDR Kabakov          | Александр Кабаков        | V69P9J | 7340777985
+REFRESHED | Vu  Tue                    | Ву Ту                    | LWLYWK | 6004765005
+REFRESHED | Nikolay Chernyshov         | Николай Чернышов         | RYX4WM | 4323820466
+REFRESHED | Irina  Osokina             | Ирина Осокина            | O69JY2 | 8031750040
+REFRESHED | Vladimir Orlov             | Владимир Орлов           | 4V24XK | 7814983637
+REFRESHED | Силантий  Куприянов        | Силантий Куприянов       | X2MRQ4 | 5020537685
+REFRESHED | Andrey Zholudev            | Андрей Жолудев           | RYL76Z | 5211667793
+REFRESHED | Yulia  Tsareva             | Юлия Царева              | 5YKZG0 | 5582148269
+REFRESHED | Le Hong Minh               | Ле Хонг Мин              | V2R0ZE | 5460401330
+REFRESHED | Quan Nguyen                | Куан Нгуен               | 6K0NQD | 4420688588
+REFRESHED | Karina Goriacheva          | Карина Горячева          | 0ZD024 | 6526133353
+REFRESHED | Anton Rybakov              | Антон Рыбаков            | D5OEO6 | 6824045931
+REFRESHED | Milena Khalil              | Милена Халил             | VX2455 | 5115524194
+REFRESHED | ARTEM LIKHACHEV            | Артем Лихачев            | Q5WOK4 | 4480425753
+REFRESHED | Elena Levoshina            | Елена Левошина           | D9ZW6L | 4684997168
+REFRESHED | Mikhail Butov              | Михаил Бутов             | 55Z0K5 | 7709388422
+REFRESHED | Thi Mai Hoa ( Maya) Nguyen | Тхи Май Хоа (Майя) Нгуен | 6K2EZK | 8286265114
+REFRESHED | Tùng Nguyễn                | Тунг Нгуен               | XOXPW7 | 7677418091
+REFRESHED | Dmitry Kuzmin              | Дмитрий Кузьмин          | MPKZ9V | 4869908609
+REFRESHED | Nikita Minaev              | Никита Минаев            | 56RVPR | 7197281359
+REFRESHED | Albert                     | Альберт                  | EL46MW | 7764586880
+REFRESHED | Ma Chuong Hoang            | Ма Чуонг Хоанг           | 7J5ZY0 | 8253381332
+REFRESHED | Hoang Thai                 | Хоанг Тай                | JP0KX4 | 7089755554
+REFRESHED | Daria Shutova              | Дарья Шутова             | QJZ6MD | 7700392224
+REFRESHED | Nguyen Thinh               | Нгуен Тхинь              | EXMX2V | 8221101153
+REFRESHED | Eugene Shumikhin           | Евгений Шумихин          | N5G052 | 8399687180
+REFRESHED | Dmitry Tkachuk             | Дмитрий Ткачук           | QJGZ75 | 5161342052
+REFRESHED | Anna Mironova              | Анна Миронова            | WZQ9GG | 7091799920
+REFRESHED | Sergei Amelin              | Сергей Амелин            | 6PQVXD | 4858673537
+REFRESHED | Mo Li                      | Мо Ли                    | XONELX | 7447391792
+REFRESHED | Leonid Ovchinnikov         | Леонид Овчинников        | 4QR7GK | 6231935031
+REFRESHED | Sofiia Gunchenko           | София Гунченко           | E97PMO | 4468102432
+REFRESHED | Elena Pekich               | Елена Пекич              | JYQYMW | 6767815373
+REFRESHED | Aleksei Zhigalov           | Алексей Жигалов          | 0PRE9G | 5624127172
+REFRESHED | Timur Razmaitov            | Тимур Размаитов          | 99X46J | 5274275577
+REFRESHED | Paramvir Gill              | Парамвир Гилл            | 67M27K | 8400347930
+REFRESHED | Gayk Avakian               | Гайк Авакян              | PW2JMZ | 6032744155
+REFRESHED | Victor Titov               | Виктор Титов             | QJR70R | 7156991577
+REFRESHED | Maxim Zhuravlev            | Максим Журавлёв          | 7Z57QN | 5359190255
+REFRESHED | sergei amelin              | Сергей Амелин            | 5YPD0R | 7010878109
+REFRESHED | Nikita Beregovoi           | Никита Береговой         | N5PGYW | 5497310543
+REFRESHED | Doan Van Thanh             | Доан Ван Тхань           | D5054Y | 5033177385
+REFRESHED | Elena Barchan              | Елена Барчан             | Z4N4QP | 8352775501
+REFRESHED | Daniil Velesevich          | Даниил Велесевич         | 7J4VWM | 6849290408
+REFRESHED | Ilya Baraz                 | Илья Бараз               | PP42DG | 4646034108
+REFRESHED | Alisa Kokorina             | Алиса Кокорина           | 0ZNG9Q | 6960129322
+REFRESHED | Andrei  Katyrin            | Андрей Катырин           | 0POLMN | 5930841270
+REFRESHED | Dimitrii Ivanov Chakubash  | Дмитрий Иванов Чакубаш   | ZZLN2W | 8378781153
+REFRESHED | Aleksandr  Kupriianov      | Александр Куприянов      | EW4Q6J | 5047517659
+REFRESHED | Alina Ilicheva             | Алина Ильичева           | 76RPVN | 5388700618
+REFRESHED | Aleksei Struk              | Алексей Струк            | JJ7VLW | 8135807263
+REFRESHED | Vladislav Demchenko        | Владислав Демченко       | 2QK2RE | 7635712357
+REFRESHED | Алексей Баталов            | Алексей Баталов          | O69EME | 7328553721
+REFRESHED | Alex S                     | Алекс С                  | N7VD96 | 6483044874
+REFRESHED | Anton Kalashnikov          | Антон Калашников         | YMZ2LP | 4880338184
+REFRESHED | Nikolay Sidorov            | Николай Сидоров          | X26XR7 | 5116008607
+REFRESHED | Natalia Kalacheva          | Наталья Калачева         | YNVM94 | 7431918995
+REFRESHED | Павел Любенко              | Павел Любенко            | 6P79R0 | 8111934531
+REFRESHED | YALCIN YILDIZ              | Ялчин Йылдиз             | DN4Q56 | 7199511823
+REFRESHED | Na La                      | На Ла                    | ELE0DV | 7313983588
+REFRESHED | Mary Martynova             | Мария Мартынова          | P5JNQM | 7882421100
+REFRESHED | Ekaterina Donskova         | Екатерина Донскова       | OW9VYW | 7486610433
+REFRESHED | Pavel Kravtsov             | Павел Кравцов            | 556OY5 | 4689971937
+REFRESHED | Denis Vorobev              | Денис Воробьев           | WXELDL | 5117642288
+REFRESHED | Ann Blinovskaya            | Анна Блиновская          | 9J99XK | 7691717188
+REFRESHED | Veronika Suslova           | Вероника Суслова         | EW4QGE | 6616388589
+REFRESHED | Sergey Baratov             | Сергей Баратов           | P5XM2X | 7970121974
+REFRESHED | Yaroslav Sveshnikov        | Ярослав Свешников        | QXVP20 | 6496350678
+REFRESHED | Ань Туан Нгуен             | Ань Туан Нгуен           | 7JW5RN | 4733006381
+REFRESHED | Yury Khyuppenen            | Юрий Хюппенен            | KXDEK7 | 5005808219
+REFRESHED | Tartiana Anerkhanova       | Тартиана Анерханова      | 7JG544 | 4899923303
+REFRESHED | Natalya Popova             | Наталья Попова           | O6GRE2 | 6961598062
+REFRESHED | Aleksandr Moshkovskii      | Александр Мошковский     | 0PYPMQ | 7690176620
+REFRESHED | Galina Barsukova           | Галина Барсукова         | KDE6ZY | 6595706228
+REFRESHED | Irina Pozhilova            | Ирина Пожилова           | RWNOKZ | 8202006236
+REFRESHED | Aleksei Mitin              | Алексей Митин            | W56JVM | 7354067488
+REFRESHED | Anna Chinenova             | Анна Чиненова            | JPXGEJ | 6250166598
+REFRESHED | Ivan  Grigorev             | Иван Григорьев           | 7N6VOM | 7436929892
+REFRESHED | Viacheslav Epifanov        | Вячеслав Епифанов        | 6P2OL0 | 8475109955
+REFRESHED | Maria Klokotzky            | Мария Клокоцки           | 9PR06E | 6173093337
+REFRESHED | Andrey Belyaev             | Андрей Беляев            | 2ZJ0K7 | 5465798300
+REFRESHED | Maxim Belokopytov          | Максим Белокопытов       | MEOPKP | 6590812249
+REFRESHED | Albina  Tikhonina          | Альбина Тихонина         | 7ZRRZN | 7937347150
+REFRESHED | ilia  Neialov              | Илья Неялов              | 4PNE4M | 8364873975
+REFRESHED | Elena Fomina               | Елена Фомина             | 0PW7KG | 7170497650
+REFRESHED | Sergey Vorontsov           | Сергей Воронцов          | KY4J27 | 6905324743
+REFRESHED | Иван Афонин                | Иван Афонин              | K5MN5K | 8021345990
+REFRESHED | Anastasia Tulsanova        | Анастасия Тульсанова     | J599E4 | 6761449976
+REFRESHED | Svetlana Privalova         | Светлана Привалова       | X0GYQX | 8140179671
+REFRESHED | Vladislav Romanov          | Владислав Романов        | J5OXNO | 4940635504
+REFRESHED | Konstantin leonov          | Константин Леонов        | ORZMWE | 4754430493
+REFRESHED | Grigor  Grigoryan          | Григор Григорян          | 7JG4MN | 7394053157
+REFRESHED | Tima kuznetsov             | Тимофей Кузнецов         | EX0EOJ | 4590252128
+REFRESHED | maks yarosh                | Макс Ярош                | 55JX7V | 5891716031
+REFRESHED | Aik Kirakosyan             | Айк Киракосян            | MPQE0D | 6665594087
+REFRESHED | Ihar Lakhvich              | Игорь Лахвич             | ELNLPM | 7717311448
+REFRESHED | Nikita Kuryumov            | Никита Курюмов           | LWL0JK | 5040097637
+REFRESHED | Polina Ladonikova          | Полина Ладоникова        | GWMNOD | 6097635935
+REFRESHED | Hai Son Thi Ho             | Хай Сон Тхи Хо           | ELRZNV | 4363161373
+REFRESHED | Valentina Zavarzina        | Валентина Заварзина      | X2YMN4 | 6701072441
+REFRESHED | Sofia Guseva               | София Гусева             | DN4PZ6 | 8363604291
+REFRESHED | Vladimir Koloskov          | Владимир Колосков        | J5ZGEM | 5515699135
+REFRESHED | Alexey Semashko            | Алексей Семашко          | OWVL4P | 8325648376
+REFRESHED | Sergey Vovdenko            | Сергей Вовденко          | 5YJMQV | 7912156897
+REFRESHED | Valeriy Petruk             | Валерий Петрук           | 2Z9X97 | 5299370251
+REFRESHED | Panteley  Zhilkin          | Пантелей Жилкин          | 0PPVOG | 5650110511
+REFRESHED | Alexey Knyazev             | Алексей Князев           | MZPGJL | 5733987756
+REFRESHED | Veronika Iskandirova       | Вероника Искандирова     | JMPR6M | 4538863071
+REFRESHED | Elena Gitt                 | Елена Гитт               | 7KNXON | 8073484312
+REFRESHED | Ilia Antontsev             | Илья Антонцев            | W5NXVY | 5438269960
+REFRESHED | Vasily Ryazantsev          | Василий Рязанцев         | EL6VPM | 8273662294
+REFRESHED | Elena Khodarina            | Елена Ходарина           | 0XPOPQ | 7285109925
+REFRESHED | Anna Trebukh               | Анна Требух              | KZYKVY | 6975732528
+REFRESHED | Bruno Chapel               | Бруно Чапел              | Z0R6XP | 8468562980
+REFRESHED | Ilya Pchelintsev           | Илья Пчелинцев           | KDVGR7 | 8481346950
+REFRESHED | Kseniia Guseva             | Ксения Гусева            | JY7GPJ | 6121113235
+REFRESHED | Ann Ropot                  | Анна Ропот               | ONXDJW | 7478198536
+REFRESHED | Nikita Stroev              | Никита Строев            | LP6DNQ | 5210016751
+REFRESHED | Olesya Khan                | Олеся Хан                | EVNQXO | 8020476058
+
+Errors:
+(none)
