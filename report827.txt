@@ -1,0 +1,173 @@
+DUPR update-all report
+Date: 27/08/2026
+Baseline: players821all.json (549)
+Editable roster: ru-players.json (551)
+Roster additions over baseline: 2
+Listed today: 479
+Non-listed in browse results: 77
+Non-listed refreshed by profile API: 77
+Non-listed API failures: 0
+Non-listed pending: 0
+Completed: true
+NEW: 7
+CHANGED: 64
+FINAL: 556
+
+NEW / CHANGED players:
+category | name                     | ru-name                | duprId | age | doubles | doubles-diff | singles | singles-diff
+---------+--------------------------+------------------------+--------+-----+---------+--------------+---------+-------------
+NEW      | Alexander Korchazhinskii | Александр Коржачинский | MZMMKL | 30  | NR      | NEW          | 2.705   | NEW
+NEW      | Smirnov Anton            | Антон Смирнов          | P50ZVX | 41  | 2.589   | NEW          | 3.226   | NEW
+NEW      | Ilia Gorenkov            |                        | QNLOE4 | 44  | NR      | NEW          | NR      | NEW
+NEW      | Dmitry Kuzmin            |                        | QN7OVD | 35  | NR      | NEW          | NR      | NEW
+NEW      | HRYPICH Vadzim           |                        | Y57V7G | 39  | NR      | NEW          | NR      | NEW
+NEW      | Maxim Okhlopkov          |                        | Y574MK | 27  | NR      | NEW          | NR      | NEW
+NEW      | Ivan Leschinskiy         |                        | EVRM0J | 41  | NR      | NEW          | NR      | NEW
+CHANGED  | Vladimir  Masterenko     | Владимир Мастеренко    | 94977J | 69  | 3.202   | +0.014       | NR      |
+CHANGED  | Andrey Chernikov         | Андрей Черников        | 67D7VG | 53  | 3.243   | +0.071       | NR      |
+CHANGED  | Alexander Uvarov         | Александр Уваров       | DYEKRX | 29  | 3.601   |              | 4.329   | +0.378
+CHANGED  | Olga Tkachuk             | Ольга Ткачук           | QX0Z04 | 45  | 2.842   | +0.008       | NR      |
+CHANGED  | ALEkSANDR Kabakov        | Александр Кабаков      | V69P9J | 39  | 2.219   | +0.219       | NR      |
+CHANGED  | Nikolay Chernyshov       | Николай Чернышов       | RYX4WM | 30  | 3.738   |              | 3.911   | +0.001
+CHANGED  | Stanislav Zhigunov       | Станислав Жигунов      | EW4LEO | 37  | 3.361   |              | 3.566   | -0.018
+CHANGED  | Dmitriy Demidenko        | Дмитрий Демиденко      | X2EKV4 | 57  | 4.031   | -0.072       | 4.239   | -0.131
+CHANGED  | Vadim Amelin             | Вадим Амелин           | WZG2LL | 29  | 3.306   | +0.050       | 4.638   | NR → 4.638
+CHANGED  | ARTEM LIKHACHEV          | Артем Лихачев          | Q5WOK4 | 31  | 3.281   | +0.028       | 3.576   | +0.534
+CHANGED  | Liana Brix               | Льяна Вязовская        | QPG600 | 62  | 3.386   | -0.032       | NR      |
+CHANGED  | Nadezhda Ryzhkova        | Надежда Рыжкова        | 0Q5LV2 | 33  | 3.450   | +0.009       | 3.294   |
+CHANGED  | Denis Efremov            | Денис Ефремов          | PZQZKM | 33  | 3.925   | +0.035       | NR      |
+CHANGED  | Dmitry Tkachuk           | Дмитрий Ткачук         | QJGZ75 | 45  | 3.492   | -0.183       | NR      |
+CHANGED  | Galina Levina            | Галина Левина          | WZ6ZQQ | 40  | 2.638   | -0.464       | NR      |
+CHANGED  | Valeriia Chekunova       | Валерия Чекунова       | 2ZMM74 | 61  | 2.778   | +0.120       | NR      |
+CHANGED  | Ekaterina Masterenko     | Екатерина Мастеренко   | 7N6V40 | 69  | 3.202   | +0.014       | NR      |
+CHANGED  | Ekaterina Ogurtsova      | Екатерина Огурцова     | M2D5EV | 16  | 4.075   |              | 4.146   | +0.059
+CHANGED  | Paramvir Gill            | Парамвир Гилл          | 67M27K |     | 4.414   | +0.027       | 3.372   |
+CHANGED  | Nikolay Ivanov           | Николай Иванов         | YM2REG | 19  | 3.608   |              | 4.739   | NR → 4.739
+CHANGED  | Vladislav Demchenko      | Владислав Демченко     | 2QK2RE | 15  | 3.466   | +0.047       | 3.531   | +0.154
+CHANGED  | Mikhail Lebedev          | Михаил Лебедев         | 0QOQRX | 63  | 3.232   | +0.364       | 2.932   |
+CHANGED  | Nguyen Quang Chung       | Нгуен Куанг Чунг       | WN4P9K | 39  | 3.604   |              | 3.782   | -0.129
+CHANGED  | Daria Konivetskaia       | Дарья Конивецкая       | V2PK4E | 29  | 3.129   | +0.053       | 2.985   |
+CHANGED  | Evgenia Filippova        | Евгения Филиппова      | V45XZJ | 48  | 3.141   | +0.056       | 3.634   |
+CHANGED  | Tung Hoang               | Тунг Хоанг             | J5J00J | 15  | 3.840   |              | 4.165   | +0.514
+CHANGED  | Alexander Ristich        | Александр Ристич       | RD6V0Z | 29  | 3.876   |              | 4.176   | NR → 4.176
+CHANGED  | Ekaterina  Efremova      | Екатерина Ефремова     | P5ML0M | 31  | 2.778   | +0.052       | NR      |
+CHANGED  | Ekaterina Donskova       | Екатерина Донскова     | OW9VYW | 39  | 3.413   | +0.072       | NR      |
+CHANGED  | Anton Yermakov           | Антон Ермаков          | 76VKYN | 39  | 3.698   | +0.101       | 3.987   | +0.041
+CHANGED  | Ruslan Nurmatov          | Руслан Нурматов        | X2YW5X | 44  | 4.596   |              | 5.124   | +0.144
+CHANGED  | Seregas Sokolov          | Сергей Соколов         | NRVVP6 | 29  | 3.426   |              | 3.790   | +0.139
+CHANGED  | Pham Thanh Tung          | Фам Тхань Тунг         | 5E5990 | 52  | 4.158   | +0.023       | 3.333   |
+CHANGED  | Aleksandra Malyarskaya   | Александра Малярская   | DYJ7V4 | 41  | 2.840   | +0.304       | NR      |
+CHANGED  | Natalya Popova           | Наталья Попова         | O6GRE2 | 63  | 2.795   | +0.060       | NR      |
+CHANGED  | Elena Shevchenko         | Елена Шевченко         | M2JEVD | 45  | 3.178   | +0.038       | 4.187   |
+CHANGED  | Sofiia Sharonova         | София Шаронова         | 2PMWNR | 26  | NR      |              | 4.754   | +0.083
+CHANGED  | Artem Glinkin            | Артем Глинкин          | M9N97D | 42  | 4.116   |              | 4.329   | NR → 4.329
+CHANGED  | Aleksandr Pogorelov      | Александр Погорелов    | J570N4 | 42  | 3.722   | -0.103       | 3.375   |
+CHANGED  | Maria Klokotzky          | Мария Клокоцки         | 9PR06E | 39  | 5.479   | -0.009       | 4.992   |
+CHANGED  | Aleksandr Terskov        | Александр Терсков      | Y4DZ7P | 58  | 3.764   | +0.096       | 3.694   |
+CHANGED  | Ilmir Akhmadeev          | Ильмир Ахмадеев        | 7Z0LQ5 | 37  | 3.057   | NR → 3.057   | NR      |
+CHANGED  | Dmitri Elfimov           | Дмитрий Елфимов        | Y4QMZP | 44  | 3.081   | +0.024       | 2.871   |
+CHANGED  | Alexandr Bratukhin       | Александр Братухин     | GWVE4G | 35  | 3.881   | -0.017       | 3.190   |
+CHANGED  | Max Kulikov              | Максим Куликов         | 7JVO50 | 46  | 3.946   | +0.132       | 3.871   | -0.105
+CHANGED  | Vladislav Malyarskiy     | Владислав Малярский    | 2QK4Y7 | 44  | 3.259   | +0.142       | 3.208   |
+CHANGED  | Valeriy Petruk           | Валерий Петрук         | 2Z9X97 | 56  | 3.236   |              | 3.466   | +0.057
+CHANGED  | Alexey Knyazev           | Алексей Князев         | MZPGJL | 50  | 2.610   | -0.107       | NR      |
+CHANGED  | Ekaterina Molokova       | Екатерина Молокова     | LPW9KQ | 56  | 2.610   | -0.107       | NR      |
+CHANGED  | Elena Levina             | Елена Левина           | 7KJ4YM | 55  | 3.562   | NR → 3.562   | NR      |
+CHANGED  | Vasily Ryazantsev        | Василий Рязанцев       | EL6VPM | 38  | 3.349   | +0.001       | 2.412   |
+CHANGED  | Oleg Teterin             | Олег Тетерин           | KZY0V6 | 50  | 3.648   |              | 3.118   | +0.090
+CHANGED  | Iaroslava Popovich       | Ярослава Попович       | DD0OJM | 35  | 2.023   | -0.115       | NR      |
+CHANGED  | Nina Sotnikova           | Нина Сотникова         | 7K592N | 35  | 3.079   | -0.547       | NR      |
+CHANGED  | Roman Samosadko          | Роман Самосадко        | Z0LP6L | 31  | 2.882   | -0.548       | NR      |
+CHANGED  | Andrey Smirnov           | Андрей Смирнов         | QNO9OR | 63  | 3.152   | NR → 3.152   | NR      |
+CHANGED  | Olesya Khan              | Олеся Хан              | EVNQXO | 26  | 2.505   | NR → 2.505   | NR      |
+CHANGED  | Gleb  Gerbelev           | Глеб Гербелев          | KZ9EXY | 24  | 3.347   |              | 2.611   | NR → 2.611
+CHANGED  | Pavel Lukin              | Павел Лукин            | 0XKQ7Q | 35  | 2.486   | NR → 2.486   | NR      |
+CHANGED  | Anastasiia  Suchkova     | Анастасия Сучкова      | EV6YQV | 42  | 2.929   | NR → 2.929   | NR      |
+CHANGED  | Ruslan Orlov             | Руслан Орлов           | 4EY0ZM | 60  | 2.006   | NR → 2.006   | NR      |
+CHANGED  | Liliia Sadakh            | Лилия Садах            | 66JZ0K | 61  | 2.118   | NR → 2.118   | NR      |
+CHANGED  | Larisa Kolbasova         | Лариса Колбасова       | 2DELGY | 66  | 2.316   | NR → 2.316   | NR      |
+CHANGED  | Svetlana Efremova        | Светлана Ефремова      | NNDYQW | 63  | 2.316   | NR → 2.316   | NR      |
+
+Non-listed refresh:
+category  | name                     | ru-name                | duprId | id
+----------+--------------------------+------------------------+--------+-----------
+REFRESHED | Ilia Kukushin            | Илья Кукушин           | 2PD5R7 | 5560305342
+REFRESHED | Arsenii Tarasov          | Арсений Тарасов        | D5DJJL | 8351728744
+REFRESHED | Sofia  Rodina            | София Родина           | EX2QNJ | 7793265721
+REFRESHED | Viet Dung Nguyen         | Вьет Дунг Нгуен        | GWDRLM | 6832351663
+REFRESHED | Mikhail Gusev            | Михаил Гусев           | XKG0Y4 | 7601156032
+REFRESHED | Polina  Lagutina         | Полина Лагутина        | 2QM9G4 | 4659361321
+REFRESHED | Svetlana Nesterenko      | Светлана Нестеренко    | PWJDZZ | 5169213162
+REFRESHED | Maxim Alekseev           | Максим Алексеев        | N76NON | 8333611297
+REFRESHED | michel gerebtzoff        | Михаил Жеребцов        | YNJ9OG | 4633971998
+REFRESHED | Oleg Savvin              | Олег Саввин            | D5Q596 | 5106437361
+REFRESHED | Valeriy Chastnykh        | Валерий Частных        | ZDO0DW | 8494519640
+REFRESHED | Alexander Elfimov        | Александр Елфимов      | 567JML | 8268060226
+REFRESHED | DMITRII KUZNETSOV        | Дмитрий Кузнецов       | D5JDRM | 6087294521
+REFRESHED | Regina Nabiulina         | Регина Набиулина       | PPRVGM | 6175508683
+REFRESHED | Maksim Frolov            | Максим Фролов          | 0PGVEN | 8292207086
+REFRESHED | Philip Lavrentiev        | Филипп Лаврентьев      | KY7L6Y | 6240469024
+REFRESHED | Yury Eyrikh              | Юрий Эйрих             | RDYNEN | 6595079012
+REFRESHED | Daniil Petruk            | Даниил Петрук          | Y4XZED | 8155279947
+REFRESHED | Nguyen Anh Tu            | Нгуен Ань Ту           | X0DRK4 | 5526202164
+REFRESHED | ALEkSANDR Kabakov        | Александр Кабаков      | V69P9J | 7340777985
+REFRESHED | Irina  Osokina           | Ирина Осокина          | O69JY2 | 8031750040
+REFRESHED | Alessia Karvatskaya      | Алеся Карвацкая        | X2Y7PR | 6415771268
+REFRESHED | Vitaly Yusupov           | Виталий Юсупов         | WX0YJM | 5865218638
+REFRESHED | Andrei Suslov            | Андрей Суслов          | M2DO2D | 6255631911
+REFRESHED | Denis Krasilshchik       | Денис Красильщик       | RDKJ0N | 6749981239
+REFRESHED | Anastasiia Korzunina     | Анастасия Корзунина    | PPYWWZ | 6542776365
+REFRESHED | LE THUY HUONG            | Ле Тьи Хуонг           | RWEN2N | 5708902850
+REFRESHED | Le Hong Minh             | Ле Хонг Мин            | V2R0ZE | 5460401330
+REFRESHED | Karina Goriacheva        | Карина Горячева        | 0ZD024 | 6526133353
+REFRESHED | Mikhail Butov            | Михаил Бутов           | 55Z0K5 | 7709388422
+REFRESHED | Dmitry Kuzmin            | Дмитрий Кузьмин        | MPKZ9V | 4869908609
+REFRESHED | Liana Brix               | Льяна Вязовская        | QPG600 | 7942941251
+REFRESHED | Elia Efimov              | Илья Ефимов            | DWEQX6 | 7387566938
+REFRESHED | Albert                   | Альберт                | EL46MW | 7764586880
+REFRESHED | Ma Chuong Hoang          | Ма Чуонг Хоанг         | 7J5ZY0 | 8253381332
+REFRESHED | Mikhail Baklanov         | Михаил Бакланов        | QJ2P9N | 8499841605
+REFRESHED | Nguyen Thinh             | Нгуен Тхинь            | EXMX2V | 8221101153
+REFRESHED | Igor Slashchev           | Игорь Слащев           | V6KPV5 | 8339333366
+REFRESHED | Aleksei Zhigalov         | Алексей Жигалов        | 0PRE9G | 5624127172
+REFRESHED | Paramvir Gill            | Парамвир Гилл          | 67M27K | 8400347930
+REFRESHED | Anton Gorbachev          | Антон Горбачев         | MPRL0L | 6705747612
+REFRESHED | Anna Prokuronova         | Анна Прокуронова       | RWQ4ZD | 6975187433
+REFRESHED | Linh Chi Dao             | Линь Чи Дао            | DYZ5OL | 5926675099
+REFRESHED | Alisa Kokorina           | Алиса Кокорина         | 0ZNG9Q | 6960129322
+REFRESHED | ORLOV DENIS              | Денис Орлов            | 30V5V4 | 7088843859
+REFRESHED | Pavel Kravtsov           | Павел Кравцов          | 556OY5 | 4689971937
+REFRESHED | Ann Blinovskaya          | Анна Блиновская        | 9J99XK | 7691717188
+REFRESHED | Yaroslav Sveshnikov      | Ярослав Свешников      | QXVP20 | 6496350678
+REFRESHED | Anna Chinenova           | Анна Чиненова          | JPXGEJ | 6250166598
+REFRESHED | Maxim Belokopytov        | Максим Белокопытов     | MEOPKP | 6590812249
+REFRESHED | Sergey Lebedev           | Сергей Лебедев         | 30P6JN | 5996403182
+REFRESHED | Gleb Beloborodov         | Глеб Белобородов       | EVWMZW | 4604580151
+REFRESHED | Anastasia Bobrova        | Анастасия Боброва      | LZQ976 | 6495274316
+REFRESHED | Nikita Kuryumov          | Никита Курюмов         | LWL0JK | 5040097637
+REFRESHED | Polina Ladonikova        | Полина Ладоникова      | GWMNOD | 6097635935
+REFRESHED | Sergey Vovdenko          | Сергей Вовденко        | 5YJMQV | 7912156897
+REFRESHED | Valeriy Petruk           | Валерий Петрук         | 2Z9X97 | 5299370251
+REFRESHED | Panteley  Zhilkin        | Пантелей Жилкин        | 0PPVOG | 5650110511
+REFRESHED | Ivan STRELCHIK           | Иван СТРЕЛЬЧИК         | MZERWO | 7958514583
+REFRESHED | Vasily Ryazantsev        | Василий Рязанцев       | EL6VPM | 8273662294
+REFRESHED | Mikey Krutenko           | Майки Крутенко         | LPP5GZ | 6763005628
+REFRESHED | Erdeni Namsaraev         | Эрдэни Намсараев       | G7EJLM | 6973317965
+REFRESHED | Ilya Pchelintsev         | Илья Пчелинцев         | KDVGR7 | 8481346950
+REFRESHED | Kseniia Guseva           | Ксения Гусева          | JY7GPJ | 6121113235
+REFRESHED | Nina Sotnikova           | Нина Сотникова         | 7K592N | 7381883525
+REFRESHED | Andrey Smirnov           | Андрей Смирнов         | QNO9OR | 6135007489
+REFRESHED | Maxim Mitrofanov         | Махим Митрофанов       | 7KGQX0 | 6966802940
+REFRESHED | Denis Kiselev            | Денис Киселев          | VLP746 | 4738244585
+REFRESHED | Юлия  Макарова           | Юлия Макарова          | LP6ZVQ | 7294158821
+REFRESHED | Alexandr  Ermokhin       | Александр Ерохин       | R4NQ4N | 7096961158
+REFRESHED | Yulia Bencharova         | Юлия Бенчарова         | W5JM5G | 5601697796
+REFRESHED | Artem Scheglov           | Артем Щеглов           | JM4JOW | 5618021686
+REFRESHED | Pavel Lukin              | Павел Лукин            | 0XKQ7Q | 8032287817
+REFRESHED | Anastasiia  Suchkova     | Анастасия Сучкова      | EV6YQV | 4750244405
+REFRESHED | Svetlana Efremova        | Светлана Ефремова      | NNDYQW | 8271451764
+REFRESHED | Alexander Korchazhinskii | Александр Коржачинский | MZMMKL | 5249748615
+REFRESHED | Smirnov Anton            | Антон Смирнов          | P50ZVX | 5387029111
+
+Errors:
+(none)
