@@ -1,0 +1,94 @@
+DUPR rating progress
+Date: 31/08/2026
+Baseline: players827all.json
+Rule: NEW or NR → rating is counted as progress from 0 to the new rating.
+Places: current ← previous; NR is shown as -.
+Sort: numeric progress descending; rows without a change in that rating are last.
+
+Doubles progress
+Rows: 38; numeric progress: 28; no doubles change/new numeric rating: 10
+
+category | name                | ru-name             | duprId | age | doubles | progress | places
+---------+---------------------+---------------------+--------+-----+---------+----------+----------
+CHANGED  | HRYPICH Vadzim      |                     | Y57V7G | 39  | 3.036   | +3.036   | 241 ← -
+CHANGED  | Artem Dubrovin      | Артем Дубровин      | DD62VY | 31  | 2.543   | +2.543   | 338 ← -
+NEW      | FILIPP PETRUSHKIN   | Филипп Петрушкин    | 6PQK2E | 31  | 2.487   | +2.487   | 346 ← -
+NEW      | Anna Mokeeva        | Анна Мокеева        | 0Z7DKN | 27  | 2.234   | +2.234   | 369 ← -
+CHANGED  | Daria Konivetskaia  | Дарья Конивецкая    | V2PK4E | 29  | 3.364   | +0.235   | 156 ← 226
+CHANGED  | Kseniia Guseva      | Ксения Гусева       | JY7GPJ | 29  | 3.254   | +0.189   | 190 ← 235
+CHANGED  | Alexander Uvarov    | Александр Уваров    | DYEKRX | 29  | 3.760   | +0.159   | 68 ← 99
+CHANGED  | Hai Long Nguyen     | Хай Лонг Нгуен      | N5WOYN | 41  | 3.460   | +0.124   | 125 ← 165
+CHANGED  | Nikolay Lukashev    | Николай Лукашев     | ONP4EE | 41  | 3.678   | +0.101   | 86 ← 104
+CHANGED  | Andrey  Davidchik   | Андрей Давидчик     | 7ZYJ70 | 40  | 3.453   | +0.079   | 129 ← 151
+CHANGED  | Vasily Ryazantsev   | Василий Рязанцев    | EL6VPM | 38  | 3.420   | +0.071   | 142 ← 160
+CHANGED  | Ilya Pchelintsev    | Илья Пчелинцев      | KDVGR7 | 29  | 3.403   | +0.026   | 146 ← 150
+CHANGED  | Denis Efremov       | Денис Ефремов       | PZQZKM | 33  | 3.949   | +0.024   | 39 ← 44
+CHANGED  | Oleg Teterin        | Олег Тетерин        | KZY0V6 | 50  | 3.653   | +0.005   | 89 ← 88
+CHANGED  | Alexander  Smirnov  | Александр Смирнов   | OZRJ6L | 27  | 3.454   | -0.001   | 128 ← 129
+CHANGED  | Alex Sazankov       | Александр Сазанков  | Z0RMQP | 27  | 3.334   | -0.001   | 167 ← 166
+CHANGED  | Jason  Goldstein    | Джейсон Гольдштейн  | D9OJ2M | 36  | 3.552   | -0.006   | 109 ← 108
+CHANGED  | Nikolay Sidorov     | Николай Сидоров     | X26XR7 | 34  | 4.025   | -0.012   | 31 ← 32
+CHANGED  | Vladimir Vladimir   | Владимир Жебровский | Q5W0X4 | 46  | 3.514   | -0.030   | 115 ← 112
+CHANGED  | Yury Khyuppenen     | Юрий Хюппенен       | KXDEK7 | 54  | 3.779   | -0.036   | 66 ← 65
+CHANGED  | Andrew Teterin      | Андрей Тетерин      | Y5R7WP | 18  | 3.051   | -0.040   | 239 ← 229
+CHANGED  | Valeriy Petruk      | Валерий Петрук      | 2Z9X97 | 56  | 3.187   | -0.049   | 214 ← 195
+CHANGED  | ARTEM LIKHACHEV     | Артем Лихачев       | Q5WOK4 | 31  | 3.229   | -0.052   | 199 ← 182
+CHANGED  | Inna Naumkina       | Инна Наумкина       | G5OQRV | 44  | 2.576   | -0.066   | 333 ← 320
+CHANGED  | Vladislav Demchenko | Владислав Демченко  | 2QK2RE | 15  | 3.339   | -0.127   | 165 ← 125
+CHANGED  | Valeriia Chekunova  | Валерия Чекунова    | 2ZMM74 | 61  | 2.607   | -0.171   | 330 ← 300
+CHANGED  | Aleksey Nikolaev    | Алексей Николаев    | 7KWONM | 36  | 3.680   | -0.365   | 83 ← 29
+CHANGED  | Alexandr  Ermokhin  | Александр Ерохин    | R4NQ4N | 42  | 3.243   | -0.897   | 195 ← 24
+NEW      | Ekaterina Miskovets |                     | G7V0YG | 38  | NR      |          | -
+NEW      | Pavel Liavonchyk    |                     | EV5WJV | 27  | NR      |          | -
+NEW      | Vladislav Kosolapov |                     | 4E0W4V | 32  | NR      |          | -
+NEW      | Tsimafei Basalyha   |                     | X5EZ05 | 25  | NR      |          | -
+NEW      | Alecia  Valiyeva    |                     | NN9VK6 | 25  | NR      |          | -
+NEW      | Gleb Baklanov       |                     | NNLZ4N | 24  | NR      |          | -
+NEW      | Angelina Levkovich  |                     | 0X042G | 27  | NR      |          | -
+NEW      | Lena  Zuravleva     |                     | QNW6OR | 62  | NR      |          | -
+NEW      | Kathy Shevtsova     |                     | G7L9DX | 44  | NR      |          | -
+NEW      | Maria Krivchenya    |                     | 57DY7P | 27  | NR      |          | -
+
+Singles progress
+Rows: 38; numeric progress: 1; no singles change/new numeric rating: 37
+
+category | name                | ru-name             | duprId | age | singles | progress | places
+---------+---------------------+---------------------+--------+-----+---------+----------+----------
+NEW      | FILIPP PETRUSHKIN   | Филипп Петрушкин    | 6PQK2E | 31  | 3.877   | +3.877   | 42 ← -
+NEW      | Anna Mokeeva        | Анна Мокеева        | 0Z7DKN | 27  | NR      |          | -
+NEW      | Ekaterina Miskovets |                     | G7V0YG | 38  | NR      |          | -
+NEW      | Pavel Liavonchyk    |                     | EV5WJV | 27  | NR      |          | -
+NEW      | Vladislav Kosolapov |                     | 4E0W4V | 32  | NR      |          | -
+NEW      | Tsimafei Basalyha   |                     | X5EZ05 | 25  | NR      |          | -
+NEW      | Alecia  Valiyeva    |                     | NN9VK6 | 25  | NR      |          | -
+NEW      | Gleb Baklanov       |                     | NNLZ4N | 24  | NR      |          | -
+NEW      | Angelina Levkovich  |                     | 0X042G | 27  | NR      |          | -
+NEW      | Lena  Zuravleva     |                     | QNW6OR | 62  | NR      |          | -
+NEW      | Kathy Shevtsova     |                     | G7L9DX | 44  | NR      |          | -
+NEW      | Maria Krivchenya    |                     | 57DY7P | 27  | NR      |          | -
+CHANGED  | Alexander Uvarov    | Александр Уваров    | DYEKRX | 29  | 4.329   |          | 16 ← 16
+CHANGED  | Nikolay Lukashev    | Николай Лукашев     | ONP4EE | 41  | NR      |          | -
+CHANGED  | Andrey  Davidchik   | Андрей Давидчик     | 7ZYJ70 | 40  | NR      |          | -
+CHANGED  | Vladimir Vladimir   | Владимир Жебровский | Q5W0X4 | 46  | NR      |          | -
+CHANGED  | ARTEM LIKHACHEV     | Артем Лихачев       | Q5WOK4 | 31  | 3.576   |          | 73 ← 72
+CHANGED  | Alexander  Smirnov  | Александр Смирнов   | OZRJ6L | 27  | NR      |          | -
+CHANGED  | Denis Efremov       | Денис Ефремов       | PZQZKM | 33  | NR      |          | -
+CHANGED  | Valeriia Chekunova  | Валерия Чекунова    | 2ZMM74 | 61  | NR      |          | -
+CHANGED  | Inna Naumkina       | Инна Наумкина       | G5OQRV | 44  | NR      |          | -
+CHANGED  | Hai Long Nguyen     | Хай Лонг Нгуен      | N5WOYN | 41  | NR      |          | -
+CHANGED  | Vladislav Demchenko | Владислав Демченко  | 2QK2RE | 15  | 3.531   |          | 82 ← 81
+CHANGED  | Nikolay Sidorov     | Николай Сидоров     | X26XR7 | 34  | 3.690   |          | 62 ← 61
+CHANGED  | Daria Konivetskaia  | Дарья Конивецкая    | V2PK4E | 29  | 2.985   |          | 129 ← 128
+CHANGED  | Yury Khyuppenen     | Юрий Хюппенен       | KXDEK7 | 54  | 3.996   |          | 35 ← 35
+CHANGED  | Jason  Goldstein    | Джейсон Гольдштейн  | D9OJ2M | 36  | NR      |          | -
+CHANGED  | Valeriy Petruk      | Валерий Петрук      | 2Z9X97 | 56  | 3.466   |          | 87 ← 86
+CHANGED  | Vasily Ryazantsev   | Василий Рязанцев    | EL6VPM | 38  | 2.412   |          | 149 ← 148
+CHANGED  | Oleg Teterin        | Олег Тетерин        | KZY0V6 | 50  | 3.118   |          | 120 ← 119
+CHANGED  | Andrew Teterin      | Андрей Тетерин      | Y5R7WP | 18  | NR      |          | -
+CHANGED  | Alex Sazankov       | Александр Сазанков  | Z0RMQP | 27  | NR      |          | -
+CHANGED  | Ilya Pchelintsev    | Илья Пчелинцев      | KDVGR7 | 29  | 3.143   |          | 118 ← 117
+CHANGED  | Kseniia Guseva      | Ксения Гусева       | JY7GPJ | 29  | 3.073   |          | 121 ← 120
+CHANGED  | Artem Dubrovin      | Артем Дубровин      | DD62VY | 31  | NR      |          | -
+CHANGED  | Aleksey Nikolaev    | Алексей Николаев    | 7KWONM | 36  | NR      |          | -
+CHANGED  | Alexandr  Ermokhin  | Александр Ерохин    | R4NQ4N | 42  | NR      |          | -
+CHANGED  | HRYPICH Vadzim      |                     | Y57V7G | 39  | NR      |          | -
