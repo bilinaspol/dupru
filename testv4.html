@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Расчёт модели v4 — Challonge dri9cqcb</title>
+  <style>
+    :root{--ink:#18222d;--muted:#586774;--blue:#1769aa;--blue2:#eaf4fb;--line:#cad6df;--green:#176b42;--greenbg:#edf9f2;--amber:#9a5800;--amberbg:#fff7e8;--red:#9a2020;--redbg:#fff1f1;--anchor:#6a3c96;--anchorbg:#f5effb}
+    *{box-sizing:border-box}html{background:#e9edf1;scroll-behavior:smooth}body{max-width:1100px;margin:24px auto;padding:48px 58px;background:#fff;color:var(--ink);font:15px/1.55 "DejaVu Sans",Arial,sans-serif;box-shadow:0 8px 28px #12202d22}
+    h1{margin:0;padding:30px 26px;border-radius:14px;color:#fff;text-align:center;font-size:30px;line-height:1.18;background:linear-gradient(135deg,#164f7b,#2481cc)}.subtitle{text-align:center;color:var(--muted);margin:13px 0 25px}h2{color:#174f7a;margin:38px 0 15px;padding-bottom:7px;border-bottom:2px solid #92b9d6}h3{color:#235f8c;margin-top:25px}p{margin:8px 0 12px}a{color:var(--blue)}
+    .lead{padding:17px 20px;background:var(--blue2);border-left:6px solid var(--blue);border-radius:7px}.warning{padding:15px 18px;background:var(--amberbg);border-left:5px solid var(--amber);border-radius:7px}.strict{padding:15px 18px;background:var(--redbg);border-left:5px solid var(--red);border-radius:7px}.good{padding:15px 18px;background:var(--greenbg);border-left:5px solid var(--green);border-radius:7px}
+    .nav{display:flex;gap:8px;flex-wrap:wrap;margin:18px 0}.nav a{padding:8px 12px;border:1px solid #94b7d2;border-radius:18px;text-decoration:none;background:#f6fbff;font-weight:700}.formula{margin:13px 0;padding:14px 17px;text-align:center;font:15px/1.6 "DejaVu Sans Mono",monospace;background:#f5f8fa;border:1px solid #c8d8e4;border-left:5px solid var(--blue);border-radius:6px}
+    table{width:100%;border-collapse:collapse;margin:13px 0 24px;font-size:13.2px}th{background:#246b9e;color:#fff;text-align:left}th,td{padding:9px 10px;border:1px solid var(--line);vertical-align:top}tbody tr:nth-child(even) td{background:#f8fafc}.num{text-align:right;font-variant-numeric:tabular-nums}.center{text-align:center}.anchor-row td{background:var(--anchorbg)!important}.winner td{background:var(--greenbg)!important;font-weight:700}.rank{display:inline-grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--blue);color:#fff;font-weight:700}.anchor-badge,.method-badge{display:inline-block;padding:2px 8px;border-radius:10px;font-size:11px;font-weight:700}.anchor-badge{background:var(--anchorbg);color:var(--anchor);border:1px solid #c9acd8}.method-badge{background:var(--blue2);color:#155c8f;border:1px solid #a9cadf}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:17px 0 23px}.card{padding:17px;border:1px solid var(--line);border-radius:9px;background:#fafcfd}.card .score{display:block;font-size:28px;font-weight:800;color:#174f7a}.card small{color:var(--muted)}.calc{font-family:"DejaVu Sans Mono",monospace;font-size:12.5px;white-space:nowrap}.sources{font-size:12.5px;color:var(--muted)}code{background:#f0f3f5;padding:1px 4px;border-radius:3px}ul,ol{padding-left:24px}li{margin:5px 0}
+    @media(max-width:760px){body{margin:0;padding:24px 16px;box-shadow:none}h1{font-size:23px;padding:23px 14px}.cards{grid-template-columns:1fr}.table-wrap{overflow-x:auto}table{min-width:720px}.nav a{font-size:13px}}
+    @media print{@page{size:A4;margin:14mm}html{background:#fff}body{max-width:none;margin:0;padding:0;box-shadow:none;font-size:10.4pt}h1{font-size:22pt}h2,h3{break-after:avoid}thead{display:table-header-group}tr,.lead,.warning,.strict,.good,.formula,.card{break-inside:avoid}.nav{display:none}a{color:inherit;text-decoration:none}}
+  </style>
+</head>
+<body>
+  <h1>Расчёт математической модели v4</h1>
+  <p class="subtitle">Четыре пары · Round 1–3 · Challonge dri9cqcb · Якорь Руслан Нурматов / Екатерина Огурцова = 1,0</p>
+
+  <div class="lead">
+    <strong>Краткий результат адаптированного расчёта:</strong> среди неякорных пар первое место занимает Артем Глинкин / София Шаронова с итогом <strong>0,7125</strong>, второе — Николай Иванов / Екатерина Мисковец с <strong>0,4323</strong>, третье — Екатерина Донскова / Денис Ефремов с <strong>0,3800</strong>.
+  </div>
+
+  <nav class="nav">
+    <a href="#source">Исходные матчи</a><a href="#strict">Строгий v4</a><a href="#adapted">Все раунды</a><a href="#final">Итог</a><a href="#limits">Ограничения</a>
+  </nav>
+
+  <section id="source">
+    <h2>1. Исходные результаты Challonge</h2>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Раунд</th><th>Пара 1</th><th class="center">Счёт</th><th>Пара 2</th><th>Match ID</th></tr></thead>
+      <tbody>
+        <tr><td>Round 1</td><td>Артем Глинкин / София Шаронова</td><td class="center"><strong>15:8</strong></td><td>Екатерина Донскова / Денис Ефремов</td><td><code>469498328</code></td></tr>
+        <tr><td>Round 1</td><td>Николай Иванов / Екатерина Мисковец</td><td class="center"><strong>4:15</strong></td><td>Руслан Нурматов / Екатерина Огурцова</td><td><code>469498329</code></td></tr>
+        <tr><td>Round 2</td><td>Руслан Нурматов / Екатерина Огурцова</td><td class="center"><strong>15:12</strong></td><td>Артем Глинкин / София Шаронова</td><td><code>469498330</code></td></tr>
+        <tr><td>Round 2</td><td>Екатерина Донскова / Денис Ефремов</td><td class="center"><strong>13:15</strong></td><td>Николай Иванов / Екатерина Мисковец</td><td><code>469498331</code></td></tr>
+        <tr><td>Round 3</td><td>Николай Иванов / Екатерина Мисковец</td><td class="center"><strong>9:15</strong></td><td>Артем Глинкин / София Шаронова</td><td><code>469498332</code></td></tr>
+        <tr><td>Round 3</td><td>Екатерина Донскова / Денис Ефремов</td><td class="center"><strong>5:15</strong></td><td>Руслан Нурматов / Екатерина Огурцова</td><td><code>469498333</code></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section>
+    <h2>2. Формула v4</h2>
+    <div class="formula">D<sub>raw</sub> = P ÷ (P + Q)<br>D = clamp(D<sub>raw</sub>, 0,20, 0,80)<br>R = L<sub>соперника</sub> × D ÷ (1 − D)</div>
+    <p>Внутри границ <code>0,20–0,80</code> формула эквивалентна:</p>
+    <div class="formula">R = L<sub>соперника</sub> × P ÷ Q</div>
+    <p>Во всех шести матчах доли находятся внутри допустимого диапазона — обрезка ни разу не сработала.</p>
+  </section>
+
+  <section id="strict">
+    <h2>3. Строгий расчёт v4: только против якоря</h2>
+    <p>Фиксируем уровень пары Руслан Нурматов / Екатерина Огурцова:</p>
+    <div class="formula">L<sub>якоря</sub> = 1,0000</div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Пара</th><th>Раунд</th><th class="center">Счёт против якоря</th><th>Доля D</th><th>Расчёт</th><th class="num">Рейтинг</th></tr></thead>
+      <tbody>
+        <tr class="winner"><td>Артем Глинкин / София Шаронова</td><td>Round 2</td><td class="center">12:15</td><td>0,444444</td><td class="calc">1,0 × 12 ÷ 15</td><td class="num">0,8000</td></tr>
+        <tr><td>Екатерина Донскова / Денис Ефремов</td><td>Round 3</td><td class="center">5:15</td><td>0,250000</td><td class="calc">1,0 × 5 ÷ 15</td><td class="num">0,3333</td></tr>
+        <tr><td>Николай Иванов / Екатерина Мисковец</td><td>Round 1</td><td class="center">4:15</td><td>0,210526</td><td class="calc">1,0 × 4 ÷ 15</td><td class="num">0,2667</td></tr>
+      </tbody>
+    </table></div>
+    <div class="strict"><strong>Строгий вывод:</strong> полного итогового зачёта v4 здесь нет. Каждая неякорная пара сыграла с якорем только один раз, тогда как для среднего двух лучших нужны три рейтинга. Матчи пары Руслан/Огурцова, сыгранные в роли рабочего якоря, не формируют её собственный призовой зачёт.</div>
+  </section>
+
+  <section id="adapted">
+    <h2>4. Адаптация: используем все три раунда</h2>
+    <p><span class="method-badge">АДАПТАЦИЯ</span> Чтобы использовать весь круг, предварительные уровни трёх пар определены по их прямому результату против якоря. После этого каждый матч пересчитан относительно уровня фактического соперника.</p>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Пара</th><th>Основание</th><th class="num">Предварительный уровень</th></tr></thead>
+      <tbody>
+        <tr class="anchor-row"><td>Руслан Нурматов / Екатерина Огурцова <span class="anchor-badge">ЯКОРЬ</span></td><td>задан пользователем</td><td class="num">1,0000</td></tr>
+        <tr><td>Артем Глинкин / София Шаронова</td><td>12 ÷ 15 против якоря</td><td class="num">0,8000</td></tr>
+        <tr><td>Екатерина Донскова / Денис Ефремов</td><td>5 ÷ 15 против якоря</td><td class="num">0,3333</td></tr>
+        <tr><td>Николай Иванов / Екатерина Мисковец</td><td>4 ÷ 15 против якоря</td><td class="num">0,2667</td></tr>
+      </tbody>
+    </table></div>
+
+    <h3>Рейтинг каждого матча</h3>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Раунд</th><th>Пара</th><th>Соперник</th><th class="center">Счёт</th><th class="num">Рейтинг матча</th></tr></thead>
+      <tbody>
+        <tr><td>1</td><td>Артем Глинкин / София Шаронова</td><td>Донскова / Ефремов</td><td class="center">15:8</td><td class="num">0,6250</td></tr>
+        <tr><td>1</td><td>Екатерина Донскова / Денис Ефремов</td><td>Глинкин / Шаронова</td><td class="center">8:15</td><td class="num">0,4267</td></tr>
+        <tr><td>1</td><td>Николай Иванов / Екатерина Мисковец</td><td>Руслан / Огурцова</td><td class="center">4:15</td><td class="num">0,2667</td></tr>
+        <tr class="anchor-row"><td>1</td><td>Руслан Нурматов / Екатерина Огурцова</td><td>Иванов / Мисковец</td><td class="center">15:4</td><td class="num">1,0000</td></tr>
+        <tr class="anchor-row"><td>2</td><td>Руслан Нурматов / Екатерина Огурцова</td><td>Глинкин / Шаронова</td><td class="center">15:12</td><td class="num">1,0000</td></tr>
+        <tr><td>2</td><td>Артем Глинкин / София Шаронова</td><td>Руслан / Огурцова</td><td class="center">12:15</td><td class="num">0,8000</td></tr>
+        <tr><td>2</td><td>Екатерина Донскова / Денис Ефремов</td><td>Иванов / Мисковец</td><td class="center">13:15</td><td class="num">0,2311</td></tr>
+        <tr><td>2</td><td>Николай Иванов / Екатерина Мисковец</td><td>Донскова / Ефремов</td><td class="center">15:13</td><td class="num">0,3846</td></tr>
+        <tr><td>3</td><td>Николай Иванов / Екатерина Мисковец</td><td>Глинкин / Шаронова</td><td class="center">9:15</td><td class="num">0,4800</td></tr>
+        <tr><td>3</td><td>Артем Глинкин / София Шаронова</td><td>Иванов / Мисковец</td><td class="center">15:9</td><td class="num">0,4444</td></tr>
+        <tr><td>3</td><td>Екатерина Донскова / Денис Ефремов</td><td>Руслан / Огурцова</td><td class="center">5:15</td><td class="num">0,3333</td></tr>
+        <tr class="anchor-row"><td>3</td><td>Руслан Нурматов / Екатерина Огурцова</td><td>Донскова / Ефремов</td><td class="center">15:5</td><td class="num">1,0000</td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section id="final">
+    <h2>5. Среднее двух лучших результатов</h2>
+    <div class="cards">
+      <div class="card"><span class="score">0,7125</span><strong>1. Глинкин / Шаронова</strong><br><small>0,8000 и 0,6250</small></div>
+      <div class="card"><span class="score">0,4323</span><strong>2. Иванов / Мисковец</strong><br><small>0,4800 и 0,3846</small></div>
+      <div class="card"><span class="score">0,3800</span><strong>3. Донскова / Ефремов</strong><br><small>0,4267 и 0,3333</small></div>
+    </div>
+    <div class="table-wrap"><table>
+      <thead><tr><th>Место</th><th>Пара</th><th class="num">Round 1</th><th class="num">Round 2</th><th class="num">Round 3</th><th>Два лучших</th><th class="num">Итог</th></tr></thead>
+      <tbody>
+        <tr class="anchor-row"><td>—</td><td>Руслан Нурматов / Екатерина Огурцова <span class="anchor-badge">ЯКОРЬ</span></td><td class="num">1,0000</td><td class="num">1,0000</td><td class="num">1,0000</td><td>1,0000; 1,0000</td><td class="num"><strong>1,0000</strong></td></tr>
+        <tr class="winner"><td><span class="rank">1</span></td><td>Артем Глинкин / София Шаронова</td><td class="num">0,6250</td><td class="num">0,8000</td><td class="num">0,4444</td><td>0,8000; 0,6250</td><td class="num"><strong>0,7125</strong></td></tr>
+        <tr><td><span class="rank">2</span></td><td>Николай Иванов / Екатерина Мисковец</td><td class="num">0,2667</td><td class="num">0,3846</td><td class="num">0,4800</td><td>0,4800; 0,3846</td><td class="num"><strong>0,4323</strong></td></tr>
+        <tr><td><span class="rank">3</span></td><td>Екатерина Донскова / Денис Ефремов</td><td class="num">0,4267</td><td class="num">0,2311</td><td class="num">0,3333</td><td>0,4267; 0,3333</td><td class="num"><strong>0,3800</strong></td></tr>
+      </tbody>
+    </table></div>
+    <div class="good"><strong>Итог адаптации:</strong> Артем Глинкин / София Шаронова занимают первое место среди неякорных пар. Пара Руслан Нурматов / Екатерина Огурцова остаётся эталоном 1,0 и не включается в призовой рейтинг, поскольку эти матчи сыграны ею как якорем.</div>
+  </section>
+
+  <section id="limits">
+    <h2>6. Ограничения и правильная интерпретация</h2>
+    <div class="warning">
+      <ul>
+        <li>Challonge показывает круговой турнир между четырьмя парами; буквальная v4 предполагает три матча заявившейся пары против якоря.</li>
+        <li>Счёт Challonge записан как одна игра до 15; v4 предполагает сумму очков матча до двух побед в сетах до 11.</li>
+        <li>Уровни трёх неякорных пар выведены из их же матчей с якорем и затем использованы для пересчёта остальных встреч. Это прозрачная адаптация, но она не описана в исходной v4.</li>
+        <li>Три значения 1,0000 у якоря получаются механически, потому что уровни соперников определены через результаты против этого якоря. Это не отдельное доказательство силы якоря.</li>
+        <li>Для официального зачёта нужно заранее утвердить, допускается ли такая сетевая калибровка.</li>
+      </ul>
+    </div>
+  </section>
+
+  <hr>
+  <div class="sources">
+    <p><strong>Источник результатов:</strong> <a href="https://challonge.com/dri9cqcb">https://challonge.com/dri9cqcb</a>, официальное публичное embed-представление Challonge. Извлечены Round 1–3 и match ID <code>469498328–469498333</code>.</p>
+    <p><strong>Метод:</strong> формула Mat_model v4; якорь Руслан Нурматов / Екатерина Огурцова задан пользователем как 1,0. Расчёт выполнен с полной точностью; в таблицах показано округление до четырёх знаков.</p>
+  </div>
+</body>
+</html>
