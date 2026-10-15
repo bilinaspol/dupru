@@ -1,0 +1,264 @@
+DUPR rating progress
+Date: 15/10/2026
+Baseline: players930all.json
+Rule: NEW or NR → rating is counted as progress from 0 to the new rating.
+Places: current ← previous; NR is shown as -.
+Sort: current place ascending (left of ←), NEW and CHANGED together; unranked (NR) rows last.
+
+Doubles progress
+Rows: 123; numeric progress: 112; no doubles change/new numeric rating: 11
+
+category | name                  | ru-name                 | duprId | age | doubles | progress | places
+---------+-----------------------+-------------------------+--------+-----+---------+----------+----------
+CHANGED  | Yana Newell           | Яна Невель              | 3LWKMQ | 28  | 5.632   | -0.414   | 1 ← 1
+CHANGED  | Ilia Kukushin         | Илья Кукушин            | 2PD5R7 | 17  | 4.963   | +0.599   | 3 ← 20
+CHANGED  | Bảo  Nguyễn           | Бо Нгуен                | YN0KOG | 22  | 4.823   | +0.055   | 4 ← 3
+CHANGED  | Ruslana Dorma         | Руслана Дорма           | RDONPE | 21  | 4.561   | -0.045   | 7 ← 5
+NEW      | Maxim Maltsev         | Максим Мальцев          | KXP2N6 | 20  | 4.532   | +4.532   | 8 ← -
+CHANGED  | Andrei Suslov         | Андрей Суслов           | M2DO2D | 35  | 4.515   | +0.134   | 10 ← 18
+CHANGED  | Yaroslav Prostakov    | Ярослав Простаков       | EP0YVV | 29  | 4.505   | +0.024   | 11 ← 10
+CHANGED  | Ruslan Nurmatov       | Руслан Нурматов         | X2YW5X | 45  | 4.502   | +0.099   | 12 ← 16
+CHANGED  | Kseniia Anufrieva     | Ксения Ануфриева        | DPLKMX | 25  | 4.418   | -0.186   | 15 ← 6
+CHANGED  | Andrey Romashov       | Андрей Ромашов          | RX57KQ | 46  | 4.413   | +0.001   | 17 ← 13
+CHANGED  | Ksenia  Bezrukova     | Ксения Безрукова        | V20JL7 | 36  | 4.344   | -0.065   | 20 ← 14
+CHANGED  | Dmitry Eremin         | Дмитрий Еремин          | LWKNDQ | 53  | 4.341   | -0.039   | 21 ← 19
+NEW      | Vadim Maltsev         | Вадим Мальцев           | RYO2XE | 20  | 4.230   | +4.230   | 25 ← -
+CHANGED  | Sofiia Sharonova      | София Шаронова          | 2PMWNR | 26  | 4.229   | +0.050   | 26 ← 26
+CHANGED  | Сергей Борисенко      | Сергей Борисенко        | NKG20W | 43  | 4.194   | -0.003   | 28 ← 25
+CHANGED  | Denis Efremov         | Денис Ефремов           | PZQZKM | 33  | 4.165   | +0.048   | 29 ← 30
+CHANGED  | Ho Son                | Хо Сон                  | JP9WWD | 26  | 4.141   | +0.146   | 32 ← 44
+CHANGED  | Ilia Mukhin           | Илья Мухин              | OJDEXL | 21  | 4.129   | +0.265   | 34 ← 63
+CHANGED  | Artem Glinkin         | Артем Глинкин           | M9N97D | 42  | 4.094   | +0.021   | 36 ← 35
+CHANGED  | Ekaterina Ogurtsova   | Екатерина Огурцова      | M2D5EV | 17  | 4.077   | -0.005   | 38 ← 34
+CHANGED  | Max Kulikov           | Максим Куликов          | 7JVO50 | 46  | 4.059   | +0.089   | 39 ← 46
+CHANGED  | Pham Thanh Tung       | Фам Тхань Тунг          | 5E5990 | 52  | 4.035   | -0.078   | 43 ← 31
+CHANGED  | Arsenii Tarasov       | Арсений Тарасов         | D5DJJL | 18  | 4.030   | +0.132   | 45 ← 58
+CHANGED  | Nikolay Ivanov        | Николай Иванов          | YM2REG | 19  | 4.030   | +0.105   | 46 ← 52
+CHANGED  | Alexander Elfimov     | Александр Елфимов       | 567JML | 33  | 4.018   |          | 48 ← 41
+NEW      | Nurtore Kossunov      | Нуртуре Коссунов        | 6PEQKE | 20  | 4.003   | +4.003   | 51 ← -
+CHANGED  | Karina Kashtaner      | Карина Каштанер         | 4PK4GM | 20  | 3.919   | +0.069   | 60 ← 64
+NEW      | QuocToan Pham         |                         | 7MNND9 | 57  | 3.814   | +3.814   | 73 ← -
+NEW      | Anna Shishkova        | Анна Шишкова            | M6ZGJV | 30  | 3.784   | +3.784   | 78 ← -
+CHANGED  | Aleksandr Terskov     | Александр Терсков       | Y4DZ7P | 58  | 3.729   | -0.038   | 87 ← 75
+CHANGED  | Dmitry Tkachuk        | Дмитрий Ткачук          | QJGZ75 | 45  | 3.715   | +0.070   | 91 ← 99
+NEW      | Vadim Zhinkin         | Жинкин Вадим            | PG4GVM | 55  | 3.708   | +3.708   | 92 ← -
+CHANGED  | Anastasia Tulsanova   | Анастасия Тульсанова    | J599E4 | 17  | 3.704   | -0.015   | 94 ← 86
+CHANGED  | Nikolay Chernyshov    | Николай Чернышов        | RYX4WM | 31  | 3.674   | -0.020   | 100 ← 91
+CHANGED  | Maksim Frolov         | Максим Фролов           | 0PGVEN | 22  | 3.667   | -0.001   | 101 ← 96
+CHANGED  | Vadim Amelin          | Вадим Амелин            | WZG2LL | 29  | 3.642   | +0.061   | 104 ← 113
+CHANGED  | Матвей кемаев         | Матвей кемаев           | G7Q22Q | 15  | 3.641   | +0.001   | 105 ← 100
+CHANGED  | Vitalii Ermilov       | Виталий Ермилов         | JYXZNW | 40  | 3.634   | -0.075   | 106 ← 87
+CHANGED  | YALCIN YILDIZ         | Ялчин Йылдиз            | DN4Q56 | 49  | 3.614   | -0.072   | 114 ← 92
+CHANGED  | Anton Yermakov        | Антон Ермаков           | 76VKYN | 39  | 3.604   | +0.051   | 117 ← 122
+CHANGED  | Andrey  Davidchik     | Андрей Давидчик         | 7ZYJ70 | 41  | 3.597   | -0.014   | 118 ← 108
+CHANGED  | Aleksey Nikolaev      | Алексей Николаев        | 7KWONM | 36  | 3.581   | +0.022   | 121 ← 119
+NEW      | Vel Kozhukhova        | Кожухова Валерия        | 7MZPQ5 | 17  | 3.552   | +3.552   | 129 ← -
+CHANGED  | Elena Levina          | Елена Левина            | 7KJ4YM | 55  | 3.544   | +0.011   | 132 ← 128
+CHANGED  | Ekaterina Donskova    | Екатерина Донскова      | OW9VYW | 39  | 3.533   | -0.010   | 134 ← 125
+CHANGED  | Evgenii Prokopenkov   | Евгений Прокопенков     | RWKEWM | 43  | 3.533   | +0.068   | 135 ← 145
+CHANGED  | Jason  Goldstein      | Джейсон Гольдштейн      | D9OJ2M | 36  | 3.514   | +0.002   | 138 ← 132
+CHANGED  | Bui Khoi              | Буй Хой                 | PPOOGX | 45  | 3.492   | +0.428   | 142 ← 262
+CHANGED  | Oleg Teterin          | Олег Тетерин            | KZY0V6 | 50  | 3.484   | -0.032   | 144 ← 131
+CHANGED  | Vladislav Demchenko   | Владислав Демченко      | 2QK2RE | 15  | 3.461   | +0.031   | 153 ← 157
+NEW      | Slava Polyakov        | Михаил Поляков          | WMZDKQ | 20  | 3.452   | +3.452   | 159 ← -
+CHANGED  | ARTEM LIKHACHEV       | Артем Лихачев           | Q5WOK4 | 31  | 3.389   | +0.124   | 175 ← 212
+CHANGED  | Vera Ilina            | Вера Ильина             | O69DPP | 31  | 3.387   | +0.056   | 176 ← 192
+NEW      | Nikolay Khalyutin     | Халютин Николай         | M66JOO | 39  | 3.375   | +3.375   | 179 ← -
+CHANGED  | Romualds Povasars     | Ромуальдас Повасарс     | V6E67P | 33  | 3.372   | -0.095   | 182 ← 144
+CHANGED  | Liana Brix            | Льяна Вязовская         | QPG600 | 62  | 3.368   | -0.001   | 184 ← 176
+CHANGED  | Vasily Ryazantsev     | Василий Рязанцев        | EL6VPM | 38  | 3.355   | -0.066   | 188 ← 163
+CHANGED  | Zakhar Karataev       | Захар Каратаев          | N56EK2 | 18  | 3.346   | -0.194   | 196 ← 126
+CHANGED  | Seregas Sokolov       | Сергей Соколов          | NRVVP6 | 29  | 3.336   | -0.050   | 199 ← 171
+NEW      | Ivan Repetuev         | Иван Репетуев           | PGPXLX | 33  | 3.335   | +3.335   | 201 ← -
+NEW      | Denis Timoshevskiy    | Денис Тимошевский       | XW0MD2 | 37  | 3.335   | +3.335   | 202 ← -
+CHANGED  | Andrew Teterin        | Андрей Тетерин          | Y5R7WP | 19  | 3.306   | +0.171   | 209 ← 247
+NEW      | Alexey Ipatov         | Ипатов Алексей          | 6R6WN0 | 42  | 3.302   | +3.302   | 211 ← -
+NEW      | Karolina Krutova      | Каролина Крутова        | LZM065 | 14  | 3.299   | +3.299   | 212 ← -
+CHANGED  | Andrey Gunchenko      | Андрей Гунченко         | Z9626W | 54  | 3.297   | -0.003   | 216 ← 198
+CHANGED  | Ivan  Grigorev        | Иван Григорьев          | 7N6VOM | 31  | 3.282   |          | 221 ← 206
+NEW      | Alexandra Kotelnikova | Котельникова Александра | XW5EY2 | 30  | 3.270   | +3.270   | 225 ← -
+CHANGED  | Alexandr  Ermokhin    | Александр Ермохин       | R4NQ4N | 42  | 3.256   | +0.033   | 230 ← 222
+CHANGED  | Maxim Okhlopkov       | Максим Охлопков         | Y574MK | 27  | 3.251   | -0.144   | 232 ← 169
+NEW      | Sergey Korbolin       | Корболин Сергей         | ZW4XMW | 21  | 3.237   | +3.237   | 236 ← -
+CHANGED  | Sergey Vovdenko       | Сергей Вовденко         | 5YJMQV | 53  | 3.219   | +0.247   | 242 ← 283
+CHANGED  | Yaroslav Sveshnikov   | Ярослав Свешников       | QXVP20 |     | 3.180   | +0.008   | 254 ← 237
+CHANGED  | Valeriy Petruk        | Валерий Петрук          | 2Z9X97 | 56  | 3.175   | +0.072   | 256 ← 249
+CHANGED  | Aleksandr Grachev     | Александр Грачев        | LZ5ZD5 | 0   | 3.125   | +0.206   | 266 ← 296
+CHANGED  | Valentina Litvinenko  | Валентина Литвиненко    | 906EZK | 40  | 3.092   | +0.509   | 271 ← 373
+CHANGED  | Marina Khaleel        | Марина Халил            | J5G92M | 56  | 3.086   | +0.042   | 276 ← 269
+CHANGED  | Шапи  Джалилов        | Шапи Джалилов           | QNV4P0 | 25  | 3.067   | -0.027   | 280 ← 253
+CHANGED  | Vika Lobanova         | Вика Лобанова           | JYXKEM | 38  | 3.040   | -0.004   | 285 ← 268
+CHANGED  | Tima kuznetsov        | Тимофей Кузнецов        | EX0EOJ | 36  | 3.034   | +0.039   | 286 ← 273
+CHANGED  | Dmitri Elfimov        | Дмитрий Елфимов         | Y4QMZP | 44  | 3.033   | -0.026   | 287 ← 265
+CHANGED  | Kate                  | Катя                    | ELZMZO | 24  | 2.936   | +0.149   | 307 ← 330
+CHANGED  | Ekaterina Afanaseva   | Екатерина Афанасьева    | RDQDKN | 38  | 2.922   | -0.057   | 311 ← 280
+CHANGED  | Nikolay Anankin       | Николай Ананкин         | 90D26K | 46  | 2.910   | +2.910   | 315 ← -
+NEW      | Anton Shishkov        | Антон Шишков            | GP7NLQ | 30  | 2.910   | +2.910   | 316 ← -
+NEW      | Korsak Sergei         |                         | 5Q60N5 | 32  | 2.910   | +2.910   | 317 ← -
+CHANGED  | Olga Voron            | Ольга Ворон             | JJ696D | 53  | 2.861   | -0.013   | 327 ← 307
+CHANGED  | Natalya Popova        | Наталья Попова          | O6GRE2 | 63  | 2.850   | -0.002   | 330 ← 313
+NEW      | Maxim Maslov          | Максим Маслов           | 7MJDJN | 39  | 2.836   | +2.836   | 333 ← -
+CHANGED  | Galina Levina         | Галина Левина           | WZ6ZQQ | 41  | 2.818   | +0.180   | 338 ← 361
+CHANGED  | Larisa Bezuglaya      | Лариса Безуглая         | GPGKJV | 49  | 2.811   | -0.081   | 341 ← 303
+NEW      | Viktor Petuxov        |                         | DP94OY | 25  | 2.775   | +2.775   | 352 ← -
+CHANGED  | Irina Tseboeva        | Ирина Цебоева           | 7ZYR59 | 33  | 2.773   | -0.073   | 353 ← 315
+CHANGED  | Olga Kuzmina          | Ольга Кузьмина          | 42LJRK | 35  | 2.759   | +0.085   | 356 ← 358
+CHANGED  | Tatyana Shakhova      | Татьяна Шахова          | M2VG0O | 39  | 2.757   | +0.060   | 357 ← 348
+CHANGED  | Vo Nina               | Во Нина                 | Q9OOY0 | 45  | 2.752   | -0.312   | 360 ← 261
+CHANGED  | Veronika I.           | Вероника Искандирова    | JMPR6M | 29  | 2.752   | -0.014   | 361 ← 338
+CHANGED  | Elena Pekich          | Елена Пекич             | JYQYMW | 45  | 2.724   | +0.327   | 366 ← 399
+CHANGED  | Konstantin Strokov    | Константин Строков      | EPG97M | 45  | 2.719   | -0.103   | 367 ← 320
+CHANGED  | Igor Galkin           | Игорь Галкин            | 42L4O2 | 34  | 2.719   | -0.103   | 368 ← 321
+CHANGED  | Ivan Burimskiy        | Иван Буримский          | 6PMLWD | 39  | 2.627   | -0.352   | 385 ← 279
+CHANGED  | Alexey Knyazev        | Алексей Князев          | MZPGJL | 50  | 2.623   | +0.013   | 387 ← 368
+NEW      | Anastasia Zubova      | Зубова Анастасия        | M6ZRND | 33  | 2.615   | +2.615   | 389 ← -
+CHANGED  | Valeriia Chekunova    | Валерия Чекунова        | 2ZMM74 | 61  | 2.573   | -0.034   | 395 ← 371
+CHANGED  | Ekaterina Molokova    | Екатерина Молокова      | LPW9KQ | 57  | 2.550   | -0.060   | 399 ← 369
+CHANGED  | Marina Pankratova     | Марина Панкратова       | ORQEX2 | 44  | 2.516   | -0.019   | 404 ← 381
+CHANGED  | Andrey Sorokin        | Андрей Сорокин          | EPWGXJ | 63  | 2.456   | -0.154   | 412 ← 370
+CHANGED  | FILIPP PETRUSHKIN     | Филипп Петрушкин        | 6PQK2E | 31  | 2.402   | +0.046   | 421 ← 402
+CHANGED  | Iaroslav Leksin       | Ярослав Лексин          | VLJ7D5 | 34  | 2.333   | +0.007   | 426 ← 406
+CHANGED  | Nikita Smirnov        | Никита Смирнов          | V60LZ7 | 27  | 2.312   | -0.074   | 430 ← 400
+NEW      | Aleksei Netreba       |                         | QY904D | 44  | 2.284   | +2.284   | 432 ← -
+NEW      | Valentina Prunchak    |                         | KE400Q | 35  | 2.183   | +2.183   | 443 ← -
+CHANGED  | Elena Khodarina       | Елена Ходарина          | 0XPOPQ | 44  | 2.181   | -0.090   | 444 ← 412
+CHANGED  | Iaroslava Popovich    | Ярослава Попович        | DD0OJM | 36  | 2.157   | +0.079   | 445 ← 427
+CHANGED  | Наталья Черненко      | Наталья Черненко        | RXE9VQ | 50  | 2.155   | -0.078   | 446 ← 419
+NEW      | Andrei Kutuzov        |                         | WM5ZYK | 42  | NR      |          | -
+NEW      | Dmitriy Rusanov       |                         | 5Q7GXP | 40  | NR      |          | -
+NEW      | Nikita Zubik          |                         | VGL0G5 | 18  | NR      |          | -
+NEW      | Nataliia Poliakova    |                         | DPPWZ6 | 39  | NR      |          | -
+NEW      | Elena Karabut         |                         | VG6MGJ | 39  | NR      |          | -
+NEW      | Polina K              |                         | RGW94D | 26  | NR      |          | -
+NEW      | Veronika Bivol        |                         | 42VEYG | 29  | NR      |          | -
+NEW      | Andrei Vasilev        |                         | KEY5DO | 40  | NR      |          | -
+NEW      | Inga Borga            |                         | 2RPZVE | 39  | NR      |          | -
+
+Singles progress
+Rows: 123; numeric progress: 12; no singles change/new numeric rating: 111
+
+category | name                  | ru-name                 | duprId | age | singles | progress | places
+---------+-----------------------+-------------------------+--------+-----+---------+----------+----------
+CHANGED  | Yana Newell           | Яна Невель              | 3LWKMQ | 28  | 5.740   |          | 1 ← 1
+CHANGED  | Yaroslav Prostakov    | Ярослав Простаков       | EP0YVV | 29  | 5.326   |          | 2 ← 2
+NEW      | Maxim Maltsev         | Максим Мальцев          | KXP2N6 | 20  | 5.097   | +5.097   | 3 ← -
+CHANGED  | Ruslan Nurmatov       | Руслан Нурматов         | X2YW5X | 45  | 5.095   | -0.057   | 4 ← 3
+NEW      | Vadim Maltsev         | Вадим Мальцев           | RYO2XE | 20  | 5.007   | +5.007   | 5 ← -
+CHANGED  | Nikolay Ivanov        | Николай Иванов          | YM2REG | 19  | 4.739   |          | 8 ← 7
+CHANGED  | Sofiia Sharonova      | София Шаронова          | 2PMWNR | 26  | 4.729   | -0.059   | 9 ← 6
+CHANGED  | Vadim Amelin          | Вадим Амелин            | WZG2LL | 29  | 4.702   |          | 11 ← 9
+CHANGED  | Ho Son                | Хо Сон                  | JP9WWD | 26  | 4.643   |          | 12 ← 10
+CHANGED  | Artem Glinkin         | Артем Глинкин           | M9N97D | 42  | 4.635   |          | 13 ← 11
+CHANGED  | Alexander Elfimov     | Александр Елфимов       | 567JML | 33  | 4.603   | +0.023   | 14 ← 13
+CHANGED  | Karina Kashtaner      | Карина Каштанер         | 4PK4GM | 20  | 4.592   |          | 15 ← 12
+CHANGED  | Kseniia Anufrieva     | Ксения Ануфриева        | DPLKMX | 25  | 4.495   |          | 17 ← 15
+CHANGED  | Andrei Suslov         | Андрей Суслов           | M2DO2D | 35  | 4.370   |          | 23 ← 21
+CHANGED  | Ekaterina Ogurtsova   | Екатерина Огурцова      | M2D5EV | 17  | 4.127   | +0.036   | 33 ← 33
+CHANGED  | Dmitry Eremin         | Дмитрий Еремин          | LWKNDQ | 53  | 4.039   |          | 37 ← 36
+CHANGED  | Andrey Romashov       | Андрей Ромашов          | RX57KQ | 46  | 4.034   |          | 40 ← 39
+CHANGED  | Anton Yermakov        | Антон Ермаков           | 76VKYN | 39  | 3.987   |          | 45 ← 44
+CHANGED  | Ivan  Grigorev        | Иван Григорьев          | 7N6VOM | 31  | 3.962   | +0.088   | 46 ← 51
+CHANGED  | Nikolay Chernyshov    | Николай Чернышов        | RYX4WM | 31  | 3.911   |          | 48 ← 46
+CHANGED  | Andrew Teterin        | Андрей Тетерин          | Y5R7WP | 19  | 3.890   | +3.890   | 51 ← -
+CHANGED  | FILIPP PETRUSHKIN     | Филипп Петрушкин        | 6PQK2E | 31  | 3.877   |          | 53 ← 50
+CHANGED  | Матвей кемаев         | Матвей кемаев           | G7Q22Q | 15  | 3.847   | -0.484   | 56 ← 22
+CHANGED  | YALCIN YILDIZ         | Ялчин Йылдиз            | DN4Q56 | 49  | 3.832   |          | 59 ← 56
+CHANGED  | Max Kulikov           | Максим Куликов          | 7JVO50 | 46  | 3.825   |          | 62 ← 59
+CHANGED  | Seregas Sokolov       | Сергей Соколов          | NRVVP6 | 29  | 3.790   |          | 63 ← 60
+CHANGED  | Vladislav Demchenko   | Владислав Демченко      | 2QK2RE | 15  | 3.697   |          | 74 ← 71
+CHANGED  | Aleksandr Terskov     | Александр Терсков       | Y4DZ7P | 58  | 3.694   |          | 75 ← 72
+CHANGED  | Anastasia Tulsanova   | Анастасия Тульсанова    | J599E4 | 17  | 3.679   |          | 78 ← 75
+CHANGED  | ARTEM LIKHACHEV       | Артем Лихачев           | Q5WOK4 | 31  | 3.576   |          | 90 ← 87
+CHANGED  | Yaroslav Sveshnikov   | Ярослав Свешников       | QXVP20 |     | 3.478   |          | 101 ← 98
+CHANGED  | Valeriy Petruk        | Валерий Петрук          | 2Z9X97 | 56  | 3.459   |          | 103 ← 100
+CHANGED  | Pham Thanh Tung       | Фам Тхань Тунг          | 5E5990 | 52  | 3.333   |          | 117 ← 114
+NEW      | Nurtore Kossunov      | Нуртуре Коссунов        | 6PEQKE | 20  | 3.261   | +3.261   | 124 ← -
+CHANGED  | Andrey Gunchenko      | Андрей Гунченко         | Z9626W | 54  | 3.168   |          | 132 ← 128
+CHANGED  | Oleg Teterin          | Олег Тетерин            | KZY0V6 | 50  | 3.041   | -0.029   | 138 ← 132
+CHANGED  | Tima kuznetsov        | Тимофей Кузнецов        | EX0EOJ | 36  | 2.855   |          | 153 ← 149
+CHANGED  | Dmitri Elfimov        | Дмитрий Елфимов         | Y4QMZP | 44  | 2.811   |          | 156 ← 152
+CHANGED  | Iaroslav Leksin       | Ярослав Лексин          | VLJ7D5 | 34  | 2.755   | +2.755   | 158 ← -
+CHANGED  | Vasily Ryazantsev     | Василий Рязанцев        | EL6VPM | 38  | 2.412   |          | 167 ← 162
+NEW      | Alexey Ipatov         | Ипатов Алексей          | 6R6WN0 | 42  | NR      |          | -
+NEW      | Maxim Maslov          | Максим Маслов           | 7MJDJN | 39  | NR      |          | -
+NEW      | Vel Kozhukhova        | Кожухова Валерия        | 7MZPQ5 | 17  | NR      |          | -
+NEW      | Anton Shishkov        | Антон Шишков            | GP7NLQ | 30  | NR      |          | -
+NEW      | Karolina Krutova      | Каролина Крутова        | LZM065 | 14  | NR      |          | -
+NEW      | Nikolay Khalyutin     | Халютин Николай         | M66JOO | 39  | NR      |          | -
+NEW      | Anna Shishkova        | Анна Шишкова            | M6ZGJV | 30  | NR      |          | -
+NEW      | Anastasia Zubova      | Зубова Анастасия        | M6ZRND | 33  | NR      |          | -
+NEW      | Vadim Zhinkin         | Жинкин Вадим            | PG4GVM | 55  | NR      |          | -
+NEW      | Ivan Repetuev         | Иван Репетуев           | PGPXLX | 33  | NR      |          | -
+NEW      | Denis Timoshevskiy    | Денис Тимошевский       | XW0MD2 | 37  | NR      |          | -
+NEW      | Alexandra Kotelnikova | Котельникова Александра | XW5EY2 | 30  | NR      |          | -
+NEW      | Sergey Korbolin       | Корболин Сергей         | ZW4XMW | 21  | NR      |          | -
+NEW      | Slava Polyakov        | Михаил Поляков          | WMZDKQ | 20  | NR      |          | -
+NEW      | Korsak Sergei         |                         | 5Q60N5 | 32  | NR      |          | -
+NEW      | QuocToan Pham         |                         | 7MNND9 | 57  | NR      |          | -
+NEW      | Valentina Prunchak    |                         | KE400Q | 35  | NR      |          | -
+NEW      | Andrei Kutuzov        |                         | WM5ZYK | 42  | NR      |          | -
+NEW      | Dmitriy Rusanov       |                         | 5Q7GXP | 40  | NR      |          | -
+NEW      | Nikita Zubik          |                         | VGL0G5 | 18  | NR      |          | -
+NEW      | Nataliia Poliakova    |                         | DPPWZ6 | 39  | NR      |          | -
+NEW      | Elena Karabut         |                         | VG6MGJ | 39  | NR      |          | -
+NEW      | Aleksei Netreba       |                         | QY904D | 44  | NR      |          | -
+NEW      | Polina K              |                         | RGW94D | 26  | NR      |          | -
+NEW      | Viktor Petuxov        |                         | DP94OY | 25  | NR      |          | -
+NEW      | Veronika Bivol        |                         | 42VEYG | 29  | NR      |          | -
+NEW      | Andrei Vasilev        |                         | KEY5DO | 40  | NR      |          | -
+NEW      | Inga Borga            |                         | 2RPZVE | 39  | NR      |          | -
+CHANGED  | Ilia Kukushin         | Илья Кукушин            | 2PD5R7 | 17  | NR      |          | -
+CHANGED  | Arsenii Tarasov       | Арсений Тарасов         | D5DJJL | 18  | NR      |          | -
+CHANGED  | Vo Nina               | Во Нина                 | Q9OOY0 | 45  | NR      |          | -
+CHANGED  | Vera Ilina            | Вера Ильина             | O69DPP | 31  | NR      |          | -
+CHANGED  | Maksim Frolov         | Максим Фролов           | 0PGVEN | 22  | NR      |          | -
+CHANGED  | Andrey  Davidchik     | Андрей Давидчик         | 7ZYJ70 | 41  | NR      |          | -
+CHANGED  | Marina Pankratova     | Марина Панкратова       | ORQEX2 | 44  | NR      |          | -
+CHANGED  | Olga Voron            | Ольга Ворон             | JJ696D | 53  | NR      |          | -
+CHANGED  | Liana Brix            | Льяна Вязовская         | QPG600 | 62  | NR      |          | -
+CHANGED  | Denis Efremov         | Денис Ефремов           | PZQZKM | 33  | NR      |          | -
+CHANGED  | Dmitry Tkachuk        | Дмитрий Ткачук          | QJGZ75 | 45  | NR      |          | -
+CHANGED  | Galina Levina         | Галина Левина           | WZ6ZQQ | 41  | NR      |          | -
+CHANGED  | Valeriia Chekunova    | Валерия Чекунова        | 2ZMM74 | 61  | NR      |          | -
+CHANGED  | Elena Pekich          | Елена Пекич             | JYQYMW | 45  | NR      |          | -
+CHANGED  | Ivan Burimskiy        | Иван Буримский          | 6PMLWD | 39  | NR      |          | -
+CHANGED  | Kate                  | Катя                    | ELZMZO | 24  | NR      |          | -
+CHANGED  | Ksenia  Bezrukova     | Ксения Безрукова        | V20JL7 | 36  | NR      |          | -
+CHANGED  | Bui Khoi              | Буй Хой                 | PPOOGX | 45  | NR      |          | -
+CHANGED  | Ekaterina Donskova    | Екатерина Донскова      | OW9VYW | 39  | NR      |          | -
+CHANGED  | Ruslana Dorma         | Руслана Дорма           | RDONPE | 21  | NR      |          | -
+CHANGED  | Evgenii Prokopenkov   | Евгений Прокопенков     | RWKEWM | 43  | NR      |          | -
+CHANGED  | Bảo  Nguyễn           | Бо Нгуен                | YN0KOG | 22  | NR      |          | -
+CHANGED  | Tatyana Shakhova      | Татьяна Шахова          | M2VG0O | 39  | NR      |          | -
+CHANGED  | Ekaterina Afanaseva   | Екатерина Афанасьева    | RDQDKN | 38  | NR      |          | -
+CHANGED  | Romualds Povasars     | Ромуальдас Повасарс     | V6E67P | 33  | NR      |          | -
+CHANGED  | Natalya Popova        | Наталья Попова          | O6GRE2 | 63  | NR      |          | -
+CHANGED  | Наталья Черненко      | Наталья Черненко        | RXE9VQ | 50  | NR      |          | -
+CHANGED  | Jason  Goldstein      | Джейсон Гольдштейн      | D9OJ2M | 36  | NR      |          | -
+CHANGED  | Vika Lobanova         | Вика Лобанова           | JYXKEM | 38  | NR      |          | -
+CHANGED  | Vitalii Ermilov       | Виталий Ермилов         | JYXZNW | 40  | NR      |          | -
+CHANGED  | Irina Tseboeva        | Ирина Цебоева           | 7ZYR59 | 33  | NR      |          | -
+CHANGED  | Sergey Vovdenko       | Сергей Вовденко         | 5YJMQV | 53  | NR      |          | -
+CHANGED  | Alexey Knyazev        | Алексей Князев          | MZPGJL | 50  | NR      |          | -
+CHANGED  | Veronika I.           | Вероника Искандирова    | JMPR6M | 29  | NR      |          | -
+CHANGED  | Ekaterina Molokova    | Екатерина Молокова      | LPW9KQ | 57  | NR      |          | -
+CHANGED  | Elena Levina          | Елена Левина            | 7KJ4YM | 55  | NR      |          | -
+CHANGED  | Elena Khodarina       | Елена Ходарина          | 0XPOPQ | 44  | NR      |          | -
+CHANGED  | Nikolay Anankin       | Николай Ананкин         | 90D26K | 46  | NR      |          | -
+CHANGED  | Iaroslava Popovich    | Ярослава Попович        | DD0OJM | 36  | NR      |          | -
+CHANGED  | Aleksey Nikolaev      | Алексей Николаев        | 7KWONM | 36  | NR      |          | -
+CHANGED  | Alexandr  Ermokhin    | Александр Ермохин       | R4NQ4N | 42  | NR      |          | -
+CHANGED  | Maxim Okhlopkov       | Максим Охлопков         | Y574MK | 27  | NR      |          | -
+CHANGED  | Valentina Litvinenko  | Валентина Литвиненко    | 906EZK | 40  | NR      |          | -
+CHANGED  | Nikita Smirnov        | Никита Смирнов          | V60LZ7 | 27  | NR      |          | -
+CHANGED  | Marina Khaleel        | Марина Халил            | J5G92M | 56  | NR      |          | -
+CHANGED  | Сергей Борисенко      | Сергей Борисенко        | NKG20W | 43  | NR      |          | -
+CHANGED  | Olga Kuzmina          | Ольга Кузьмина          | 42LJRK | 35  | NR      |          | -
+CHANGED  | Aleksandr Grachev     | Александр Грачев        | LZ5ZD5 | 0   | NR      |          | -
+CHANGED  | Zakhar Karataev       | Захар Каратаев          | N56EK2 | 18  | NR      |          | -
+CHANGED  | Ilia Mukhin           | Илья Мухин              | OJDEXL | 21  | NR      |          | -
+CHANGED  | Larisa Bezuglaya      | Лариса Безуглая         | GPGKJV | 49  | NR      |          | -
+CHANGED  | Andrey Sorokin        | Андрей Сорокин          | EPWGXJ | 63  | NR      |          | -
+CHANGED  | Шапи  Джалилов        | Шапи Джалилов           | QNV4P0 | 25  | NR      |          | -
+CHANGED  | Konstantin Strokov    | Константин Строков      | EPG97M | 45  | NR      |          | -
+CHANGED  | Igor Galkin           | Игорь Галкин            | 42L4O2 | 34  | NR      |          | -
